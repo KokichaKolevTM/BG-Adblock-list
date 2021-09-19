@@ -7,17 +7,19 @@
 ! Network rules
 !
 ! bulgarian tracking/ads
-||i.adwise.bg^
-||as.adwise.bg^
+||adwise.bg^$3p
 ||bimg.abv.bg^
+
+! proxy frame to adwise
+||img.abv.bg/*^as.adwise.bg/
 
 
 
 !
 ! Element hiding/Cosmetic filtering
 !
-! tv channel logos being blocked
+! tv channel logos being blocked by EasyList
 @@-ad1.$image,domain=vivacom.bg
 
-! vipoferta signup popup being blocked
+! vipoferta signup popup being blocked by Fanboy's Annoyance List
 vipoferta.bg#@##signup-popup

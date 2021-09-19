@@ -1,0 +1,23 @@
+[Adblock Plus 2.0]
+! Version: 1
+! Title: BG Adblock List
+! Last modified: 18 Sep 2021
+! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
+!
+! Network rules
+!
+! bulgarian tracking/ads
+||i.adwise.bg^
+||as.adwise.bg^
+||bimg.abv.bg^
+
+
+
+!
+! Element hiding/Cosmetic filtering
+!
+! tv channel logos being blocked
+@@-ad1.$image,domain=vivacom.bg
+
+! vipoferta signup popup being blocked
+vipoferta.bg#@##signup-popup

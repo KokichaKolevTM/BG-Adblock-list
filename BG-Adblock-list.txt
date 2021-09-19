@@ -6,20 +6,31 @@
 !
 ! Network rules
 !
-! bulgarian tracking/ads
 ||adwise.bg^$3p
 ||bimg.abv.bg^
-
-! proxy frame to adwise
 ||img.abv.bg/*^as.adwise.bg/
-
-
+||connect.facebook.net/bg_BG/
+||ads.a1.bg^
+||advertere.zamunda.net^
+||i.id24.bg/bans/
+||linker.bg^$3p
+||reklama.wisdom.bg^
+||emag.bg/garez.php?
+||eadsrv.com^
+||api.frognews.bg/*/rekl/
+||frognews.bg/*/rekl.js$script
 
 !
 ! Element hiding/Cosmetic filtering
 !
-! tv channel logos being blocked by EasyList
 @@-ad1.$image,domain=vivacom.bg
-
-! vipoferta signup popup being blocked by Fanboy's Annoyance List
 vipoferta.bg#@##signup-popup
+www.plovdiv24.bg###rightbrand
+www.plovdiv24.bg###leftbrand
+www.plovdiv24.bg#@##adbox
+frognews.bg##.topfrog-ads-blk
+frognews.bg##.world-area-ad
+frognews.bg##.health-ad-blk
+frognews.bg##.politics-area-ad
+frognews.bg##.brc.top-news-area-ad
+frognews.bg##.underground-area-ad

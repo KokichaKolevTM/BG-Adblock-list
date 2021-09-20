@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Version: 2
+! Version: 3
 ! Title: BG Adblock List
-! Last modified: 19 Sep 2021
+! Last modified: 20 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
 ! Network rules
 !
+! block
 ||adwise.bg^$3p
 ||bimg.abv.bg^
 ||img.abv.bg/*^as.adwise.bg/
-||connect.facebook.net/bg_BG/
 ||ads.a1.bg^
 ||advertere.zamunda.net^
 ||i.id24.bg/bans/
@@ -19,18 +19,33 @@
 ||eadsrv.com^
 ||api.frognews.bg/*/rekl/
 ||frognews.bg/*/rekl.js$script
+||b1.alo.bg^
+||stats.jobs.bg^
+||stats2.jobs.bg^
+||ad.petel.bg^
+||bg.search.etargetnet.com^
+||bg.contentexchange.me^$3p
+! allow
+@@||jobs.bg/cookie_consent.$subdocument
 
 !
 ! Element hiding/Cosmetic filtering
 !
-@@-ad1.$image,domain=vivacom.bg
-vipoferta.bg#@##signup-popup
+! block
 www.plovdiv24.bg###rightbrand
 www.plovdiv24.bg###leftbrand
-www.plovdiv24.bg#@##adbox
 frognews.bg##.topfrog-ads-blk
 frognews.bg##.world-area-ad
 frognews.bg##.health-ad-blk
 frognews.bg##.politics-area-ad
 frognews.bg##.brc.top-news-area-ad
 frognews.bg##.underground-area-ad
+petel.bg##.text-center.top-banner
+petel.bg##.left-out-banner
+petel.bg##.right-out-banner
+petel.bg###banner6
+www.alo.bg###adv_zone_index_dynamic
+! allow
+@@-ad1.$image,domain=vivacom.bg
+vipoferta.bg#@##signup-popup
+www.plovdiv24.bg#@##adbox

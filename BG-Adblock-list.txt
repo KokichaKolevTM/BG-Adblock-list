@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 3
+! Version: 4
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 20 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
@@ -25,6 +25,15 @@
 ||ad.petel.bg^
 ||bg.search.etargetnet.com^
 ||bg.contentexchange.me^$3p
+||espresso-reklam.eu^
+||dir.bg/js_myads.php?
+||dir.bg/js_ext.php?
+||static.dir.bg/trendo/$subdocument
+||obekti.bg/*/statistics.php
+||relay-bg.ads.httpool.com^
+||httpoolbg.nuggad.net^
+||b.grabo.bg^
+||netinfo.bg/abv/counters.html
 ! allow
 @@||jobs.bg/cookie_consent.$subdocument
 
@@ -45,6 +54,12 @@ petel.bg##.left-out-banner
 petel.bg##.right-out-banner
 petel.bg###banner6
 www.alo.bg###adv_zone_index_dynamic
+miau.bg##.giwrp
+miau.bg##.mb20.mt20.center.gidm
+www.edna.bg##.edna-adContainer
+www.pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-12
+www.pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
+www.pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
 ! allow
 @@-ad1.$image,domain=vivacom.bg
 vipoferta.bg#@##signup-popup

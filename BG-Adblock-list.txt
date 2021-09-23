@@ -43,7 +43,7 @@
 ||adserver.bta.bg^
 ||mediapool.bg/assets/js/ads_deffinitions.js$script
 ! allow
-@@-ad1.$image,domain=vivacom.bg
+@@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||jobs.bg/cookie_consent.$subdocument
 
 !

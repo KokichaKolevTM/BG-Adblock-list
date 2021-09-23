@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 4
+! Version: 5
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 20 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
@@ -34,6 +34,14 @@
 ||httpoolbg.nuggad.net^
 ||b.grabo.bg^
 ||netinfo.bg/abv/counters.html
+||a.actualno.com^
+||ads2native.com^
+||24chasa.bg/Scripts/cp.js$script
+||segabg.com/*/statistics.php
+||ad2.moreto.net^
+||moreto.net/*-ads.php
+||adserver.bta.bg^
+||mediapool.bg/assets/js/ads_deffinitions.js$script
 ! allow
 @@-ad1.$image,domain=vivacom.bg
 @@||jobs.bg/cookie_consent.$subdocument
@@ -61,6 +69,7 @@ www.edna.bg##.edna-adContainer
 www.pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-12
 www.pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
 www.pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
+www.actualno.com##.home_banner1.right_box.banner-320.white_box
 ! allow
 vipoferta.bg#@##signup-popup
 www.plovdiv24.bg#@##adbox

@@ -42,6 +42,14 @@
 ||moreto.net/*-ads.php
 ||adserver.bta.bg^
 ||mediapool.bg/assets/js/ads_deffinitions.js$script
+||copypoison.com/cp.js$script
+||bannermanager.bnr.bg^
+||ads.haskovo.info^
+||ads.standartnews.com^
+||ads.clubz.bg^
+||ads.darikradio.bg^
+||ads2.jenite.bg^
+||webnews.bg/assets/js/jquery.ads.js$script
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||jobs.bg/cookie_consent.$subdocument
@@ -70,6 +78,7 @@ www.pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-
 www.pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
 www.pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
 www.actualno.com##.home_banner1.right_box.banner-320.white_box
+boulevardbulgaria.bg##.column.gdpr-banner-wrapper
 ! allow
 vipoferta.bg#@##signup-popup
 www.plovdiv24.bg#@##adbox

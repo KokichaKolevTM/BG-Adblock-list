@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 6
+! Version: 7
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 24 Sep 2021
+! Last modified: 25 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
 ! Network rules
@@ -50,6 +50,11 @@
 ||ads.darikradio.bg^
 ||ads2.jenite.bg^
 ||webnews.bg/assets/js/jquery.ads.js$script
+||ping.contactpigeon.com/bi/bail/
+||laptop.bg/identity?
+||rsmc.digital.bg^
+||nixanbal.com/images/300_x_350.jpg$image
+||reviveads.faktor.bg^
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||jobs.bg/cookie_consent.$subdocument
@@ -66,6 +71,7 @@ frognews.bg##.health-ad-blk
 frognews.bg##.politics-area-ad
 frognews.bg##.brc.top-news-area-ad
 frognews.bg##.underground-area-ad
+frognews.bg##.cat-middle-ad-center
 petel.bg##.text-center.top-banner
 petel.bg##.left-out-banner
 petel.bg##.right-out-banner
@@ -79,6 +85,8 @@ www.pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
 www.pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
 www.actualno.com##.home_banner1.right_box.banner-320.white_box
 boulevardbulgaria.bg##.column.gdpr-banner-wrapper
+smartstyle.bg##.in.fade.modal-backdrop
+vsichkioferti.bg###overlay
 ! allow
 vipoferta.bg#@##signup-popup
 www.plovdiv24.bg#@##adbox

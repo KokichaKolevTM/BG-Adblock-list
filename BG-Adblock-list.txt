@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 7
+! Version: 8
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/

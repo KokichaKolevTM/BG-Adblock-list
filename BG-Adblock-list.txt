@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 8
+! Version: 9
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
@@ -69,6 +69,7 @@
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||jobs.bg/cookie_consent.$subdocument
+@@||i.id24.bg/bans/covid19icon.png$image
 
 !
 ! Element hiding/Cosmetic filtering

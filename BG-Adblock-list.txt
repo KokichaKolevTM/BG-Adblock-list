@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 9
+! Version: 10
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 25 Sep 2021
+! Last modified: 26 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
 ! Network rules
@@ -66,6 +66,11 @@
 ||kazanlak-bg.info/templates/ja_opal/adsbygoogle*.html$subdocument
 ||kazanlak-bg.info/easyads*.html$subdocument
 ||kazanlak-bg.info/templates/ja_opal/NewsAdsbygoogle*.html$subdocument
+||burgasreklama.com/images/banners/burg-design-reklama-burgas_260_100.png$image
+||ads.vidoomy.com/e-burgas.com*.js$script,domain=e-burgas.com
+||e-burgas.com/template/default/ajax/banner_display.php$xhr
+||e-burgas.com/uploads/banners/$image
+||adsys.insert.bg^
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||jobs.bg/cookie_consent.$subdocument
@@ -106,6 +111,8 @@ agroplovdiv.bg###logo-right
 agroplovdiv.bg###sidebar .widget
 gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title
 gabrovonews.bg##.banner
+nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]
+! nessebar-news.com##.post_list_widget.widget
 ! allow
 vipoferta.bg#@##signup-popup
 www.plovdiv24.bg#@##adbox

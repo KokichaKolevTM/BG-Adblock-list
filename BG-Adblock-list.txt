@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 10
+! Version: 11
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 26 Sep 2021
+! Last modified: 27 Sep 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
 ! Network rules
@@ -55,7 +55,7 @@
 ||rsmc.digital.bg^
 ||nixanbal.com/images/300_x_350.jpg$image
 ||reviveads.faktor.bg^
-||cdn1.efbet.com^$domain=afera.bg
+||cdn1.efbet.com^$3p
 ! ||agroplovdiv.bg/wp-content/uploads/*/baner*.$image
 ! ||agroplovdiv.bg/wp-content/uploads/*/*.gif$image
 ! ||agroplovdiv.bg/wp-content/uploads/*/300x*.$image

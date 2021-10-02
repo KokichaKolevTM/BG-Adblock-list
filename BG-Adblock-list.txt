@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 12
+! Version: 13
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 29 Sep 2021
+! Last modified: 2 Oct 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
 ! Network rules
@@ -67,15 +67,22 @@
 ||kazanlak-bg.info/easyads*.html$subdocument
 ||kazanlak-bg.info/templates/ja_opal/NewsAdsbygoogle*.html$subdocument
 ||burgasreklama.com/images/banners/burg-design-reklama-burgas_260_100.png$image
-||ads.vidoomy.com/e-burgas.com*.js$script,domain=e-burgas.com
+||ads.vidoomy.com^
 ||e-burgas.com/template/default/ajax/banner_display.php$xhr
 ||e-burgas.com/uploads/banners/$image
 ||adsys.insert.bg^
 ||yavka.net/tonerr/$image
+||adserver.bg^
+||add.cross.bg^
+||easyads.bg^$3p
+||168chasa.bg/Scripts/cp.js$script
+||ads.delfin.bg^
+
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||jobs.bg/cookie_consent.$subdocument
 @@||i.id24.bg/bans/covid19icon.png$image
+@@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
 
 !
 ! Element hiding/Cosmetic filtering
@@ -119,6 +126,26 @@ topbg.org##.widget_custom_html.widget.widget_text
 zagoranews.bg##.bg-ad
 zarata.info##.custom-html-widget.textwidget
 zarata.info##a[style="background-color: yellow;"]
+frognews.bg##.article-after-comments-ad
+frognews.bg##.inside-area-right-middle-ad
+frognews.bg##.article-after-text-ad
+frognews.bg##.article-before-donate-ads
+frognews.bg##.brc.inside-area-right-top-ad
+tribune.bg##.google_adds
+technews.bg##.baner_top
+technews.bg##.baner_after_post
+technews.bg##.baner_under_post
+banker.bg##.superbanner
+flashnews.bg##.rekl-bottom
+flashnews.bg##.flashnewsadzone.widget
+flashnews.bg###custom_html-5
+flashnews.bg##^script[id="wpcp_disable_Right_Click"]
+flashnews.bg##^script[id="wpcp_disable_selection"]
+novsport.com##h1:has-text(Реклама)
+novsport.com##div[style="width: 468px; height: 60px; padding:0; margin: auto; overflow: hidden"]
+novsport.com##div[style="float: left; width: 300px; height: 250px; padding: 0; margin: 0; overflow: hidden"]
+novsport.com##div[style="float: left; width: 300px; height: 250px; padding:0; margin: 0; overflow: hidden"]
+
 ! allow
 vipoferta.bg#@##signup-popup
 www.plovdiv24.bg#@##adbox

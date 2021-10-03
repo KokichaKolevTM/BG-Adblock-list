@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 13
+! Version: 14
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 2 Oct 2021
+! Last modified: 3 Oct 2021
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
 ! Network rules
@@ -77,12 +77,15 @@
 ||easyads.bg^$3p
 ||168chasa.bg/Scripts/cp.js$script
 ||ads.delfin.bg^
+||rot.spotsniper.ru^$domain=alfabass-tvfree.do.am
+||gledaibgtv.com/wp-content/plugins/popup-press/$script
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||jobs.bg/cookie_consent.$subdocument
 @@||i.id24.bg/bans/covid19icon.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
+@@||seirsanduk.*/popunder.js$script,domain=alfabass-tvfree.do.am
 
 !
 ! Element hiding/Cosmetic filtering
@@ -145,6 +148,12 @@ novsport.com##h1:has-text(Реклама)
 novsport.com##div[style="width: 468px; height: 60px; padding:0; margin: auto; overflow: hidden"]
 novsport.com##div[style="float: left; width: 300px; height: 250px; padding: 0; margin: 0; overflow: hidden"]
 novsport.com##div[style="float: left; width: 300px; height: 250px; padding:0; margin: 0; overflow: hidden"]
+alfabass-tvfree.do.am##.ads-top-banner
+seirsanduk.*###banner
+seirsanduk.*##p:has-text(Реклама)
+gledaibgtv.com##a[href^="https://record.winbetaffiliates.com/"]
+gledaibgtv.com##^link[id="wpccp-css"]
+gledaibgtv.com##^script[id="wpccp-js"]
 
 ! allow
 vipoferta.bg#@##signup-popup

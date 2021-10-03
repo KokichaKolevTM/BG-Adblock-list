@@ -2,6 +2,7 @@
 ! Version: 14
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 3 Oct 2021
+! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
 ! Network rules

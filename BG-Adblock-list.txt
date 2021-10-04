@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 14
+! Version: 15
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 3 Oct 2021
+! Last modified: 4 Oct 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -80,6 +80,8 @@
 ||ads.delfin.bg^
 ||rot.spotsniper.ru^$domain=alfabass-tvfree.do.am
 ||gledaibgtv.com/wp-content/plugins/popup-press/$script
+||adrain.check-system.online^$3p
+||record.winbetaffiliates.com^$3p,frame
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -89,7 +91,7 @@
 @@||seirsanduk.*/popunder.js$script,domain=alfabass-tvfree.do.am
 
 !
-! Element hiding/Cosmetic filtering
+! Element hiding/Cosmetic filtering & Sciptlets
 !
 ! block
 www.plovdiv24.bg###rightbrand
@@ -155,6 +157,10 @@ seirsanduk.*##p:has-text(Реклама)
 gledaibgtv.com##a[href^="https://record.winbetaffiliates.com/"]
 gledaibgtv.com##^link[id="wpccp-css"]
 gledaibgtv.com##^script[id="wpccp-js"]
+presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([href*="https://visvitalis.radiostream123.com/"])
+presstv.bg###media_image-2
+bgvest.eu###b3p
+bgvest.eu##+js(nowoif)
 
 ! allow
 vipoferta.bg#@##signup-popup

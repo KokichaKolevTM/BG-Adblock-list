@@ -57,10 +57,6 @@
 ||nixanbal.com/images/300_x_350.jpg$image
 ||reviveads.faktor.bg^
 ||cdn1.efbet.com^$3p
-! ||agroplovdiv.bg/wp-content/uploads/*/baner*.$image
-! ||agroplovdiv.bg/wp-content/uploads/*/*.gif$image
-! ||agroplovdiv.bg/wp-content/uploads/*/300x*.$image
-! ||agroplovdiv.bg/wp-content/uploads/*/600x*.$image
 ||ads.haskovo.net^
 ||kazanlak-bg.info/templates/ja_opal/Reklama*.html$subdocument
 ||kazanlak-bg.info/adnow.html$subdocument
@@ -122,7 +118,7 @@ afera.bg##[src^="https://cdn1.efbet.com/"]
 afera.bg##a[href^="https://record.winbetaffiliates.bg/"]
 afera.bg###aside > .aside-3.banner.aside
 agroplovdiv.bg###logo-right
-agroplovdiv.bg###sidebar .widget
+agroplovdiv.bg##div[id^="widget_sp_image-"]
 gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title
 gabrovonews.bg##.banner
 nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]

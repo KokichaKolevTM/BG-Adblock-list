@@ -78,6 +78,8 @@
 ||gledaibgtv.com/wp-content/plugins/popup-press/$script
 ||adrain.check-system.online^$3p
 ||record.winbetaffiliates.com^$3p,frame
+||natsr.pro^
+||stz24.com/template/stz24/banner/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -141,6 +143,7 @@ banker.bg##.superbanner
 flashnews.bg##.rekl-bottom
 flashnews.bg##.flashnewsadzone.widget
 flashnews.bg###custom_html-5
+flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"])
 flashnews.bg##^script[id="wpcp_disable_Right_Click"]
 flashnews.bg##^script[id="wpcp_disable_selection"]
 novsport.com##h1:has-text(Реклама)
@@ -157,7 +160,12 @@ presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([h
 presstv.bg###media_image-2
 bgvest.eu###b3p
 bgvest.eu##+js(nowoif)
+www.bgnow.eu##+js(acis, document.oncontextmenu)
+kriminalno.com##.float-right
+kriminalno.com##.azn
+stz24.com##.addv
 
 ! allow
 vipoferta.bg#@##signup-popup
 www.plovdiv24.bg#@##adbox
+stz24.com#@#.weather_ad

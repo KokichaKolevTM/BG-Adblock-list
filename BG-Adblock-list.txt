@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 15
+! Version: 16
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 4 Oct 2021
+! Last modified: 7 Oct 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -80,6 +80,9 @@
 ||record.winbetaffiliates.com^$3p,frame
 ||natsr.pro^
 ||stz24.com/template/stz24/banner/$image
+||ads-bg.net^$3p
+||zara-live.com/ad/$image
+||plovdivmedia.bg/img/*.gif$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -128,7 +131,7 @@ nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml
 yavka.net##.rek
 topbg.org##.widget_custom_html.widget.widget_text
 zagoranews.bg##.bg-ad
-zarata.info##.custom-html-widget.textwidget
+zarata.info##.custom-html-widget.textwidget > :not(.fb-page)
 zarata.info##a[style="background-color: yellow;"]
 frognews.bg##.article-after-comments-ad
 frognews.bg##.inside-area-right-middle-ad
@@ -146,6 +149,7 @@ flashnews.bg###custom_html-5
 flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"])
 flashnews.bg##^script[id="wpcp_disable_Right_Click"]
 flashnews.bg##^script[id="wpcp_disable_selection"]
+novsport.com##^meta[http-equiv="refresh"]
 novsport.com##h1:has-text(Реклама)
 novsport.com##div[style="width: 468px; height: 60px; padding:0; margin: auto; overflow: hidden"]
 novsport.com##div[style="float: left; width: 300px; height: 250px; padding: 0; margin: 0; overflow: hidden"]
@@ -164,6 +168,15 @@ www.bgnow.eu##+js(acis, document.oncontextmenu)
 kriminalno.com##.float-right
 kriminalno.com##.azn
 stz24.com##.addv
+stz24.com##.widget > .inner:has(> .addv)
+plovdivmedia.bg##div:has(> a > img[src$=".gif"])
+smolyanpress.net##div[id^="buffercode_banner_upload_info"]
+smolyanpress.net##.logo > :not(a[href="http://smolyanpress.net"])
+zara-live.com##div:has(> h6:has-text(реклама))
+senzacia-bg.com##h2:has-text(РЕКЛАМА)
+senzacia-bg.com##center:has-text(РЕКЛАМА)
+bivol.bg##aside[id^="ai_widget"] > h4:has(> span:has-text(Реклама))
+bivol.bg##.code-block
 
 ! allow
 vipoferta.bg#@##signup-popup

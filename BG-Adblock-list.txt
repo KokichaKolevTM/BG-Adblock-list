@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 16
+! Version: 17
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 7 Oct 2021
+! Last modified: 10 Oct 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -77,12 +77,14 @@
 ||rot.spotsniper.ru^$domain=alfabass-tvfree.do.am
 ||gledaibgtv.com/wp-content/plugins/popup-press/$script
 ||adrain.check-system.online^$3p
-||record.winbetaffiliates.com^$3p,frame
 ||natsr.pro^
 ||stz24.com/template/stz24/banner/$image
 ||ads-bg.net^$3p
 ||zara-live.com/ad/$image
 ||plovdivmedia.bg/img/*.gif$image
+||vbox7.com/aj/item/adwise?
+||winbetaffiliates.com^$3p,image,subdocument
+||enovina.bg/upload/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -92,9 +94,9 @@
 @@||seirsanduk.*/popunder.js$script,domain=alfabass-tvfree.do.am
 
 !
-! Element hiding/Cosmetic filtering & Sciptlets
+! Element hiding, Cosmetic filtering & Sciptlets
 !
-! block
+! hide
 www.plovdiv24.bg###rightbrand
 www.plovdiv24.bg###leftbrand
 frognews.bg##.topfrog-ads-blk
@@ -164,7 +166,9 @@ presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([h
 presstv.bg###media_image-2
 bgvest.eu###b3p
 bgvest.eu##+js(nowoif)
-www.bgnow.eu##+js(acis, document.oncontextmenu)
+bgnow.eu##+js(acis, document.oncontextmenu)
+bgnow.eu##+js(acis, disableSelection)
+bgnow.eu##html, .unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 kriminalno.com##.float-right
 kriminalno.com##.azn
 stz24.com##.addv
@@ -177,6 +181,21 @@ senzacia-bg.com##h2:has-text(РЕКЛАМА)
 senzacia-bg.com##center:has-text(РЕКЛАМА)
 bivol.bg##aside[id^="ai_widget"] > h4:has(> span:has-text(Реклама))
 bivol.bg##.code-block
+7kefa.com##+js(acis, document.oncontextmenu)
+7kefa.com##+js(acis, disableSelection)
+7kefa.com##html, .unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
+novavarna.net##h2:has-text(реклама)
+novavarna.net##.textwidget > p > :not(a[href^="https://novavarna.net/"])
+pik.bg##div[class^="banners_"]
+pro4eti.eu###b3p
+pro4eti.eu##+js(nowoif)
+bg7.eu###b3p
+enovina.bg##.banner
+iskra.bg##a:not([href^="https://www.iskra.bg/"]) > picture > img[width="510"][height="90"]
+iskra.bg##div > picture > img[width="510"][height="90"]
+dunavmost.com##div[class^="banner_"]
+obekti.bg##.banner
+obekti.bg##.banner + .info
 
 ! allow
 vipoferta.bg#@##signup-popup

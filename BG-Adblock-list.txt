@@ -11,7 +11,6 @@
 ||adwise.bg^$3p
 ||bimg.abv.bg^
 ||img.abv.bg/*^as.adwise.bg/
-||ads.a1.bg^
 ||advertere.zamunda.net^
 ||i.id24.bg/bans/
 ||linker.bg^$3p
@@ -24,15 +23,11 @@
 ||stats.jobs.bg^
 ||stats2.jobs.bg^
 ||ad.petel.bg^
-||bg.search.etargetnet.com^
-||bg.contentexchange.me^$3p
 ||espresso-reklam.eu^
 ||dir.bg/js_myads.php?
 ||dir.bg/js_ext.php?
 ||static.dir.bg/trendo/$subdocument
 ||obekti.bg/*/statistics.php
-||relay-bg.ads.httpool.com^
-||httpoolbg.nuggad.net^
 ||b.grabo.bg^
 ||netinfo.bg/abv/counters.html
 ||a.actualno.com^
@@ -44,12 +39,6 @@
 ||adserver.bta.bg^
 ||mediapool.bg/assets/js/ads_deffinitions.js$script
 ||copypoison.com/cp.js$script
-||bannermanager.bnr.bg^
-||ads.haskovo.info^
-||ads.standartnews.com^
-||ads.clubz.bg^
-||ads.darikradio.bg^
-||ads2.jenite.bg^
 ||webnews.bg/assets/js/jquery.ads.js$script
 ||ping.contactpigeon.com/bi/bail/
 ||laptop.bg/identity?
@@ -57,14 +46,12 @@
 ||nixanbal.com/images/300_x_350.jpg$image
 ||reviveads.faktor.bg^
 ||cdn1.efbet.com^$3p
-||ads.haskovo.net^
 ||kazanlak-bg.info/templates/ja_opal/Reklama*.html$subdocument
 ||kazanlak-bg.info/adnow.html$subdocument
 ||kazanlak-bg.info/templates/ja_opal/adsbygoogle*.html$subdocument
 ||kazanlak-bg.info/easyads*.html$subdocument
 ||kazanlak-bg.info/templates/ja_opal/NewsAdsbygoogle*.html$subdocument
 ||burgasreklama.com/images/banners/burg-design-reklama-burgas_260_100.png$image
-||ads.vidoomy.com^
 ||e-burgas.com/template/default/ajax/banner_display.php$xhr
 ||e-burgas.com/uploads/banners/$image
 ||adsys.insert.bg^
@@ -73,7 +60,6 @@
 ||add.cross.bg^
 ||easyads.bg^$3p
 ||168chasa.bg/Scripts/cp.js$script
-||ads.delfin.bg^
 ||rot.spotsniper.ru^$domain=alfabass-tvfree.do.am
 ||gledaibgtv.com/wp-content/plugins/popup-press/$script
 ||adrain.check-system.online^$3p
@@ -85,6 +71,7 @@
 ||vbox7.com/aj/item/adwise?
 ||winbetaffiliates.com^$3p,image,subdocument
 ||enovina.bg/upload/banners/$image
+||pronewsdobrich.bg/Banners/
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -196,8 +183,21 @@ iskra.bg##div > picture > img[width="510"][height="90"]
 dunavmost.com##div[class^="banner_"]
 obekti.bg##.banner
 obekti.bg##.banner + .info
+glashatai.com##h3 + a > img
+glashatai.com##h3:has(+ a > img)
+clubz.bg##.square-banner
+pronewsdobrich.bg##.elementor-image
+pronewsdobrich.bg##[id^="news247_ads_banner_widget"]
+pronewsdobrich.bg##div:has(> h3:has-text(Реклама) + div:has(iframe[src^="/Banners/"]))
+lifebites.bg##+js(acis, disableSelection)
+lifebites.bg##+js(acis, document.oncontextmenu)
+bgnewscom.eu##[id^="custom_html"]:has(> div > script[async=""])
+slava.bg##.ad
+slava.bg##.left:has(> script)
 
 ! allow
 vipoferta.bg#@##signup-popup
 www.plovdiv24.bg#@##adbox
 stz24.com#@#.weather_ad
+newsbgcom.eu#@#.widget_rss
+bgnewscom.eu#@#.widget_rss

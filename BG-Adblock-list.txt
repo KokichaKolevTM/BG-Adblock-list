@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 17
+! Version: 18
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 10 Oct 2021
+! Last modified: 21 Oct 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -72,6 +72,11 @@
 ||winbetaffiliates.com^$3p,image,subdocument
 ||enovina.bg/upload/banners/$image
 ||pronewsdobrich.bg/Banners/
+||moreto.net/i/branding/$image
+||karlovo.tv/staticImages/ads/$image
+||otzvuk.bg/wp-content/uploads/reklami/$image
+||24plovdiv.bg/Scripts/cp.js$script
+||adhash.org^$3p
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -84,8 +89,8 @@
 ! Element hiding, Cosmetic filtering & Sciptlets
 !
 ! hide
-www.plovdiv24.bg###rightbrand
-www.plovdiv24.bg###leftbrand
+plovdiv24.bg###rightbrand
+plovdiv24.bg###leftbrand
 frognews.bg##.topfrog-ads-blk
 frognews.bg##.world-area-ad
 frognews.bg##.health-ad-blk
@@ -97,14 +102,14 @@ petel.bg##.text-center.top-banner
 petel.bg##.left-out-banner
 petel.bg##.right-out-banner
 petel.bg###banner6
-www.alo.bg###adv_zone_index_dynamic
+alo.bg###adv_zone_index_dynamic
 miau.bg##.giwrp
 miau.bg##.mb20.mt20.center.gidm
-www.edna.bg##.edna-adContainer
-www.pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-12
-www.pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
-www.pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
-www.actualno.com##.home_banner1.right_box.banner-320.white_box
+edna.bg##.edna-adContainer
+pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-12
+pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
+pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
+actualno.com##.home_banner1.right_box.banner-320.white_box
 boulevardbulgaria.bg##.column.gdpr-banner-wrapper
 smartstyle.bg##.in.fade.modal-backdrop
 vsichkioferti.bg###overlay
@@ -194,10 +199,31 @@ lifebites.bg##+js(acis, document.oncontextmenu)
 bgnewscom.eu##[id^="custom_html"]:has(> div > script[async=""])
 slava.bg##.ad
 slava.bg##.left:has(> script)
+pronewsdobrich.bg##[id^="block-"]
+moreto.net###RightBrand
+moreto.net###LeftBrand
+moreto.net##a[href^="https://ad2.moreto.net/"]
+bgmateriali.com##.article-text:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
+burgasnovinite.bg##div[id^="HTML"]:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], .azn)
+bgvesti.net,haskovo.net##.wide-banner
+bgvesti.net,haskovo.net##.square-banner
+bgvesti.net,haskovo.net#@#.social_icons
+bgvesti.net,haskovo.net##html:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-touch-callout: default !important)
+pbnovini.com##.gofollow
+otzvuk.bg##.gofollow
+otzvuk.bg##span:has-text(Advertisement)
+ejednevno.eu##center:has-text(Advertisement)
+ejednevno.eu##+js(acis, document.oncontextmenu)
+ejednevno.eu##+js(acis, disableSelection)
+ejednevno.eu##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
+24plovdiv.bg##.margin-tb-10
+bulgaria365.eu##+js(acis, document.oncontextmenu)
+bulgaria365.eu##+js(acis, disableSelection)
+bulgaria365.eu##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 
 ! allow
 vipoferta.bg#@##signup-popup
-www.plovdiv24.bg#@##adbox
+plovdiv24.bg#@##adbox
 stz24.com#@#.weather_ad
 newsbgcom.eu#@#.widget_rss
 bgnewscom.eu#@#.widget_rss

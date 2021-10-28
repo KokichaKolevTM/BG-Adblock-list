@@ -1,3 +1,5 @@
+[Adblock Plus 2.0]
+! Title: My Filters
 ! remove parameters not allowing to remotely download android apps from pcs
 ||play.google.com/store/apps/details$removeparam=hl
 ||play.google.com/store/apps/details$removeparam=gl

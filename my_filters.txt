@@ -1,0 +1,15 @@
+! remove parameters not allowing to remotely download android apps from pcs
+||play.google.com/store/apps/details$removeparam=hl
+||play.google.com/store/apps/details$removeparam=gl
+! remove the "Install Startpage Extension" widget
+startpage.com##.widget-install-sp-container
+! privacy policy not showing
+diffchecker.com#@##privacy-policy
+! top list links being blocked
+disconnect.me#@#.go-top
+! remove black background of a cookie notice
+socradar.io##.show.fade.modal-backdrop
+||arc.io^$3p
+||youtube.com/api/stats/
+||youtube-nocookie.com/api/stats/
+||platform.twitter.com^$3p

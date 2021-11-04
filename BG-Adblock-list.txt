@@ -269,7 +269,4 @@ stz24.com#@#.weather_ad
 newsbgcom.eu#@#.widget_rss
 bgnewscom.eu#@#.widget_rss
 botevgrad.com#@#.adverts
-
 botevgrad.com#@#.advert-title
-
-

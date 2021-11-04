@@ -77,6 +77,15 @@
 ||otzvuk.bg/wp-content/uploads/reklami/$image
 ||24plovdiv.bg/Scripts/cp.js$script
 ||adhash.org^$3p
+||automoto.bg/images/banners/$image
+||maritime.bg/wp-content/uploads/*.gif$image
+||maritime.bg/ads/
+||bntnews.bg/box/js/cp.js$script
+||botevgrad.com/uploads/ad/$image
+||jasmin.bg/wp-content/themes/Jasmin26/assets/i/partners/$image
+||adsy.mail.bg^
+||stats.icdsoft.com^
+||snickchangesolder.com^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -84,6 +93,10 @@
 @@||i.id24.bg/bans/covid19icon.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
 @@||seirsanduk.*/popunder.js$script,domain=alfabass-tvfree.do.am
+@@||botevgrad.com/uploads/advertisement/$image
+@@/adverts/*$image,domain=botevgrad.com
+@@/advertise-$image,domain=bgvakancia.com
+@@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -220,6 +233,34 @@ ejednevno.eu##.unselectable:style(-webkit-touch-callout: default !important; -we
 bulgaria365.eu##+js(acis, document.oncontextmenu)
 bulgaria365.eu##+js(acis, disableSelection)
 bulgaria365.eu##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
+automoto.bg###home-banner
+pazarluk.com###automoto-banner
+pazarluk.com##.item-list:has(> .adsbygoogle)
+pazarluk.com##.suggestions-adsense
+1chas.bg##img[class="float-right"]
+zona98.com##.code-block
+zona98.com##.ai_widget:has(.code-block)
+lifebites.bg##div[style="margin:20px 0 10px;"]
+maritime.bg##.xuymj
+maritime.bg##.better-ads-listitemad
+maritime.bg##[id^="xuymj-"]
+maritime.bg##+js(set, cpp_loc, null)
+botevgrad.com##div[style]:has(> script[src^="https://reklama.botevgrad.com/"])
+botevgrad.com##.advert
+starozagorskinovini.com##.ubm_banners_rotation
+starozagorskinovini.com##.ubm_rotation_widget
+starozagorskinovini.com##.ubm_rotating_banner
+starozagorskinovini.com##.ubm_banner
+starozagorskinovini.com##.ubm_widget
+pogled.info##img[width="300"][height="100"]
+pogled.info##.bannerTop
+pogled.info##.adbox
+mail.bg##.banner
+radar.bg##[id^="ad-"]
+zagoranews.bg##[id^="ubm-banners-"]
+brato.bg##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select:text !important;)
+brato.bg##+js(acis, document.oncontextmenu)
+vtorifront.bg##[class^="ad-"]
 
 ! allow
 vipoferta.bg#@##signup-popup
@@ -227,3 +268,8 @@ plovdiv24.bg#@##adbox
 stz24.com#@#.weather_ad
 newsbgcom.eu#@#.widget_rss
 bgnewscom.eu#@#.widget_rss
+botevgrad.com#@#.adverts
+
+botevgrad.com#@#.advert-title
+
+

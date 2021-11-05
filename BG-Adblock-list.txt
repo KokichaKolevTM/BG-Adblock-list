@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 19
+! Version: 20
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 24 Oct 2021
+! Last modified: 5 Nov 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -61,7 +61,7 @@
 ||easyads.bg^$3p
 ||168chasa.bg/Scripts/cp.js$script
 ||rot.spotsniper.ru^$domain=alfabass-tvfree.do.am
-||gledaibgtv.com/wp-content/plugins/popup-press/$script
+||gledaibgtv.com/wp-content/plugins/popup-press/js/pps_script.js$script
 ||adrain.check-system.online^$3p
 ||natsr.pro^
 ||stz24.com/template/stz24/banner/$image
@@ -89,10 +89,9 @@
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
-@@||jobs.bg/cookie_consent.$subdocument
 @@||i.id24.bg/bans/covid19icon.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
-@@||seirsanduk.*/popunder.js$script,domain=alfabass-tvfree.do.am
+@@||seirsanduk.*/popunder.js$script
 @@||botevgrad.com/uploads/advertisement/$image
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
@@ -134,7 +133,6 @@ agroplovdiv.bg##div[id^="widget_sp_image-"]
 gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title
 gabrovonews.bg##.banner
 nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]
-! nessebar-news.com##.post_list_widget.widget
 yavka.net##.rek
 topbg.org##.widget_custom_html.widget.widget_text
 zagoranews.bg##.bg-ad
@@ -165,8 +163,6 @@ alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*###banner
 seirsanduk.*##p:has-text(Реклама)
 gledaibgtv.com##a[href^="https://record.winbetaffiliates.com/"]
-gledaibgtv.com##^link[id="wpccp-css"]
-gledaibgtv.com##^script[id="wpccp-js"]
 presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([href*="https://visvitalis.radiostream123.com/"])
 presstv.bg###media_image-2
 bgvest.eu###b3p
@@ -266,7 +262,5 @@ vtorifront.bg##[class^="ad-"]
 vipoferta.bg#@##signup-popup
 plovdiv24.bg#@##adbox
 stz24.com#@#.weather_ad
-newsbgcom.eu#@#.widget_rss
-bgnewscom.eu#@#.widget_rss
 botevgrad.com#@#.adverts
 botevgrad.com#@#.advert-title

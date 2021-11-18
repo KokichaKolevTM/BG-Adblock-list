@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20
+! Version: 21
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 5 Nov 2021
+! Last modified: 18 Nov 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -86,6 +86,20 @@
 ||adsy.mail.bg^
 ||stats.icdsoft.com^
 ||snickchangesolder.com^
+/wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com
+||bul-tv.com/wp-content/plugins/wp-content-copy-protection/
+||gledaibgtv.com/wp-content/plugins/wp-content-copy-protection/
+||tvmaniabg.com/wp-content/plugins/wp-content-copy-protection/
+||affiliates.palmsbet.com^$3p
+||bg.online-television.net/templates/Default/css/cp.js$script
+||divident.eu/uploads/banners/$image
+||az-jenata.bg/js/copyinject.js$script
+||poezia.ucoz.net/rtr/
+||sportrecs.com^$domain=poezia.bg
+||blagoevgrad.eu/banners/$image
+||delo.bg/wp-content/uploads/2015/09/check.bg-wall.jpg$image
+||chjhsfctkeve.xyz^
+||brat-bg.com/images/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -96,6 +110,8 @@
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
 @@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
+@@||bg-gledai.live^$generichide
+@@||brat-bg.com/images/Reklama/$image
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -257,6 +273,39 @@ zagoranews.bg##[id^="ubm-banners-"]
 brato.bg##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select:text !important;)
 brato.bg##+js(acis, document.oncontextmenu)
 vtorifront.bg##[class^="ad-"]
+bg-gledai.live##img[width="728"][height="90"]
+bg-gledai.live##.squarebanner
+bg-gledai.live##.smallbanner
+bul-tv.com##.ban-head
+bul-tv.com##.banner-sticky
+seirsanduk.*##a[href^="https://www.bybit.com/"]
+gledaibgtv.com##.widebanner
+gledaibgtv.com##.squarebanner
+gledaibgtv.com##.smallbanner
+gledaibgtv.com##.banner-sticky
+onlinetv.bg##div[style*="width:307px;height:260px;"]
+bg.online-television.net##.paket-ads
+bg.online-television.net##.paket-ads-down
+bg.online-television.net##.terciheden
+bgvestnici.com##.mb-2:has(> .adsbygoogle)
+bgvestnici.com##.col-md-2
+divident.eu##.banner
+az-jenata.bg##.banner
+hotarena.net##.smallHorizontalBanner
+hotarena.net##.bigHorizontalBanner
+hotarena.net##.rightBanner
+poezia.bg##img[width="468"][height="60"]
+poezia.bg##.vmainadsdvcl
+blagoevgrad.eu##.td-a-rec
+blagoevgrad.eu##+js(acis, document.oncontextmenu)
+blagoevgrad.eu##+js(acis, disableSelection)
+blagoevgrad.eu##.unselectable:style(-moz-user-select: text !important; -webkit-user-select: text !important; cursor: auto !important;)
+delo.bg##a[href^="https://samoletnibileti.check.bg/bg?utm_"]
+idei.bg##.banner-holder
+fun.9999999views.com##+js(acis, disableSelection)
+fun.9999999views.com##+js(acis, document.oncontextmenu)
+fun.9999999views.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
+fun.9999999views.com##h3:has-text(/^Реклама$/)
 
 ! allow
 vipoferta.bg#@##signup-popup
@@ -264,3 +313,4 @@ plovdiv24.bg#@##adbox
 stz24.com#@#.weather_ad
 botevgrad.com#@#.adverts
 botevgrad.com#@#.advert-title
+fun.9999999views.com#@#.bottomad

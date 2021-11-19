@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 22
+! Version: 23
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 19 Nov 2021
 ! Expires: 5 days (update frequency)
@@ -17,8 +17,7 @@
 ||reklama.wisdom.bg^
 ||emag.bg/garez.php?
 ||eadsrv.com^
-||api.frognews.bg/*/rekl/
-||frognews.bg/*/rekl.js$script
+||frognews.bg/*/rekl$script,xhr
 ||b1.alo.bg^
 ||stats.jobs.bg^
 ||stats2.jobs.bg^
@@ -158,6 +157,7 @@ frognews.bg##.inside-area-right-middle-ad
 frognews.bg##.article-after-text-ad
 frognews.bg##.article-before-donate-ads
 frognews.bg##.brc.inside-area-right-top-ad
+frognews.bg##.topfrog-ads-blk-hl
 tribune.bg##.google_adds
 technews.bg##.baner_top
 technews.bg##.baner_after_post

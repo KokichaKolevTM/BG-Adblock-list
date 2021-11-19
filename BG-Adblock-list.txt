@@ -17,7 +17,7 @@
 ||reklama.wisdom.bg^
 ||emag.bg/garez.php?
 ||eadsrv.com^
-||frognews.bg/*/rekl$script,xhr
+||frognews.bg/*/rekl*$script,xhr
 ||b1.alo.bg^
 ||stats.jobs.bg^
 ||stats2.jobs.bg^

@@ -9,8 +9,8 @@
 !
 ! block
 ||adwise.bg^$3p
-||bimg.abv.bg^
-||img.abv.bg/*^as.adwise.bg/
+||bimg.abv.bg^$~font
+||img.abv.bg/*/as.adwise.bg/
 ||advertere.zamunda.net^
 ||i.id24.bg/bans/
 ||linker.bg^$3p

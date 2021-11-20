@@ -12,6 +12,7 @@
 ||bimg.abv.bg^$~font
 ||img.abv.bg/*/as.adwise.bg/
 ||advertere.zamunda.net^
+||advertere.zamunda.ch^
 ||i.id24.bg/bans/
 ||linker.bg^$3p
 ||reklama.wisdom.bg^
@@ -305,6 +306,7 @@ kazanlak-bg.info##div:has(> iframe[width="628"][height="130"])
 kazanlak-bg.info##div:has(> iframe[width="265"][height="265"])
 kazanlak-bg.info##div:has(> iframe[width="265"][height="250"])
 kazanlak-bg.info##div:has(> iframe[width="100%"][height="260"])
+zamunda.net,zamunda.ch##.clickads
 
 ! allow
 vipoferta.bg#@##signup-popup

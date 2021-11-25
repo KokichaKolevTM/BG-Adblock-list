@@ -58,7 +58,6 @@
 ||stz24.com/template/stz24/banner/$image
 ||ads-bg.net^$3p
 ||zara-live.com/ad/$image
-||plovdivmedia.bg/img/*.gif$image
 ||vbox7.com/aj/item/adwise?
 ||winbetaffiliates.com^$3p
 ||enovina.bg/upload/banners/$image
@@ -68,7 +67,6 @@
 ||otzvuk.bg/wp-content/uploads/reklami/$image
 ||adhash.org^$3p
 ||automoto.bg/images/banners/$image
-||maritime.bg/wp-content/uploads/*.gif$image
 ||maritime.bg/ads/
 ||botevgrad.com/uploads/ad/$image
 ||jasmin.bg/wp-content/themes/Jasmin26/assets/i/partners/$image
@@ -90,10 +88,9 @@
 ||brat-bg.com/images/banners/$image
 ||vivacom.bg/online/analytics/
 ||androidbg.com/images/a/$image
-||invitrobg.com/wp-content/uploads/*.gif$image
 ||invitrobg.com/wp-content/uploads/*/banner*$image
 ||bg-voice.com/wp-content/themes/zox-news/js/clappr.ads.js$script
-.gif^$image,domain=7dnibulgaria.bg
+.gif^$image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 ||kotasport.com/wp-content/uploads/ads*$image
 ||pahtvs.tech^
 /cp.js$script,domain=24chasa.bg|copypoison.com|168chasa.bg|24plovdiv.bg|bntnews.bg|bg.online-television.net|bgdnes.bg

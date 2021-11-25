@@ -90,10 +90,10 @@
 ||androidbg.com/images/a/$image
 ||invitrobg.com/wp-content/uploads/*/banner*$image
 ||bg-voice.com/wp-content/themes/zox-news/js/clappr.ads.js$script
-.gif^$image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
+.gif^$image,1p,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 ||kotasport.com/wp-content/uploads/ads*$image
 ||pahtvs.tech^
-/cp.js$script,1p,domain=24chasa.bg|copypoison.com|168chasa.bg|24plovdiv.bg|bntnews.bg|bg.online-television.net|bgdnes.bg
+/cp.js$script,domain=24chasa.bg|copypoison.com|168chasa.bg|24plovdiv.bg|bntnews.bg|bg.online-television.net|bgdnes.bg
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

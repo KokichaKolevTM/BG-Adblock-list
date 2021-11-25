@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 25
+! Version: 26
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 21 Nov 2021
+! Last modified: 25 Nov 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -32,13 +32,11 @@
 ||netinfo.bg/abv/counters.html
 ||a.actualno.com^
 ||ads2native.com^
-||24chasa.bg/Scripts/cp.js$script
 ||segabg.com/*/statistics.php
 ||ad2.moreto.net^
 ||moreto.net/*-ads.php
 ||adserver.bta.bg^
 ||mediapool.bg/assets/js/ads_deffinitions.js$script
-||copypoison.com/cp.js$script
 ||webnews.bg/assets/js/jquery.ads.js$script
 ||ping.contactpigeon.com/bi/bail/
 ||laptop.bg/identity?
@@ -54,7 +52,6 @@
 ||adserver.bg^
 ||add.cross.bg^
 ||easyads.bg^$3p
-||168chasa.bg/Scripts/cp.js$script
 ||rot.spotsniper.ru^$domain=alfabass-tvfree.do.am
 ||adrain.check-system.online^$3p
 ||natsr.pro^
@@ -69,12 +66,10 @@
 ||moreto.net/i/branding/$image
 ||karlovo.tv/staticImages/ads/$image
 ||otzvuk.bg/wp-content/uploads/reklami/$image
-||24plovdiv.bg/Scripts/cp.js$script
 ||adhash.org^$3p
 ||automoto.bg/images/banners/$image
 ||maritime.bg/wp-content/uploads/*.gif$image
 ||maritime.bg/ads/
-||bntnews.bg/box/js/cp.js$script
 ||botevgrad.com/uploads/ad/$image
 ||jasmin.bg/wp-content/themes/Jasmin26/assets/i/partners/$image
 ||adsy.mail.bg^
@@ -85,7 +80,6 @@
 ||gledaibgtv.com/wp-content/plugins/wp-content-copy-protection/
 ||tvmaniabg.com/wp-content/plugins/wp-content-copy-protection/
 ||affiliates.palmsbet.com^$3p
-||bg.online-television.net/templates/Default/css/cp.js$script
 ||divident.eu/uploads/banners/$image
 ||az-jenata.bg/js/copyinject.js$script
 ||poezia.ucoz.net/rtr/
@@ -99,6 +93,10 @@
 ||invitrobg.com/wp-content/uploads/*.gif$image
 ||invitrobg.com/wp-content/uploads/*/banner*$image
 ||bg-voice.com/wp-content/themes/zox-news/js/clappr.ads.js$script
+.gif^$image,domain=7dnibulgaria.bg
+||kotasport.com/wp-content/uploads/ads*$image
+||pahtvs.tech^
+/cp.js$script,domain=24chasa.bg|copypoison.com|168chasa.bg|24plovdiv.bg|bntnews.bg|bg.online-television.net|bgdnes.bg
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -116,6 +114,9 @@
 ! Element hiding, Cosmetic filtering & Sciptlets
 !
 ! hide
+##a[href^="https://cdn1.efbet.com/"]
+##a[href^="https://record.winbetaffiliates.bg/"]
+##a[href^="https://www.palmsbet.com/"]
 plovdiv24.bg###rightbrand
 plovdiv24.bg###leftbrand
 frognews.bg##.topfrog-ads-blk
@@ -141,7 +142,6 @@ boulevardbulgaria.bg##.column.gdpr-banner-wrapper
 smartstyle.bg##.in.fade.modal-backdrop
 vsichkioferti.bg###overlay
 afera.bg##[src^="https://cdn1.efbet.com/"]
-afera.bg##a[href^="https://record.winbetaffiliates.bg/"]
 afera.bg###aside > .aside-3.banner.aside
 agroplovdiv.bg###logo-right
 agroplovdiv.bg##div[id^="widget_sp_image-"]
@@ -178,7 +178,6 @@ novsport.com##div[style*="width: 300px; height: 250px;"]
 alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*###banner
 seirsanduk.*##p:has-text(Реклама)
-gledaibgtv.com##a[href^="https://record.winbetaffiliates.com/"]
 presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([href*="https://visvitalis.radiostream123.com/"])
 presstv.bg###media_image-2
 bgvest.eu###b3p
@@ -317,6 +316,16 @@ moiatabroshura.bg##.col-desktop-5-banner
 androidbg.com##img[src*="androidbg.com/images/a/"]:upward(.textwidget)
 bgizbori.org##div:has(> div > script[src*="googlesyndication.com"])
 invitrobg.com##div:has-text(/^Реклама$/)
+action-newsbg.eu###custom_html-8
+action-newsbg.eu###custom_html-10
+19min.bg##div[style]:has(> script[src^="https://ads.slava.bg/"])
+kotasport.com##.td-all-devices
+kotasport.com##.SC_TBlock
+infoz.bg##img[width="340"]
+nbp.bg##.tr_e3lan-widget
+nbp.bg##img[width="728"][height="90"]
+nbp.bg##div[style*="width:728px; height:90px;"]
+kalofer.bg##[id^="custom_html-"]:has(> h1:has-text(/^Реклама$/))
 
 ! allow
 vipoferta.bg#@##signup-popup
@@ -325,3 +334,4 @@ stz24.com#@#.weather_ad
 botevgrad.com#@#.adverts
 botevgrad.com#@#.advert-title
 fun.9999999views.com#@#.bottomad
+kotasport.com#@#.td-a-rec

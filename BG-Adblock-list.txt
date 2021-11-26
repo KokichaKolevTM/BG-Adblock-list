@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 28
+! Version: 29
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 26 Nov 2021
 ! Expires: 5 days (update frequency)
@@ -74,7 +74,7 @@
 ||stats.icdsoft.com^
 ||snickchangesolder.com^
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com
-/wp-content/plugins/wp-content-copy-protection/$domain=bul-tv.com|gledaibgtv.com|tvmaniabg.com
+/wp-content/plugins/wp-content-copy-protection/*$domain=bul-tv.com|gledaibgtv.com|tvmaniabg.com
 ||affiliates.palmsbet.com^$3p
 ||divident.eu/uploads/banners/$image
 ||az-jenata.bg/js/copyinject.js$script

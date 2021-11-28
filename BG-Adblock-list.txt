@@ -9,7 +9,7 @@
 !
 ! block
 ||adwise.bg^$3p
-||bimg.abv.bg^$~font
+||bimg.abv.bg^
 ||img.abv.bg/*/as.adwise.bg/
 ||advertere.zamunda.net^
 ||advertere.zamunda.ch^
@@ -92,6 +92,7 @@
 ||kotasport.com/wp-content/uploads/ads*$image
 ||pahtvs.tech^
 /cp.js^$script,domain=24chasa.bg|copypoison.com|168chasa.bg|24plovdiv.bg|bntnews.bg|bg.online-television.net|bgdnes.bg
+||htagpa.tech^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -112,7 +113,7 @@
 ##a[href^="https://cdn1.efbet.com/"]
 ##a[href^="https://record.winbetaffiliates.bg/"]
 ##a[href^="https://record.winbetaffiliates.com/"]
-~palmsbet.com##a[href^="https://www.palmsbet.com/"]
+! ~palmsbet.com##a[href^="https://www.palmsbet.com/"]
 plovdiv24.bg###rightbrand
 plovdiv24.bg###leftbrand
 frognews.bg##.topfrog-ads-blk
@@ -128,12 +129,13 @@ petel.bg##.right-out-banner
 petel.bg###banner6
 alo.bg###adv_zone_index_dynamic
 miau.bg##.giwrp
-miau.bg##.mb20.mt20.center.gidm
+miau.bg##.gidm
+miau.bg##.gidd
+miau.bg##.gidb
 edna.bg##.edna-adContainer
 pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-12
 pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
 pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
-actualno.com##.home_banner1.right_box.banner-320.white_box
 boulevardbulgaria.bg##.column.gdpr-banner-wrapper
 smartstyle.bg##.in.fade.modal-backdrop
 vsichkioferti.bg###overlay
@@ -322,6 +324,27 @@ nbp.bg##.tr_e3lan-widget
 nbp.bg##img[width="728"][height="90"]
 nbp.bg##div[style*="width:728px; height:90px;"]
 kalofer.bg##[id^="custom_html-"]:has(> h1:has-text(/^Реклама$/))
+actualno.com##[id^="banner_"]
+supichka.com##.banner_wrapper
+ezine.bg##.giwrp
+ezine.bg##.gidm
+ezine.bg##.gidb
+ezine.bg##.gidd
+ezine.bg##.rkl
+grad.bg##.gidb
+grad.bg##.gidd
+grad.bg##.giwrp
+grad.bg##.gidm
+focus-news.net##.banner
+focus-news.net##.banner-middle
+sanovnik.bg##.giwrp
+sanovnik.bg##.gidb
+sanovnik.bg##.gidd
+sanovnik.bg##.gidm
+tvn.bg##.td-a-rec
+flagman.bg##[class*="bannerRow"]
+burgas24.bg###rightbrand
+burgas24.bg###leftbrand
 
 ! allow
 vipoferta.bg#@##signup-popup

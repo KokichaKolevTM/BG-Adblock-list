@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 30
+! Version: 31
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 28 Nov 2021
+! Last modified: 29 Nov 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -93,6 +93,10 @@
 ||pahtvs.tech^
 /cp.js^$script,domain=24chasa.bg|copypoison.com|168chasa.bg|24plovdiv.bg|bntnews.bg|bg.online-television.net|bgdnes.bg
 ||htagpa.tech^
+||pahthf.tech^
+||24zdrave.bg/Scripts/GemiusPrism.js$script
+||bgtourism.bg/wp-content/uploads/rkl*$image
+||portalsz.com/uploads/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -105,6 +109,8 @@
 @@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
 @@||bg-gledai.live^$generichide
 @@||brat-bg.com/images/Reklama/$image
+@@||googlesyndication.com^$script,domain=jivotni.eu
+@@||doubleclick.net^$frame,domain=jivotni.eu
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -345,6 +351,20 @@ tvn.bg##.td-a-rec
 flagman.bg##[class*="bannerRow"]
 burgas24.bg###rightbrand
 burgas24.bg###leftbrand
+vihrogon.bg##div[style*="text-align:center;"]:has-text(външна реклама)
+cross.bg##.adv
+capital.bg##.banner-box
+capital.bg##.advertising
+bgtourism.bg##.wppopups-whole
+bgtourism.bg##div[style*="width: 300px; height: 250px;"]
+bgtourism.bg##div[style*="width: 1020px; height: 120px;"]
+bgtourism.bg##div[style*="width: 300px; height: 450px;"]
+bgtourism.bg##.td-fix-index
+portalsz.com##.banner
+portalsz.com##h3:has-text(/^Реклама$/)
+www.abv.bg##.rightBanner
+www.abv.bg##.leftBanner
+www.abv.bg##.abv-Banner
 
 ! allow
 vipoferta.bg#@##signup-popup

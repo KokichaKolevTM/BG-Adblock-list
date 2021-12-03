@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 31
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 29 Nov 2021
+! Last modified: 3 Dec 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -97,6 +97,7 @@
 ||24zdrave.bg/Scripts/GemiusPrism.js$script
 ||bgtourism.bg/wp-content/uploads/rkl*$image
 ||portalsz.com/uploads/banners/$image
+||bglekari.bg/images/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -142,9 +143,6 @@ edna.bg##.edna-adContainer
 pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-12
 pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
 pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
-boulevardbulgaria.bg##.column.gdpr-banner-wrapper
-smartstyle.bg##.in.fade.modal-backdrop
-vsichkioferti.bg###overlay
 afera.bg##[src^="https://cdn1.efbet.com/"]
 afera.bg###aside > .aside-3.banner.aside
 agroplovdiv.bg###logo-right
@@ -365,6 +363,7 @@ portalsz.com##h3:has-text(/^Реклама$/)
 www.abv.bg##.rightBanner
 www.abv.bg##.leftBanner
 www.abv.bg##.abv-Banner
+bglekari.bg##.banneritem
 
 ! allow
 vipoferta.bg#@##signup-popup

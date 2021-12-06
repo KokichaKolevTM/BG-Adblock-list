@@ -98,6 +98,7 @@
 ||bgtourism.bg/wp-content/uploads/rkl*$image
 ||portalsz.com/uploads/banners/$image
 ||bglekari.bg/images/banners/$image
+||umgangrubbler.com^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

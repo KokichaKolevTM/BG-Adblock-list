@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 31
+! Version: 32
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 3 Dec 2021
+! Last modified: 10 Dec 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -99,6 +99,8 @@
 ||portalsz.com/uploads/banners/$image
 ||bglekari.bg/images/banners/$image
 ||umgangrubbler.com^
+||temanews.com/img/banners/$image
+||iwoman.bg/pb.js$script
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -109,6 +111,7 @@
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
 @@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
+@@||adblockanalytics.com^$xhr,domain=filmisub.com
 @@||bg-gledai.live^$generichide
 @@||brat-bg.com/images/Reklama/$image
 @@||googlesyndication.com^$script,domain=jivotni.eu
@@ -365,6 +368,14 @@ www.abv.bg##.rightBanner
 www.abv.bg##.leftBanner
 www.abv.bg##.abv-Banner
 bglekari.bg##.banneritem
+temanews.com##a[href*="banners.php?banners_id="]
+news2.bg##.widget > div:has(> script[src*="pagead2.googlesyndication.com"])
+novinibg.eu###custom_html-41
+novinibg.eu###custom_html-43
+novinibg.eu###custom_html-49
+brat-bg.com###camera_wrap_270
+bulgarianhistory.org##h4:has-text(/^Реклама$/)
+bulgarianhistory.org##.td-a-rec
 
 ! allow
 vipoferta.bg#@##signup-popup

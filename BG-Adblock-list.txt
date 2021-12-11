@@ -101,6 +101,9 @@
 ||umgangrubbler.com^
 ||temanews.com/img/banners/$image
 ||iwoman.bg/pb.js$script
+||petszona.com/uf/banners/$image
+||pahtbt.tech^
+||bglov.com/js/banners.js$script
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -376,6 +379,12 @@ novinibg.eu###custom_html-49
 brat-bg.com###camera_wrap_270
 bulgarianhistory.org##h4:has-text(/^Реклама$/)
 bulgarianhistory.org##.td-a-rec
+hunter.bg##.ban300x250
+zoolubimci.com##+js(ra, onselectstart)
+zoolubimci.com##+js(ra, oncontextmenu)
+bglov.com##[class^="banner-"]
+bglov.com##[id^="banner_"]
+lapichki.com##td[height="260px"]
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 33
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 11 Dec 2021
+! Last modified: 12 Dec 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -104,6 +104,7 @@
 ||petszona.com/uf/banners/$image
 ||pahtbt.tech^
 ||bglov.com/js/banners.js$script
+||1001recepti.com/show_banner.php?
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -236,6 +237,7 @@ pronewsdobrich.bg##[id^="block-"]
 moreto.net###RightBrand
 moreto.net###LeftBrand
 moreto.net##a[href^="https://ad2.moreto.net/"]
+bgmateriali.com##a[href="http://yankod.com"]
 bgmateriali.com##.article-text:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 burgasnovinite.bg##div[id^="HTML"]:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], .azn)
 bgvesti.net,haskovo.net##.wide-banner
@@ -385,6 +387,14 @@ zoolubimci.com##+js(ra, oncontextmenu)
 bglov.com##[class^="banner-"]
 bglov.com##[id^="banner_"]
 lapichki.com##td[height="260px"]
+matematika.bg##.ads
+gotvach.bg##.rkl
+gotvach.bg##.giwrp
+gotvach.bg##.gidm
+gotvach.bg##.gidd
+gotvach.bg##.gidb
+cookwithasmile.com##.item-isotope:has(.post-media-body > script[src*="pagead2.googlesyndication.com"])
+yankod.com##.actual_ad
 
 ! allow
 vipoferta.bg#@##signup-popup

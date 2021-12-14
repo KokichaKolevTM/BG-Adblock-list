@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 34
+! Version: 35
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 12 Dec 2021
+! Last modified: 14 Dec 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -115,7 +115,7 @@
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
 @@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
-@@||adblockanalytics.com^$xhr,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
+@@*$3p,xhr,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
 @@||bg-gledai.live^$generichide
 @@||brat-bg.com/images/Reklama/$image
 @@||googlesyndication.com^$script,domain=jivotni.eu

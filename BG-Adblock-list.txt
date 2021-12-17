@@ -115,7 +115,6 @@
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
 @@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
-@@*$3p,xhr,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
 @@||bg-gledai.live^$generichide
 @@||brat-bg.com/images/Reklama/$image
 @@||googlesyndication.com^$script,domain=jivotni.eu

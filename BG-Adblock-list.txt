@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 35
+! Version: 36
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 14 Dec 2021
+! Last modified: 26 Dec 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -179,7 +179,7 @@ flashnews.bg###custom_html-5
 flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"])
 flashnews.bg##^script[id="wpcp_disable_Right_Click"]
 flashnews.bg##^script[id="wpcp_disable_selection"]
-novsport.com##^meta[http-equiv="refresh"]
+novsport.com##+js(refresh-defuser)
 novsport.com##h1:has-text(/^Реклама$/)
 novsport.com##[class^="rounded-"]:has(> div > h1:has-text(/^Реклама$/))
 novsport.com##div[style*="width: 468px; height: 60px;"]
@@ -241,7 +241,6 @@ bgmateriali.com##.article-text:style(-webkit-touch-callout: default !important; 
 burgasnovinite.bg##div[id^="HTML"]:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], .azn)
 bgvesti.net,haskovo.net##.wide-banner
 bgvesti.net,haskovo.net##.square-banner
-bgvesti.net,haskovo.net#@#.social_icons
 bgvesti.net,haskovo.net##html:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-touch-callout: default !important)
 pbnovini.com##.gofollow
 otzvuk.bg##.gofollow

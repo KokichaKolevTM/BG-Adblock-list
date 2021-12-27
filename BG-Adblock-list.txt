@@ -138,9 +138,10 @@ frognews.bg##.topfrog-ads-blk
 frognews.bg##.world-area-ad
 frognews.bg##.health-ad-blk
 frognews.bg##.politics-area-ad
-frognews.bg##.brc.top-news-area-ad
+frognews.bg##.top-news-area-ad
 frognews.bg##.underground-area-ad
 frognews.bg##.cat-middle-ad-center
+frognews.bg##.health-ads-blk
 petel.bg##.text-center.top-banner
 petel.bg##.left-out-banner
 petel.bg##.right-out-banner

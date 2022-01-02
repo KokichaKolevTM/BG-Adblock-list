@@ -109,6 +109,7 @@
 ||expert.bg/pb.js$script
 ||pirinsko.com/upload/banners/$image
 ||pirinsko.com/banners/$image
+||a.abv.bg^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

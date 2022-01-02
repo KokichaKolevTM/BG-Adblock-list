@@ -165,7 +165,6 @@ gabrovonews.bg##.banner
 nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]
 yavka.net##.rek
 yavka.net##.bar_topadd
-topbg.org##.widget_custom_html.widget.widget_text
 zagoranews.bg##.bg-ad
 zarata.info##.custom-html-widget.textwidget > :not(.fb-page)
 zarata.info##a[style="background-color: yellow;"]

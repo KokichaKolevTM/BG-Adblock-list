@@ -405,6 +405,7 @@ novinite.bg##.banner640
 bukvi.bg###top-banner
 bukvi.bg##.side:has(> div:has-text(/^Реклама$/))
 bukvi.bg##[id^=reklama]
+topbg.org##.widget:has(> div:has-text(/^Реклама$/))
 
 ! allow
 vipoferta.bg#@##signup-popup

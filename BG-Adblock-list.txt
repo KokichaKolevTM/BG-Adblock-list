@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 38
+! Version: 39
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 2 Jan 2022
 ! Expires: 5 days (update frequency)
@@ -164,6 +164,7 @@ gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title
 gabrovonews.bg##.banner
 nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]
 yavka.net##.rek
+yavka.net##.bar_topadd
 topbg.org##.widget_custom_html.widget.widget_text
 zagoranews.bg##.bg-ad
 zarata.info##.custom-html-widget.textwidget > :not(.fb-page)
@@ -402,6 +403,9 @@ yankod.com##.actual_ad
 pirinsko.com##.slidingBanners
 expert.bg##.mega-board
 novinite.bg##.banner640
+bukvi.bg###top-banner
+bukvi.bg##.side:has(> div:has-text(/^Реклама$/))
+bukvi.bg##[id^=reklama]
 
 ! allow
 vipoferta.bg#@##signup-popup

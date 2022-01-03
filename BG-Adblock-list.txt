@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 40
+! Version: 41
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 2 Jan 2022
+! Last modified: 3 Jan 2022
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -406,6 +406,15 @@ bukvi.bg###top-banner
 bukvi.bg##.side:has(> div:has-text(/^Реклама$/))
 bukvi.bg##[id^=reklama]
 topbg.org##.widget:has(> div:has-text(/^Реклама$/))
+artday.bg##a[href="http://www.creativeeurope.bg"]
+artday.bg##a[href^="https://heikotera.com"]
+football24.bg##.widget:has(> div > iframe[src^="https://cdn1.efbet.com/"])
+football24.bg###affcontainer
+prosveshtenieto.com##.widget:has(> h2:has-text(/^Реклама$/i))
+prosveshtenieto.com##[id^="prosv-"]
+prosveshtenieto.com##+js(acis, document.oncontextmenu)
+prosveshtenieto.com##+js(acis, disableSelection)
+prosveshtenieto.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 
 ! allow
 vipoferta.bg#@##signup-popup

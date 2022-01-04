@@ -142,7 +142,12 @@ frognews.bg##.politics-area-ad
 frognews.bg##.top-news-area-ad
 frognews.bg##.underground-area-ad
 frognews.bg##.cat-middle-ad-center
-frognews.bg##.health-ads-blk
+frognews.bg##.article-after-comments-ad
+frognews.bg##.inside-area-right-middle-ad
+frognews.bg##.article-after-text-ad
+frognews.bg##.article-before-donate-ads
+frognews.bg##.inside-area-right-top-ad
+frognews.bg##.topfrog-ads-blk-hl
 petel.bg##.text-center.top-banner
 petel.bg##.left-out-banner
 petel.bg##.right-out-banner
@@ -168,12 +173,6 @@ yavka.net##.bar_topadd
 zagoranews.bg##.bg-ad
 zarata.info##.custom-html-widget.textwidget > :not(.fb-page)
 zarata.info##a[style="background-color: yellow;"]
-frognews.bg##.article-after-comments-ad
-frognews.bg##.inside-area-right-middle-ad
-frognews.bg##.article-after-text-ad
-frognews.bg##.article-before-donate-ads
-frognews.bg##.brc.inside-area-right-top-ad
-frognews.bg##.topfrog-ads-blk-hl
 tribune.bg##.google_adds
 technews.bg##.baner_top
 technews.bg##.baner_after_post
@@ -415,6 +414,10 @@ prosveshtenieto.com##[id^="prosv-"]
 prosveshtenieto.com##+js(acis, document.oncontextmenu)
 prosveshtenieto.com##+js(acis, disableSelection)
 prosveshtenieto.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
+hiddentruth.site##.widget:has(> a[href^="https://accounts.binance.com/bg/register?ref="])
+hiddentruth.site##.widget:has(> div > script[src*="etargetnet.com"],script[src*="eadsrv.com"],script[src*="pagead2.googlesyndication.com"])
+hiddentruth.site##[id^="hidde-"]
+bgtv.club##.col-sm-12:has(> .row > script[src*="pagead2.googlesyndication.com"])
 
 ! allow
 vipoferta.bg#@##signup-popup

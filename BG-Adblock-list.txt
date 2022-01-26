@@ -247,7 +247,7 @@ moreto.net###LeftBrand
 moreto.net##a[href^="https://ad2.moreto.net/"]
 bgmateriali.com##a[href="http://yankod.com"]
 bgmateriali.com##.article-text:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
-burgasnovinite.bg##.widget:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], [src*="etargetnet.com"], .azn)
+burgasnovinite.bg##div[id^="HTML"]:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], [src*="etargetnet.com"], .azn)
 bgvesti.net,haskovo.net##.wide-banner
 bgvesti.net,haskovo.net##.square-banner
 bgvesti.net,haskovo.net##html:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-touch-callout: default !important)

@@ -122,6 +122,7 @@
 @@/advertise-$image,domain=bgvakancia.com
 @@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
 @@||bg-gledai.live^$generichide
+@@||bg-gledai.co^generichide
 @@||brat-bg.com/images/Reklama/$image
 ! @@||googlesyndication.com^$script,domain=jivotni.eu
 ! @@||doubleclick.net^$frame,domain=jivotni.eu
@@ -290,9 +291,9 @@ zagoranews.bg##[id^="ubm-banners-"]
 brato.bg##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select:text !important;)
 brato.bg##+js(acis, document.oncontextmenu)
 vtorifront.bg##[class^="ad-"]
-bg-gledai.live##img[width="728"][height="90"]
-bg-gledai.live##.squarebanner
-bg-gledai.live##.smallbanner
+bg-gledai.live,bg-gledai.co##img[width="728"][height="90"]
+bg-gledai.live,bg-gledai.co##.squarebanner
+bg-gledai.live,bg-gledai.co##.smallbanner
 bul-tv.com##.ban-head
 bul-tv.com##.banner-sticky
 seirsanduk.*##a[href^="https://www.bybit.com/"]

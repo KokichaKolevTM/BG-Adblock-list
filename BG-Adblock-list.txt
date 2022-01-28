@@ -428,6 +428,7 @@ cosmos.1.bg##div:has(> h4:has-text(Реклами))
 grabo.bg##div:has(> iframe[src*="reklama.wisdom.bg"])
 economic.bg##.plakat
 bg-mamma.com##.ad-cont
+pariteni.bg##.wrap-banner
 
 ! allow
 vipoferta.bg#@##signup-popup

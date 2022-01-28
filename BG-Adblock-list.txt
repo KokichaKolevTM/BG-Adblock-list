@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 43
+! Version: 44
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 27 Jan 2022
+! Last modified: 28 Jan 2022
 ! Expires: 6 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -111,6 +111,7 @@
 ||pirinsko.com/banners/$image
 ||a.abv.bg^
 ||ads4g.pl^
+||xlrm-tech.com^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -161,9 +162,6 @@ miau.bg##.gidm
 miau.bg##.gidd
 miau.bg##.gidb
 edna.bg##.edna-adContainer
-pariteni.bg##.row.programatic.wrap-inside-banner.wrap-banner.order-4 > .col-12
-pariteni.bg##div.banner-position-right.wrap-banner:nth-of-type(1)
-pariteni.bg##.border-dotted-top.wrap-banner.pos-banner
 afera.bg##[src^="https://cdn1.efbet.com/"]
 afera.bg###aside > .aside-3.banner.aside
 agroplovdiv.bg###logo-right
@@ -429,6 +427,7 @@ unison.bg##.widget-title:has-text(/^Реклама$/)
 cosmos.1.bg##div:has(> h4:has-text(Реклами))
 grabo.bg##div:has(> iframe[src*="reklama.wisdom.bg"])
 economic.bg##.plakat
+bg-mamma.com##.ad-cont
 
 ! allow
 vipoferta.bg#@##signup-popup

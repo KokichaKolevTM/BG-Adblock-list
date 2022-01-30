@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 45
+! Version: 46
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Jan 2022
 ! Expires: 6 days (update frequency)
@@ -112,6 +112,8 @@
 ||a.abv.bg^
 ||ads4g.pl^
 ||xlrm-tech.com^
+||pariteni.bg/banner.html?$frame
+||track.mediadirectory.net^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -429,6 +431,9 @@ grabo.bg##div:has(> iframe[src*="reklama.wisdom.bg"])
 economic.bg##.plakat
 bg-mamma.com##.ad-cont
 pariteni.bg##.wrap-banner
+kliuki.bg,kliuki.net,kliuki.ws##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])
+kliuki.bg,kliuki.net,kliuki.ws##a[href="http://bit.ly/1EQF6HG"]
+zvezden.com##h3:has-text(/^Реклама$/)
 
 ! allow
 vipoferta.bg#@##signup-popup

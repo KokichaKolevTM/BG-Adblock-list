@@ -115,6 +115,7 @@
 ||pariteni.bg/banner.html?$frame
 ||track.mediadirectory.net^
 ||llofmcdyyp.xyz^
+||fastdxr.com^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

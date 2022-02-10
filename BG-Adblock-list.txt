@@ -134,10 +134,10 @@
 ! Element hiding, Cosmetic filtering & Sciptlets
 !
 ! hide
-~efbet.com##[href^="https://cdn1.efbet.com/"]
-~winbet.bg##[href^="https://affiliates.bg/"]
+~efbet.com,~casinoefbet.com##[href^="https://cdn1.efbet.com/"]
+~winbet.bg##[href^="https://record.winbetaffiliates.bg/"]
 ~winbet.bg##[href^="https://record.winbetaffiliates.com/"]
-~efbet.com##[src^="https://cdn1.efbet.com/"]
+~efbet.com,~casinoefbet.com##[src^="https://cdn1.efbet.com/"]
 ! ~palmsbet.com##a[href^="https://www.palmsbet.com/"]
 plovdiv24.bg###rightbrand
 plovdiv24.bg###leftbrand
@@ -165,7 +165,6 @@ miau.bg##.gidm
 miau.bg##.gidd
 miau.bg##.gidb
 edna.bg##.edna-adContainer
-afera.bg##[src^="https://cdn1.efbet.com/"]
 afera.bg###aside > .aside-3.banner.aside
 agroplovdiv.bg###logo-right
 agroplovdiv.bg##div[id^="widget_sp_image-"]

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 47
+! Version: 48
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 8 Feb 2022
+! Last modified: 10 Feb 2022
 ! Expires: 6 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list/
 !
@@ -134,9 +134,10 @@
 ! Element hiding, Cosmetic filtering & Sciptlets
 !
 ! hide
-##a[href^="https://cdn1.efbet.com/"]
-##a[href^="https://record.winbetaffiliates.bg/"]
-##a[href^="https://record.winbetaffiliates.com/"]
+~efbet.com##[href^="https://cdn1.efbet.com/"]
+~winbet.bg##[href^="https://affiliates.bg/"]
+~winbet.bg##[href^="https://record.winbetaffiliates.com/"]
+~efbet.com##[src^="https://cdn1.efbet.com/"]
 ! ~palmsbet.com##a[href^="https://www.palmsbet.com/"]
 plovdiv24.bg###rightbrand
 plovdiv24.bg###leftbrand
@@ -436,6 +437,11 @@ kliuki.bg,kliuki.net,kliuki.ws##.textwidget:has(script[src*="eadsrv.com"], scrip
 kliuki.bg,kliuki.net,kliuki.ws##a[href="http://bit.ly/1EQF6HG"]
 zvezden.com##h3:has-text(/^Реклама$/)
 digital.bg##.banner-holder
+bmm.bike##.gofollow
+bmm.bike##.widget-title:has-text(/^Реклама$/):upward(.widget)
+bmm.bike##+js(acis, document.oncontextmenu)
+bmm.bike##+js(acis, disableSelection)
+bmm.bike##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 
 ! allow
 vipoferta.bg#@##signup-popup

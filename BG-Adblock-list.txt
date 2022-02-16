@@ -116,6 +116,9 @@
 ||track.mediadirectory.net^
 ||llofmcdyyp.xyz^
 ||fastdxr.com^
+||dntchnyghet.com^
+||najsdnkdqpsd.com^
+||bia-bg.com/images/banner/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -142,6 +145,12 @@
 ~winbet.bg##[href^="https://record.winbetaffiliates.com/"]
 ~efbet.com,~casinoefbet.com##[src^="https://cdn1.efbet.com/"]
 ! ~palmsbet.com##a[href^="https://www.palmsbet.com/"]
+! test
+##.giwrp
+##.gidm
+##.gidd
+##.gidb
+##.gibs
 plovdiv24.bg###rightbrand
 plovdiv24.bg###leftbrand
 frognews.bg##.topfrog-ads-blk
@@ -405,6 +414,7 @@ gotvach.bg##.giwrp
 gotvach.bg##.gidm
 gotvach.bg##.gidd
 gotvach.bg##.gidb
+gotvach.bg##.gids
 cookwithasmile.com##.item-isotope:has(.post-media-body > script[src*="pagead2.googlesyndication.com"])
 yankod.com##.actual_ad
 pirinsko.com##.slidingBanners
@@ -446,6 +456,10 @@ bmm.bike##+js(acis, disableSelection)
 bmm.bike##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 fitnesblog.com##a[href="http://www.fitneshrani.com"]
 afera.bg##.textwidget > p:has(> a[href^="https://record.winbetaffiliates.com/"])
+avtora.com##.bannerClickHandler
+bpost.bg##[id^="bay-"]
+bia-bg.com##.banner_wrap:upward(.tags)
+bia-bg.com##.bottom_banners_wrap
 
 ! allow
 vipoferta.bg#@##signup-popup

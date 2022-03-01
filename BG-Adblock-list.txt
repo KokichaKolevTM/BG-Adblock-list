@@ -153,7 +153,6 @@
 ##.gibs
 plovdiv24.bg###rightbrand
 plovdiv24.bg###leftbrand
-frognews.bg##.topfrog-ads-blk
 frognews.bg##.world-area-ad
 frognews.bg##.health-ad-blk
 frognews.bg##.politics-area-ad
@@ -166,6 +165,8 @@ frognews.bg##.article-after-text-ad
 frognews.bg##.article-before-donate-ads
 frognews.bg##.inside-area-right-top-ad
 frognews.bg##.topfrog-ads-blk-hl
+frognews.bg##.health-ads-blk
+frognews.bg##.business-ads
 petel.bg##.top-banner
 petel.bg##.left-out-banner
 petel.bg##.right-out-banner

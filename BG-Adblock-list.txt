@@ -11,8 +11,6 @@
 ||adwise.bg^$3p
 ||bimg.abv.bg^
 ||img.abv.bg/*/as.adwise.bg/
-||advertere.zamunda.net^
-||advertere.zamunda.ch^
 ||i.id24.bg/bans/
 ||linker.bg^$3p
 ||reklama.wisdom.bg^

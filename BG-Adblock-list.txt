@@ -116,6 +116,8 @@
 ||dntchnyghet.com^
 ||najsdnkdqpsd.com^
 ||bia-bg.com/images/banner/$image
+||static.domain_name^
+||dotcom10.info^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

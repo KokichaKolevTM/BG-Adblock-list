@@ -464,7 +464,7 @@ bia-bg.com##.banner_wrap:upward(.tags)
 bia-bg.com##.bottom_banners_wrap
 monitor.bg##.plakat:has(> a[href^="/bg/prenasochvane/"])
 zamundatv.com##+js(nowoif)
-zamundatv.com##iframe[style="width: 1px; height: 1px; opacity: 0;"]
+zamundatv.com##[href*="agacelebir.com"]
 informiraise.us##.widget:has(> .textwidget > script[src*="pagead2.googlesyndication.com"],script[src*="waust.at"])
 
 ! allow

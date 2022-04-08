@@ -133,6 +133,7 @@
 @@||bg-gledai.co^$generichide
 @@||brat-bg.com/images/Reklama/$image
 @@||168chasa.bg/Scripts/ad-checker.js$script
+@@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg
 ! @@||googlesyndication.com^$script,domain=jivotni.eu
 ! @@||doubleclick.net^$frame,domain=jivotni.eu
 

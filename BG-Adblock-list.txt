@@ -119,6 +119,7 @@
 ||static.domain_name^
 ||dotcom10.info^
 ||ttnywdboyxyhucy.xyz^
+||xbugdtnmycyp.xyz^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

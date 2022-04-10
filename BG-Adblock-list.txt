@@ -187,7 +187,6 @@ nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml
 yavka.net##.rek
 yavka.net##.bar_topadd:not(> .alert)
 zagoranews.bg##.bg-ad
-zarata.info##.custom-html-widget.textwidget > :not(.fb-page)
 zarata.info##a[style="background-color: yellow;"]
 tribune.bg##.google_adds
 technews.bg##.baner_top

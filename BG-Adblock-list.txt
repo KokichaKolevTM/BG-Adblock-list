@@ -118,6 +118,8 @@
 ||dotcom10.info^
 ||ttnywdboyxyhucy.xyz^
 ||xbugdtnmycyp.xyz^
+/^https:\/\/[a-z]{8,}\.(xyz|net|com)\/.*[a-z0-9]{1,}\.html$/$3p,frame,domain=zamundatv.com
+||karlovopress.com/assets/img/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -127,7 +129,9 @@
 @@||botevgrad.com/uploads/advertisement/$image
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
-@@/adblock/*$script,domain=filmisub.com|netfilmi.com|filmi7.com|kinofen.net
+@@/adblock/*$script,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net
+@@.js|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net
+@@||.*/|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net
 @@||bg-gledai.live^$generichide
 @@||bg-gledai.co^$generichide
 @@||brat-bg.com/images/Reklama/$image
@@ -464,6 +468,12 @@ monitor.bg##.plakat:has(> a[href^="/bg/prenasochvane/"])
 zamundatv.com##+js(nowoif)
 zamundatv.com##[href*="agacelebir.com"]
 informiraise.us##.widget:has(> .textwidget > script[src*="pagead2.googlesyndication.com"],script[src*="waust.at"])
+ifilmi.net##script[src*="pagead2.googlesyndication.com"]:upward(.content)
+data.bg###bannertop_new
+nenovinite.com##.ad
+razkritia.com##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])
+razkritia.com##a[href="http://bit.ly/1EQF6HG"]
+potv.bg##.mb-4.col-lg-auto:has(> div > div > div > .adsbygoogle):first-of-type
 
 ! allow
 vipoferta.bg#@##signup-popup

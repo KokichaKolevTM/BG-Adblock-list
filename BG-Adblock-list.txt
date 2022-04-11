@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 55
+! Version: 56
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 11 Apr 2022
 ! Expires: 7 days (update frequency)
@@ -28,7 +28,6 @@
 ||netinfo.bg/abv/counters.html
 ||a.actualno.com^
 ||ads2native.com^
-||segabg.com/*/statistics.php
 ||ad2.moreto.net^
 ||moreto.net/*-ads.php
 ||adserver.bta.bg^
@@ -119,7 +118,7 @@
 ||ttnywdboyxyhucy.xyz^
 ||xbugdtnmycyp.xyz^
 /^https:\/\/[a-z]{8,}\.(xyz|net|com)\/.*[a-z0-9]{1,}\.html$/$3p,frame,domain=zamundatv.com
-/^https:\/\/(www\.)?[a-z]{8,}\.com\/[a-zA-Z]{1,}\.(js|aspx|asp|html)/$3p,script,domain=filmiplay.com|filmisub.com|filmibg.top
+/^https:\/\/(www\.)?[a-z]{8,}\.com\/[a-zA-Z]{1,}\.(js|aspx|asp|html|htm|php)/$3p,script,domain=filmiplay.com|filmisub.com|filmibg.top
 ||karlovopress.com/assets/img/banners/$image
 
 ! allow

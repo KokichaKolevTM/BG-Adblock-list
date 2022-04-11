@@ -119,7 +119,7 @@
 ||ttnywdboyxyhucy.xyz^
 ||xbugdtnmycyp.xyz^
 /^https:\/\/[a-z]{8,}\.(xyz|net|com)\/.*[a-z0-9]{1,}\.html$/$3p,frame,domain=zamundatv.com
-/^https:\/\/(www\.)?[a-z]{8,}\.com\/[a-zA-Z]{1,}\.(js|aspx|html)/$3p,script,domain=filmiplay.com
+/^https:\/\/(www\.)?[a-z]{8,}\.com\/[a-zA-Z]{1,}\.(js|aspx|asp|html)/$3p,script,domain=filmiplay.com|filmisub.com|filmibg.top
 ||karlovopress.com/assets/img/banners/$image
 
 ! allow

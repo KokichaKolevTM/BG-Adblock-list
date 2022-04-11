@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 54
+! Version: 55
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 10 Apr 2022
+! Last modified: 11 Apr 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -119,6 +119,7 @@
 ||ttnywdboyxyhucy.xyz^
 ||xbugdtnmycyp.xyz^
 /^https:\/\/[a-z]{8,}\.(xyz|net|com)\/.*[a-z0-9]{1,}\.html$/$3p,frame,domain=zamundatv.com
+/^https:\/\/(www\.)?[a-z]{8,}\.com\/[a-zA-Z]{1,}\.(js|aspx|html)/$3p,script,domain=filmiplay.com
 ||karlovopress.com/assets/img/banners/$image
 
 ! allow

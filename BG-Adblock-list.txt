@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 58
+! Version: 59
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 14 Apr 2022
 ! Expires: 7 days (update frequency)
@@ -471,6 +471,7 @@ nenovinite.com##.ad
 razkritia.com##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])
 razkritia.com##a[href="http://bit.ly/1EQF6HG"]
 potv.bg##.mb-4.col-lg-auto:has(> div > div > div > .adsbygoogle):first-of-type
+filmiplay.com##+js(nowoif)
 
 ! allow
 vipoferta.bg#@##signup-popup

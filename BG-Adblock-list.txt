@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 59
+! Version: 60
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 14 Apr 2022
+! Last modified: 21 Apr 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -115,7 +115,6 @@
 ||bia-bg.com/images/banner/$image
 ||static.domain_name^
 ||dotcom10.info^
-
 ||karlovopress.com/assets/img/banners/$image
 
 ! allow
@@ -145,8 +144,9 @@
 ~winbet.bg##[href^="https://record.winbetaffiliates.bg/"]
 ~winbet.bg##[href^="https://record.winbetaffiliates.com/"]
 ~efbet.com,~casinoefbet.com##[src^="https://cdn1.efbet.com/"]
-! ~palmsbet.com##a[href^="https://www.palmsbet.com/"]
+! ~palmsbet.com##[href^="https://www.palmsbet.com/"]
 ! test
+##.SC_TBlock
 ##.giwrp
 ##.gidm
 ##.gidd
@@ -472,6 +472,10 @@ razkritia.com##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetne
 razkritia.com##a[href="http://bit.ly/1EQF6HG"]
 potv.bg##.mb-4.col-lg-auto:has(> div > div > div > .adsbygoogle):first-of-type
 filmiplay.com##+js(nowoif)
+cinemabg.club##+js(nowoif)
+coreni.net##.widget-title:has-text(/^Реклама$/)
+vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
+vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])
 
 ! allow
 vipoferta.bg#@##signup-popup

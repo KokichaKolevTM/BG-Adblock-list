@@ -442,7 +442,7 @@ pero.bg##.ezclpok
 signal.bg##[id^=signal-]:has-text(Реклама)
 unison.bg##.widget-title:has-text(/^Реклама$/)
 cosmos.1.bg##div:has(> h4:has-text(Реклами))
-grabo.bg##div:has(> iframe[src*="reklama.wisdom.bg"])
+grabo.bg##div[class]:has(> iframe[src*="reklama.wisdom.bg"])
 economic.bg##.plakat
 bg-mamma.com##.ad-cont
 pariteni.bg##.wrap-banner

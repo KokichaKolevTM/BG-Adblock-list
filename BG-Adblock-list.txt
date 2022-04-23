@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 60
+! Version: 61
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 21 Apr 2022
+! Last modified: 23 Apr 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -116,20 +116,20 @@
 ||static.domain_name^
 ||dotcom10.info^
 ||karlovopress.com/assets/img/banners/$image
+||adnet.bg^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
-@@||i.id24.bg/bans/covid19icon.png$image
+@@||id24.bg/bans/covid19icon.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
 @@||seirsanduk.*/popunder.js$script
 @@||botevgrad.com/uploads/advertisement/$image
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
-@@/adblock/*$script,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net
-@@.js|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net
-@@||.*/|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net
-@@||bg-gledai.live^$generichide
-@@||bg-gledai.co^$generichide
+@@/adblock/*$script,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com
+@@.js|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com
+@@||.*/|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com
+@@*$generichide,domain=bg-gledai.live|bg-gledai.co
 @@||brat-bg.com/images/Reklama/$image
 @@||168chasa.bg/Scripts/ad-checker.js$script
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg

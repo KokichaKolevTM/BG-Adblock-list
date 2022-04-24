@@ -8,6 +8,10 @@
 ! Network rules
 !
 ! block
+/cp.js|$script
+/wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com
+/wp-content/plugins/wp-content-copy-protection/*$domain=bul-tv.com|gledaibgtv.com|tvmaniabg.com
+.gif|$image,1p,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 ||adwise.bg^$3p
 ||bimg.abv.bg^
 ||img.abv.bg^*/as.adwise.bg/
@@ -67,8 +71,6 @@
 ||adsy.mail.bg^
 ||stats.icdsoft.com^
 ||snickchangesolder.com^
-/wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com
-/wp-content/plugins/wp-content-copy-protection/*$domain=bul-tv.com|gledaibgtv.com|tvmaniabg.com
 ||affiliates.palmsbet.com^$3p
 ||divident.eu/uploads/banners/$image
 ||az-jenata.bg/js/copyinject.js$script
@@ -82,10 +84,8 @@
 ||androidbg.com/images/a/$image
 ||invitrobg.com/wp-content/uploads/*/banner*$image
 ||bg-voice.com/wp-content/themes/zox-news/js/clappr.ads.js$script
-.gif|$image,1p,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 ||kotasport.com/wp-content/uploads/ads*$image
 ||pahtvs.tech^
-/cp.js|$script,domain=24chasa.bg|copypoison.com|168chasa.bg|24plovdiv.bg|bntnews.bg|bg.online-television.net|bgdnes.bg
 ||htagpa.tech^
 ||pahthf.tech^
 ||24zdrave.bg/Scripts/GemiusPrism.js$script
@@ -120,10 +120,12 @@
 ||arenabg.com/var/inbet/$frame
 ||vipoferta.bg/tracking/
 ||rapolok.com^
+||lekar.bg/wp-content/uploads/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
 @@||id24.bg/bans/covid19icon.png$image
+@@||id24.bg/bans/sendnn.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
 @@||seirsanduk.*/popunder.js$script
 @@||botevgrad.com/uploads/advertisement/$image
@@ -485,6 +487,12 @@ opoznai.bg##a[href^="https://grabo.bg/vinetki/?affid="]
 opoznai.bg###b340x100
 bgtop.net##div[style="width:300px;height:600px;"]
 bgtop.net##div[style="width:300px;height:250px;"]
+dariknews.bg##.responsive-banner
+dariknews.bg##.banner-wrapper-common
+kakda.org##.widget:has(.widget-title:has-text(/^Реклама$/))
+lekar.bg##div[style*="width:320px; height:90px;"]
+lekar.bg##div[style*="width:336px; height:280px;"]
+omed.bg##.oto-adv-text
 
 ! allow
 vipoferta.bg#@##signup-popup

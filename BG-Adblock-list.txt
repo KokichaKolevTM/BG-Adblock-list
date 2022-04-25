@@ -117,6 +117,7 @@
 ||rapolok.com^
 ||lekar.bg/wp-content/uploads/banners/$image
 ||spotsniper.ru^
+||svejo.net/assets/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -489,6 +490,7 @@ kakda.org##.widget:has(.widget-title:has-text(/^Реклама$/))
 lekar.bg##div[style*="width:320px; height:90px;"]
 lekar.bg##div[style*="width:336px; height:280px;"]
 omed.bg##.oto-adv-text
+svejo.net##.banner
 
 ! allow
 vipoferta.bg#@##signup-popup

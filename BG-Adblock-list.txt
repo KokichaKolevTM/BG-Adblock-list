@@ -15,7 +15,7 @@
 ||adwise.bg^$3p
 ||bimg.abv.bg^
 ||img.abv.bg^*/as.adwise.bg/
-||i.id24.bg/bans/
+||id24.bg/bans/
 ||linker.bg^$3p
 ||reklama.wisdom.bg^
 ||emag.bg/garez.php?

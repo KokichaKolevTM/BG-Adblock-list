@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 63
+! Version: 64
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 24 Apr 2022
+! Last modified: 25 Apr 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -50,7 +50,6 @@
 ||adserver.bg^
 ||add.cross.bg^
 ||easyads.bg^$3p
-||rot.spotsniper.ru^$domain=alfabass-tvfree.do.am
 ||adrain.check-system.online^$3p
 ||natsr.pro^
 ||stz24.com/template/stz24/banner/$image
@@ -75,7 +74,6 @@
 ||divident.eu/uploads/banners/$image
 ||az-jenata.bg/js/copyinject.js$script
 ||poezia.ucoz.net/rtr/
-||sportrecs.com^$domain=poezia.bg
 ||blagoevgrad.eu/banners/$image
 ||delo.bg/wp-content/uploads/2015/09/check.bg-wall.jpg$image
 ||chjhsfctkeve.xyz^
@@ -108,10 +106,7 @@
 ||xlrm-tech.com^
 ||pariteni.bg/banner.html?$frame
 ||track.mediadirectory.net^
-||llofmcdyyp.xyz^
 ||fastdxr.com^
-||dntchnyghet.com^
-||najsdnkdqpsd.com^
 ||bia-bg.com/images/banner/$image
 ||static.domain_name^
 ||dotcom10.info^
@@ -121,6 +116,7 @@
 ||vipoferta.bg/tracking/
 ||rapolok.com^
 ||lekar.bg/wp-content/uploads/banners/$image
+||spotsniper.ru^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -482,7 +478,7 @@ coreni.net##.widget-title:has-text(/^Реклама$/)
 vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])
 arenabg.com##.lozad:upward([id^="spot-"])
-arenabg.com##a[href^="https://kolite.bg/bg/?ref=arenabg"]
+arenabg.com##a[href="https://kolite.bg/bg/?ref=arenabg"]
 opoznai.bg##a[href^="https://grabo.bg/vinetki/?affid="]
 opoznai.bg###b340x100
 bgtop.net##div[style="width:300px;height:600px;"]

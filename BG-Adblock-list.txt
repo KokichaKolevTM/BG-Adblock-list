@@ -11,7 +11,7 @@
 /cp.js|$script
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com
 /wp-content/plugins/wp-content-copy-protection/*$domain=bul-tv.com|gledaibgtv.com|tvmaniabg.com
-.gif|$image,1p,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
+.gif|$1p,image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 ||adwise.bg^$3p
 ||bimg.abv.bg^
 ||img.abv.bg^*/as.adwise.bg/

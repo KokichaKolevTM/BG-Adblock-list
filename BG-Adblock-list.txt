@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 65
+! Version: 66
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 27 Apr 2022
+! Last modified: 28 Apr 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -16,7 +16,7 @@
 ||bimg.abv.bg^
 ||img.abv.bg^*/as.adwise.bg/
 ||id24.bg/bans/
-||linker.bg^$3p
+||linker.bg^
 ||reklama.wisdom.bg^
 ||emag.bg/garez.php?
 ||eadsrv.com^
@@ -50,7 +50,7 @@
 ||adserver.bg^
 ||add.cross.bg^
 ||easyads.bg^$3p
-||adrain.check-system.online^$3p
+||adrain.check-system.online^
 ||natsr.pro^
 ||stz24.com/template/stz24/banner/$image
 ||ads-bg.net^$3p
@@ -493,6 +493,13 @@ omed.bg##.oto-adv-text
 svejo.net##.banner
 blitz.bg##.widget-title:has-text(/^РЕКЛАМА$/)
 blitz.bg##.ad-container
+glasove.com##.ads
+football24.bg##div[style]:has(> [src^="https://cdn1.efbet.com/"])
+dsport.bg##.ads
+dsport.bg##.ads-ggl
+dsport.bg##.paid-banner
+dsport.bg##.logo8888[href*="?aff_id="]
+strelanews.com##a[href^="https://grandhotelbansko.bg/offer/"]
 
 ! allow
 vipoferta.bg#@##signup-popup

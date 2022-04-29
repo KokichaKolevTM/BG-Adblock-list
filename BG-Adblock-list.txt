@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 66
+! Version: 67
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 28 Apr 2022
+! Last modified: 29 Apr 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -500,6 +500,10 @@ dsport.bg##.ads-ggl
 dsport.bg##.paid-banner
 dsport.bg##.logo8888[href*="?aff_id="]
 strelanews.com##a[href^="https://grandhotelbansko.bg/offer/"]
+nixanbal.com##img[width="300"][height="250"]
+nixanbal.com##img[width="300"][height="350"]
+filmi.club##+js(nowoif)
+myonvideo.com###ads_side_eta
 
 ! allow
 vipoferta.bg#@##signup-popup

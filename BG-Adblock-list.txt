@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 67
+! Version: 68
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 29 Apr 2022
+! Last modified: 2 May 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -118,6 +118,7 @@
 ||lekar.bg/wp-content/uploads/banners/$image
 ||spotsniper.ru^
 ||svejo.net/assets/banners/$image
+||inbetpartners.com^$3p
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -135,6 +136,8 @@
 @@||brat-bg.com/images/Reklama/$image
 @@||168chasa.bg/Scripts/ad-checker.js$script
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg
+@@||player.bgestv.com/ad/api/popunder.js$script
+@@||player.bgestv.com/ad/banner/_adsense_/_adserver/_adview_.ad.json$xhr
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -504,6 +507,10 @@ nixanbal.com##img[width="300"][height="250"]
 nixanbal.com##img[width="300"][height="350"]
 filmi.club##+js(nowoif)
 myonvideo.com###ads_side_eta
+arenabg.com##div[id^="spot-"]:has(> script[src^="https://js.inbetpartners.com"])
+epicenter.bg##.div_kare_r:matches-css(width: 300px):has(> a[href]:not([href^="/author/"]) > img[style="padding-top:10px;"])
+bgestv.com##+js(nowoif)
+offroad-bulgaria.com##a[href^="https://www.autodoc.bg/"], a[href^="https://gumi.avtochastionline24.bg/"], a[href^="https://www.euavtochasti.bg/"]:upward([id^="widget_"])
 
 ! allow
 vipoferta.bg#@##signup-popup

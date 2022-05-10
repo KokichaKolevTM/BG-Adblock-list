@@ -119,6 +119,7 @@
 ||spotsniper.ru^
 ||svejo.net/assets/banners/$image
 ||inbetpartners.com^$3p
+||zx-adnet.com^$3p
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

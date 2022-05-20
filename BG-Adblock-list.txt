@@ -264,7 +264,7 @@ pronewsdobrich.bg##[id^="block-"]
 moreto.net###RightBrand
 moreto.net###LeftBrand
 moreto.net##a[href^="https://ad2.moreto.net/"]
-bgmateriali.com##a[href="http://yankod.com"]
+bgmateriali.com##a[href="http://yankod.com"] > img
 bgmateriali.com##.article-text:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 burgasnovinite.bg##div[id^="HTML"]:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], [src*="etargetnet.com"], .azn)
 bgvesti.net,haskovo.net##.wide-banner
@@ -430,8 +430,8 @@ bukvi.bg###top-banner
 bukvi.bg##.side:has(> div:has-text(/^Реклама$/))
 bukvi.bg##[id^=reklama]
 topbg.org##.widget:has(> div:has-text(/^Реклама$/))
-artday.bg##a[href="http://www.creativeeurope.bg"]
-artday.bg##a[href^="https://heikotera.com"]
+artday.bg##a[href="http://www.creativeeurope.bg"] > img
+artday.bg##a[href^="https://heikotera.com?utm_"] > img
 football24.bg##.widget:has(> div > iframe[src^="https://cdn1.efbet.com/"])
 football24.bg###affcontainer
 prosveshtenieto.com##.widget:has(> h2:has-text(/^Реклама$/i))
@@ -460,7 +460,8 @@ bmm.bike##.widget-title:has-text(/^Реклама$/):upward(.widget)
 bmm.bike##+js(acis, document.oncontextmenu)
 bmm.bike##+js(acis, disableSelection)
 bmm.bike##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
-fitnesblog.com##a[href="http://www.fitneshrani.com"]
+fitnesblog.com##a[href="http://www.fitneshrani.com"][id="background-link"]
+fitnesblog.com##a[href="http://www.fitneshrani.com"] > img
 afera.bg##.textwidget > p:has(> a[href^="https://record.winbetaffiliates.com/"])
 avtora.com##.bannerClickHandler
 bpost.bg##[id^="bay-"]
@@ -501,7 +502,7 @@ dsport.bg##.ads
 dsport.bg##.ads-ggl
 dsport.bg##.paid-banner
 dsport.bg##.logo8888[href*="?aff_id="]
-strelanews.com##a[href^="https://grandhotelbansko.bg/offer/"]
+strelanews.com##a[href^="https://grandhotelbansko.bg/offer/"] > img
 nixanbal.com##img[width="300"][height="250"]
 nixanbal.com##img[width="300"][height="350"]
 filmi.club##+js(nowoif)

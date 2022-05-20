@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 68
+! Version: 69
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 2 May 2022
+! Last modified: 20 May 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -138,7 +138,6 @@
 @@||168chasa.bg/Scripts/ad-checker.js$script
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg
 @@||player.bgestv.com/ad/api/popunder.js$script
-@@||player.bgestv.com/ad/banner/_adsense_/_adserver/_adview_.ad.json$xhr
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 71
+! Version: 72
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 28 May 2022
+! Last modified: 29 May 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -123,6 +123,7 @@
 ||counter.search.bg^
 ||skandal.bg/pic/banners/
 ||adhash.bg^$3p
+||lupa.bg/f/banners/$image
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -520,6 +521,8 @@ telegraph.bg##.banner
 dir.bg##.article-banners
 skandal.bg##.banner
 hotnews.bg##.banner__wrapper
+skafeto.com##[id^="skafe-"]
+lupa.bg##.banner-holder-new
 
 ! allow
 vipoferta.bg#@##signup-popup

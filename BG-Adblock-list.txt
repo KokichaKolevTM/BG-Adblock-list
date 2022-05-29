@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 72
+! Version: 73
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 29 May 2022
 ! Expires: 7 days (update frequency)
@@ -140,7 +140,7 @@
 @@*$generichide,domain=bg-gledai.live|bg-gledai.co
 @@||brat-bg.com/images/Reklama/$image
 @@||168chasa.bg/Scripts/ad-checker.js$script
-@@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg
+@@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg|dunavmost.com
 @@||player.bgestv.com/ad/api/popunder.js$script
 
 !
@@ -410,7 +410,6 @@ news2.bg##.widget > div:has(> script[src*="pagead2.googlesyndication.com"])
 novinibg.eu###custom_html-41
 novinibg.eu###custom_html-43
 novinibg.eu###custom_html-49
-brat-bg.com###camera_wrap_270
 bulgarianhistory.org##h4:has-text(/^Реклама$/)
 bulgarianhistory.org##.td-a-rec
 hunter.bg##.ban300x250
@@ -523,6 +522,8 @@ skandal.bg##.banner
 hotnews.bg##.banner__wrapper
 skafeto.com##[id^="skafe-"]
 lupa.bg##.banner-holder-new
+brat-bg.com##.camera_wrap
+brat-bg.com##.banneritem
 
 ! allow
 vipoferta.bg#@##signup-popup

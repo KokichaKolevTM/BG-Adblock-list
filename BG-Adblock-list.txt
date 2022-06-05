@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 74
+! Version: 75
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 31 May 2022
+! Last modified: 5 Jun 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -125,6 +125,10 @@
 ||adhash.bg^$3p
 ||lupa.bg/f/banners/$image
 ||ad.serv1for.pro^
+||kazanlak.com/common/buss/adv-$image
+||dnevnik.bg/js/videojs/ads.js$script
+||dnevnik.bg/js/videojs/videojs.ads.min.js$script
+||cdn.economedia.bg/minj/*youtube.analytics.js$script
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -525,6 +529,24 @@ skafeto.com##[id^="skafe-"]
 lupa.bg##.banner-holder-new
 brat-bg.com##.camera_wrap
 brat-bg.com##.banneritem
+kazanlak.com##.bussadvert
+kazanlak.com##.bussadvert + .clrn10
+kazanlak.com##.bussadvert + .clrn10 + .horline
+kazanlak.com##.bi-inpage-horads
+par4eta.com##[id^="media_image-"]:has(> a[href] > img[src])
+dnevnik.bg##.banner-box
+dnevnik.bg##.banner
+dnevnik.bg##.module:has(> .smodule > .banner-box)
+odit.info###b300
+odit.info###b728
+odit.info###b468
+karieri.bg##.ad-unit-tags
+regal.bg##.ban
+regal.bg###topBanRow
+regal.bg##.banner468x60
+digitalk.bg##.advertising
+digitalk.bg##.banner-box
+novinite24.eu##div[style="width:100%; height:600px;"]:has(> script[src*="pagead2.googlesyndication.com"])
 
 ! allow
 vipoferta.bg#@##signup-popup

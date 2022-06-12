@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 75
+! Version: 76
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 5 Jun 2022
+! Last modified: 12 Jun 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -129,6 +129,8 @@
 ||dnevnik.bg/js/videojs/ads.js$script
 ||dnevnik.bg/js/videojs/videojs.ads.min.js$script
 ||cdn.economedia.bg/minj/*youtube.analytics.js$script
+||bgmaps.com/statistics/
+||profitshare.bg^$3p
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
@@ -147,6 +149,7 @@
 @@||168chasa.bg/Scripts/ad-checker.js$script
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg|dunavmost.com
 @@||player.bgestv.com/ad/api/popunder.js$script
+@@/wp-content/plugins/dh-anti-adblocker/*$1p,script
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -547,6 +550,10 @@ regal.bg##.banner468x60
 digitalk.bg##.advertising
 digitalk.bg##.banner-box
 novinite24.eu##div[style="width:100%; height:600px;"]:has(> script[src*="pagead2.googlesyndication.com"])
+duma.com###frsNews_banners
+bstv.bg##.banner > a:not([href^="https://bstv.bg/"])
+zakazanlak.bg##img[alt="Ad"]
+ams.bg###leaderboard
 
 ! allow
 vipoferta.bg#@##signup-popup

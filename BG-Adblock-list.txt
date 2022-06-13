@@ -551,7 +551,7 @@ digitalk.bg##.advertising
 digitalk.bg##.banner-box
 novinite24.eu##div[style="width:100%; height:600px;"]:has(> script[src*="pagead2.googlesyndication.com"])
 duma.com###frsNews_banners
-bstv.bg##.banner > a:not([href^="https://bstv.bg/"])
+bstv.bg##.banner > a[href]:not([href^="https://bstv.bg/"])
 zakazanlak.bg##img[alt="Ad"]
 ams.bg###leaderboard
 

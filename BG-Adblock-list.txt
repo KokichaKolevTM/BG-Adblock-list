@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 76
+! Version: 77
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 12 Jun 2022
+! Last modified: 14 Jun 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -204,7 +204,7 @@ gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title
 gabrovonews.bg##.banner
 nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]
 yavka.net##.rek
-yavka.net##.bar_topadd:not(.alert)
+yavka.net##.bar_topadd:not(:has(.alert))
 zagoranews.bg##.bg-ad
 zarata.info##a[style="background-color: yellow;"]
 tribune.bg##.google_adds

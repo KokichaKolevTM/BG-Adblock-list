@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 77
+! Version: 78
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 14 Jun 2022
+! Last modified: 28 Jun 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -20,7 +20,7 @@
 ||reklama.wisdom.bg^
 ||emag.bg/garez.php?
 ||eadsrv.com^
-||frognews.bg/*/rekl.js$script
+||frognews.bg^*/rekl.js$script
 ||b1.alo.bg^
 ||stats.jobs.bg^
 ||stats2.jobs.bg^
@@ -33,7 +33,7 @@
 ||a.actualno.com^
 ||ads2native.com^
 ||ad2.moreto.net^
-||moreto.net/*-ads.php
+||moreto.net^*-ads.php
 ||adserver.bta.bg^
 ||mediapool.bg/assets/js/ads_deffinitions.js$script
 ||webnews.bg/assets/js/jquery.ads.js$script
@@ -131,6 +131,7 @@
 ||cdn.economedia.bg/minj/*youtube.analytics.js$script
 ||bgmaps.com/statistics/
 ||profitshare.bg^$3p
+||fastdmr.com^
 
 ! allow
 @@||vivacom.bg/*/tv-channels-logos/*-ad1.$image

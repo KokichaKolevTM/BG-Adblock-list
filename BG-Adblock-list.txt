@@ -24,7 +24,6 @@
 ||b1.alo.bg^
 ||stats.jobs.bg^
 ||stats2.jobs.bg^
-||ad.petel.bg^
 ||espresso-reklam.eu^
 ||dir.bg/js_myads.php?
 ||dir.bg/js_ext.php?

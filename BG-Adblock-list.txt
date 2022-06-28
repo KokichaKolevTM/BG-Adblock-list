@@ -133,7 +133,7 @@
 ||fastdmr.com^
 
 ! allow
-@@||vivacom.bg/*/tv-channels-logos/*-ad1.$image
+@@||vivacom.bg^*/tv-channels-logos/*-ad1.$image
 @@||id24.bg/bans/covid19icon.png$image
 @@||id24.bg/bans/sendnn.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image

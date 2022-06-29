@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 78
+! Version: 79
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 28 Jun 2022
+! Last modified: 29 Jun 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -130,6 +130,7 @@
 ||bgmaps.com/statistics/
 ||profitshare.bg^$3p
 ||fastdmr.com^
+||analytics.bluedottech.io^
 
 ! allow
 @@||vivacom.bg^*/tv-channels-logos/*-ad1.$image
@@ -149,6 +150,7 @@
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg|dunavmost.com
 @@||player.bgestv.com/ad/api/popunder.js$script
 @@/wp-content/plugins/dh-anti-adblocker/*$1p,script
+@@*$generichide,domain=webcafe.bg|chr.bg|mamamia.bg
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -553,6 +555,18 @@ duma.com###frsNews_banners
 bstv.bg##.banner > a[href]:not([href^="https://bstv.bg/"])
 zakazanlak.bg##img[alt="Ad"]
 ams.bg###leaderboard
+24novini.bg,bgsport.bg,spravka.bg,jiloto.com,timeart.bg,farmar.bg,mediafax.bg,24info.bg##.td-a-rec
+bremenna.bg##.main-box:has(> h3[class]:has-text(/^Реклама$/))
+mediapool.bg##.header_banner_container
+mediapool.bg##.banner
+mediapool.bg##.etarget_container
+mamamia.bg##[id^="div-gpt-ad"]
+webcafe.bg##.container:has(a[href^="https://shop.gladen.bg/?utm_"])
+webcafe.bg##.banner
+eurocom.bg##.col-12:has(> script + div[class] > strong:has-text(/^ADS$/))
+marica.bg##.ads-container
+marica.bg##.ad
+bubolechko.com##.widget:has(> .textwidget > script[src*="pagead2.googlesyndication.com"])
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -32,7 +32,6 @@
 ||a.actualno.com^
 ||ads2native.com^
 ||moreto.net^*-ads.php
-||adserver.bta.bg^
 ||mediapool.bg/assets/js/ads_deffinitions.js$script
 ||webnews.bg/assets/js/jquery.ads.js$script
 ||ping.contactpigeon.com/bi/bail/

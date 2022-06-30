@@ -131,6 +131,8 @@
 ||profitshare.bg^$3p
 ||fastdmr.com^
 ||analytics.bluedottech.io^
+||adrain.bg^$3p
+||bird.bg/?mailoptin-ajax=track_optin_impression
 
 ! allow
 @@||vivacom.bg^*/tv-channels-logos/*-ad1.$image
@@ -567,6 +569,14 @@ eurocom.bg##.col-12:has(> script + div[class] > strong:has-text(/^ADS$/))
 marica.bg##.ads-container
 marica.bg##.ad
 bubolechko.com##.widget:has(> .textwidget > script[src*="pagead2.googlesyndication.com"])
+informiran.net##.widget > .widget-title:has-text(/промоция:/i)
+informiran.net##.widget:has(> .widget-title:has-text(/^реклама$/i))
+informiran.net##center,div[class][style]:has(> script[src*="ads.httpool.com"],script[src*="pagead2.googlesyndication.com"])
+informiran.net##p:has-text(/^There is no ads to display, Please add some$/i)
+bgspomen.com##center:has-text(/^РЕКЛАМА$/)
+lifebg.eu,lifebg.net##+js(nowoif, /share4pay|smarthome.mall24.bg/)
+lifebg.eu,lifebg.net##[id^="text-"][class]:has(> .textwidget > div[style]:has(script[src*="static.criteo.net"],script[src*="pagead2.googlesyndication.com"]))
+lifebg.eu,lifebg.net##div[style]:has(> #abloleft + #abloright)
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -138,7 +138,8 @@
 @@||id24.bg/bans/covid19icon.png$image
 @@||id24.bg/bans/sendnn.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
-@@/popunder.js$script,domain=seirsanduk.*|seir-sanduk.*
+@@||seirsanduk.*/popunder.js$script
+@@||seir-sanduk.*/popunder.js$script
 @@||botevgrad.com/uploads/advertisement/$image
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com

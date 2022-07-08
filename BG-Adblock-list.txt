@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 80
+! Version: 81
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 30 Jun 2022
+! Last modified: 8 Jul 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -138,7 +138,7 @@
 @@||id24.bg/bans/covid19icon.png$image
 @@||id24.bg/bans/sendnn.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
-@@||seirsanduk.*/popunder.js$script
+@@/popunder.js$script,domain=seirsanduk.*|seir-sanduk.*
 @@||botevgrad.com/uploads/advertisement/$image
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
@@ -226,8 +226,8 @@ novsport.com##[class^="rounded-"]:has(> div > h1:has-text(/^Реклама$/))
 novsport.com##div[style*="width: 468px; height: 60px;"]
 novsport.com##div[style*="width: 300px; height: 250px;"]
 alfabass-tvfree.do.am##.ads-top-banner
-seirsanduk.*###banner
-seirsanduk.*##p:has-text(Реклама)
+seirsanduk.*,seir-sanduk.*###banner
+seirsanduk.*,seir-sanduk.*##p:has-text(Реклама)
 presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([href*="https://visvitalis.radiostream123.com/"])
 presstv.bg###media_image-2
 bgvest.eu###b3p
@@ -329,7 +329,7 @@ bg-gledai.live,bg-gledai.co##.squarebanner
 bg-gledai.live,bg-gledai.co##.smallbanner
 bul-tv.com##.ban-head
 bul-tv.com##.banner-sticky
-seirsanduk.*##a[href^="https://www.bybit.com/"]
+seirsanduk.*,seir-sanduk.*##a[href^="https://www.bybit.com/"]
 gledaibgtv.com##.widebanner
 gledaibgtv.com##.squarebanner
 gledaibgtv.com##.smallbanner

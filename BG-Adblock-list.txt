@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 83
+! Version: 84
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 10 Jul 2022
 ! Expires: 7 days (update frequency)
@@ -200,7 +200,6 @@ miau.bg##.gidm
 miau.bg##.gidd
 miau.bg##.gidb
 edna.bg##.edna-adContainer
-afera.bg###aside > .aside-3.banner.aside
 agroplovdiv.bg###logo-right
 agroplovdiv.bg##div[id^="widget_sp_image-"]
 gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title

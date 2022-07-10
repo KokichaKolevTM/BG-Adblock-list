@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 82
+! Version: 83
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 9 Jul 2022
+! Last modified: 10 Jul 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -159,9 +159,9 @@
 !
 ! hide
 ~efbet.com,~casinoefbet.com##[href^="https://cdn1.efbet.com/"]
-~winbet.bg##[href^="https://record.winbetaffiliates.bg/"]
-~winbet.bg##[href^="https://record.winbetaffiliates.com/"]
 ~efbet.com,~casinoefbet.com##[src^="https://cdn1.efbet.com/"]
+~winbet.bg,~winbetaffiliates.com##[href^="https://record.winbetaffiliates."]
+~winbet.bg,~winbetaffiliates.com##[src^="https://record.winbetaffiliates."]
 ! ~palmsbet.com##[href^="https://www.palmsbet.com/"]
 ! test
 ##.SC_TBlock

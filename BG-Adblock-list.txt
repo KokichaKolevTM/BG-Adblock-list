@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 84
+! Version: 85
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 10 Jul 2022
+! Last modified: 15 Jul 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -153,6 +153,7 @@
 @@||player.bgestv.com/ad/api/popunder.js$script
 @@/wp-content/plugins/dh-anti-adblocker/*$1p,script
 @@*$generichide,domain=webcafe.bg|chr.bg|mamamia.bg
+@@||bimg.abv.bg^$image,domain=dogsandcats.bg
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -579,6 +580,8 @@ lifebg.eu,lifebg.net##div[style]:has(> #abloleft + #abloright)
 gledaitv.live##+js(nobab)
 poezia.bg,gledaibgtv.at.ua##+js(set, uShowAdBanner, noopFunc)
 bg-gledai.com##div[style]:has(> div > script[src*="bidvertiser.com"])
+intrigi.bg##.td-a-rec
+carmarket.bg##.banner
 
 ! allow
 vipoferta.bg#@##signup-popup

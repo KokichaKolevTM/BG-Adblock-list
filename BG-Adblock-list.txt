@@ -10,7 +10,6 @@
 ! block
 /cp.js|$script
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com
-/wp-content/plugins/wp-content-copy-protection/*$domain=bul-tv.com|gledaibgtv.com|tvmaniabg.com
 .gif|$1p,image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 ||adwise.bg^$3p
 ||bimg.abv.bg^
@@ -219,8 +218,6 @@ flashnews.bg##.rekl-bottom
 flashnews.bg##.flashnewsadzone.widget
 flashnews.bg###custom_html-5
 flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"])
-flashnews.bg##^script[id="wpcp_disable_Right_Click"]
-flashnews.bg##^script[id="wpcp_disable_selection"]
 novsport.com##+js(refresh-defuser)
 novsport.com##h1:has-text(/^Реклама$/)
 novsport.com##[class^="rounded-"]:has(> div > h1:has-text(/^Реклама$/))
@@ -233,9 +230,6 @@ presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([h
 presstv.bg###media_image-2
 bgvest.eu###b3p
 bgvest.eu##+js(nowoif)
-bgnow.eu##+js(acis, document.oncontextmenu)
-bgnow.eu##+js(acis, disableSelection)
-bgnow.eu##html, .unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 kriminalno.com##.float-right
 kriminalno.com##.azn
 stz24.com##.addv
@@ -248,9 +242,6 @@ senzacia-bg.com##h2:has-text(РЕКЛАМА)
 senzacia-bg.com##center:has-text(РЕКЛАМА)
 bivol.bg##aside[id^="ai_widget"] > h4:has(> span:has-text(Реклама))
 bivol.bg##.code-block
-7kefa.com##+js(acis, document.oncontextmenu)
-7kefa.com##+js(acis, disableSelection)
-7kefa.com##html, .unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 novavarna.net##h2:has-text(реклама)
 novavarna.net##.textwidget > p > :not(a[href^="https://novavarna.net/"])
 pik.bg##div[class^="banners_"]
@@ -271,8 +262,6 @@ clubz.bg##.banner-wrapper
 pronewsdobrich.bg##.elementor-image
 pronewsdobrich.bg##[id^="news247_ads_banner_widget"]
 pronewsdobrich.bg##div:has(> h3:has-text(Реклама) + div:has(iframe[src^="/Banners/"]))
-lifebites.bg##+js(acis, disableSelection)
-lifebites.bg##+js(acis, document.oncontextmenu)
 bgnewscom.eu##[id^="custom_html"]:has(> div > script[async=""])
 slava.bg##.ad
 slava.bg##.left:has(> script)
@@ -281,22 +270,14 @@ moreto.net###RightBrand
 moreto.net###LeftBrand
 moreto.net##a[href^="https://ad2.moreto.net/"]
 bgmateriali.com##a[href="http://yankod.com"] > img
-bgmateriali.com##.article-text:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 burgasnovinite.bg##div[id^="HTML"]:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], [src*="etargetnet.com"], .azn)
 bgvesti.net,haskovo.net##.wide-banner
 bgvesti.net,haskovo.net##.square-banner
-bgvesti.net,haskovo.net##html:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-touch-callout: default !important)
 pbnovini.com##.gofollow
 otzvuk.bg##.gofollow
 otzvuk.bg##span:has-text(Advertisement)
 ejednevno.eu##center:has-text(Advertisement)
-ejednevno.eu##+js(acis, document.oncontextmenu)
-ejednevno.eu##+js(acis, disableSelection)
-ejednevno.eu##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 24plovdiv.bg##.margin-tb-10
-bulgaria365.eu##+js(acis, document.oncontextmenu)
-bulgaria365.eu##+js(acis, disableSelection)
-bulgaria365.eu##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 automoto.bg###home-banner
 pazarluk.com###automoto-banner
 pazarluk.com##.item-list:has(> .adsbygoogle)
@@ -322,8 +303,6 @@ pogled.info##.adbox
 mail.bg##.banner
 radar.bg##[id^="ad-"]
 zagoranews.bg##[id^="ubm-banners-"]
-brato.bg##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select:text !important;)
-brato.bg##+js(acis, document.oncontextmenu)
 vtorifront.bg##[class^="ad-"]
 bg-gledai.live,bg-gledai.co##img[width="728"][height="90"]
 bg-gledai.live,bg-gledai.co##.squarebanner
@@ -349,14 +328,8 @@ hotarena.net##.rightBanner
 poezia.bg##img[width="468"][height="60"]
 poezia.bg##.vmainadsdvcl
 blagoevgrad.eu##.td-a-rec
-blagoevgrad.eu##+js(acis, document.oncontextmenu)
-blagoevgrad.eu##+js(acis, disableSelection)
-blagoevgrad.eu##.unselectable:style(-moz-user-select: text !important; -webkit-user-select: text !important; cursor: auto !important;)
 delo.bg##a[href^="https://samoletnibileti.check.bg/bg?utm_"]
 idei.bg##.banner-holder
-fun.9999999views.com##+js(acis, disableSelection)
-fun.9999999views.com##+js(acis, document.oncontextmenu)
-fun.9999999views.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 fun.9999999views.com##h3:has-text(/^Реклама$/)
 kazanlak-bg.info##div:has(> iframe[width="628"][height="230"])
 kazanlak-bg.info##div:has(> iframe[width="628"][height="130"])
@@ -451,9 +424,6 @@ football24.bg##.widget:has(> div > iframe[src^="https://cdn1.efbet.com/"])
 football24.bg###affcontainer
 prosveshtenieto.com##.widget:has(> h2:has-text(/^Реклама$/i))
 prosveshtenieto.com##[id^="prosv-"]
-prosveshtenieto.com##+js(acis, document.oncontextmenu)
-prosveshtenieto.com##+js(acis, disableSelection)
-prosveshtenieto.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 hiddentruth.site##.widget:has(> a[href^="https://accounts.binance.com/bg/register?ref="])
 hiddentruth.site##.widget:has(> div > script[src*="etargetnet.com"],script[src*="eadsrv.com"],script[src*="pagead2.googlesyndication.com"])
 hiddentruth.site##[id^="hidde-"]
@@ -472,9 +442,6 @@ zvezden.com##h3:has-text(/^Реклама$/)
 digital.bg##.banner-holder
 bmm.bike##.gofollow
 bmm.bike##.widget-title:has-text(/^Реклама$/):upward(.widget)
-bmm.bike##+js(acis, document.oncontextmenu)
-bmm.bike##+js(acis, disableSelection)
-bmm.bike##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: auto !important;)
 fitnesblog.com##a[href="http://www.fitneshrani.com"][id="background-link"]
 fitnesblog.com##a[href="http://www.fitneshrani.com"] > img
 afera.bg##.textwidget > p:has(> a[href^="https://record.winbetaffiliates.com/"])

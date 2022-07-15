@@ -318,7 +318,6 @@ bg.online-television.net##.paket-ads
 bg.online-television.net##.paket-ads-down
 bg.online-television.net##.terciheden
 bgvestnici.com##.mb-2:has(> .adsbygoogle)
-bgvestnici.com##.col-md-2
 divident.eu##.banner
 az-jenata.bg##.banner
 hotarena.net##.smallHorizontalBanner

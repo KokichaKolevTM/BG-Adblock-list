@@ -147,7 +147,6 @@
 @@||.*/|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com
 @@*$generichide,domain=bg-gledai.live|bg-gledai.co
 @@||brat-bg.com/images/Reklama/$image
-@@||168chasa.bg/Scripts/ad-checker.js$script
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg|dunavmost.com
 @@||player.bgestv.com/ad/api/popunder.js$script
 @@/wp-content/plugins/dh-anti-adblocker/*$1p,script

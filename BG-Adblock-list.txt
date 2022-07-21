@@ -133,6 +133,7 @@
 ||picbg.net^*-banner.php
 ||chervenkarton.com/images/banners/$image
 ||gladen.bg/pixel/
+||radioantena.bg/videojs.ads.min.js$script
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image

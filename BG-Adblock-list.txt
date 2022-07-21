@@ -132,6 +132,7 @@
 ||bird.bg/?mailoptin-ajax=track_optin_impression
 ||picbg.net^*-banner.php
 ||chervenkarton.com/images/banners/$image
+||gladen.bg/pixel/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image

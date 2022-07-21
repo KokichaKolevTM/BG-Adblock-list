@@ -552,6 +552,7 @@ intrigi.bg##.td-a-rec
 carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
 chervenkarton.com##.nx-youtubebox:has(iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo"])
+news.bg,money.bg,lifestyle.bg,topsport.bg##.topic > a[href^="https://shop.gladen.bg/?utm_"]:upward(.recent-articles.active-articles)
 
 ! allow
 vipoferta.bg#@##signup-popup

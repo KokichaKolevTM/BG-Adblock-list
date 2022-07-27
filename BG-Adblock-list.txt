@@ -128,7 +128,7 @@
 ||fastdmr.com^
 ||analytics.bluedottech.io^
 ||adrain.bg^$3p
-||bird.bg/?mailoptin-ajax=track_optin_impression
+||bird.bg^*?mailoptin-ajax=track_optin_impression
 ||picbg.net^*-banner.php
 ||chervenkarton.com/images/banners/$image
 ||gladen.bg/pixel/

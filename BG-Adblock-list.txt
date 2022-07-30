@@ -203,8 +203,9 @@ miau.bg##.gidb
 edna.bg##.edna-adContainer
 agroplovdiv.bg###logo-right
 agroplovdiv.bg##div[id^="widget_sp_image-"]
-gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title
+gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title:has-text(Реклама)
 gabrovonews.bg##.banner
+gabrovonews.bg##.wp-block-image > a[href]:not([href^="https://www.gabrovonews.bg/"]) > img[src]
 nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]
 yavka.net##.rek
 yavka.net##.bar_topadd:not(:has(.alert))

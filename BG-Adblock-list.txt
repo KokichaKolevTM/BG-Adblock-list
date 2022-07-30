@@ -133,6 +133,10 @@
 ||chervenkarton.com/images/banners/$image
 ||gladen.bg/pixel/
 ||radioantena.bg/videojs.ads.min.js$script
+||celebritybulk.com^
+||jatsekse.net^
+||zegrumse.net^
+||naisoops.net^
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image

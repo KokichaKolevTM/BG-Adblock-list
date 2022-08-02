@@ -101,7 +101,6 @@
 ||xlrm-tech.com^
 ||pariteni.bg/banner.html?$frame
 ||track.mediadirectory.net^
-||fastdxr.com^
 ||bia-bg.com/images/banner/$image
 ||static.domain_name^
 ||dotcom10.info^

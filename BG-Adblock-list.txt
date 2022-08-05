@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 91
+! Version: 92
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 2 Aug 2022
+! Last modified: 5 Aug 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -136,6 +136,7 @@
 ||jatsekse.net^
 ||zegrumse.net^
 ||naisoops.net^
+||bulnews.bg/images/banners/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -555,6 +556,7 @@ carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
 chervenkarton.com##.nx-youtubebox:has(iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo"])
 news.bg,money.bg,lifestyle.bg,topsport.bg##.topic > a[href^="https://shop.gladen.bg/?utm_"]:upward(.recent-articles.active-articles)
+bulnews.bg##.ad-cont:not(> .search-container)
 
 ! allow
 vipoferta.bg#@##signup-popup

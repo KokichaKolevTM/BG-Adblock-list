@@ -1,16 +1,18 @@
 [Adblock Plus 2.0]
-! Version: 93
+! Version: 94
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 6 Aug 2022
+! Last modified: 11 Aug 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
 ! Network rules
 !
 ! block
+/^https:\/\/cdn\.[a-z]{4,6}\.com\/app\.js$/$3p,script,match-case
 /cp.js|$script
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com
 .gif|$1p,image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
+$3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com
 ||adwise.bg^$3p
 ||bimg.abv.bg^
 ||img.abv.bg^*/as.adwise.bg/
@@ -137,6 +139,7 @@
 ||zegrumse.net^
 ||naisoops.net^
 ||bulnews.bg/images/banners/
+||myonvideo.com^*&ads=
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -494,6 +497,11 @@ nixanbal.com##img[width="300"][height="250"]
 nixanbal.com##img[width="300"][height="350"]
 filmi.club##+js(nowoif)
 myonvideo.com###ads_side_eta
+myonvideo.com##.content_box_left:has([src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="celebritybulk.com"], [src*="etargetnet.com"], [src*="clksite.com"])
+myonvideo.com##.l_panel:has(> [src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="etargetnet.com"])
+myonvideo.com##.content_box_left:has(> h3:has-text(/^Реклама$/))
+myonvideo.com###advrs
+myonvideo.com##+js(nowoif)
 arenabg.com##div[id^="spot-"]:has(> script[src^="https://js.inbetpartners.com"])
 epicenter.bg##.div_kare_r:matches-css(width: 300px):has(> a[href]:not([href^="/author/"]) > img[style="padding-top:10px;"])
 bgestv.com##+js(nowoif)

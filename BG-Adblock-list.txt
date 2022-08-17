@@ -161,6 +161,7 @@ $3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.co
 @@*$generichide,domain=webcafe.bg|chr.bg|mamamia.bg
 @@||bimg.abv.bg^$image,domain=dogsandcats.bg
 @@||netinfocompany.bg/iframe_ads.php$frame
+@@||a.abv.bg/www/delivery/ck.php?$doc
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets

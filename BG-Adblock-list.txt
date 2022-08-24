@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 101
+! Version: 102
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 24 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -141,6 +141,7 @@ $3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.co
 ||naisoops.net^
 ||bulnews.bg/images/banners/
 ||myonvideo.com^*&ads=
+||pdr.emag.bg^$ping
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -162,6 +163,9 @@ $3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.co
 @@*$generichide,domain=webcafe.bg|chr.bg|mamamia.bg
 @@||netinfocompany.bg/iframe_ads.php$frame
 @@||a.abv.bg/www/delivery/ck.php?$doc
+@@||1001idei.com/banners/$image
+@@||klukite.com/banners/$image
+@@||moreto.net/ads_userpics/$image
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -576,6 +580,13 @@ vmusic.bg###banner
 vcards.bg###banner
 kultura.bg##.td-a-rec
 7sport.net###randomBanner
+spodeli.com##.mb-2.col-lg-3:has(> div[class] > div[class="b300"] > script[src*="pagead2.googlesyndication.com"])
+vicovete.bg##.dbox
+vicove.info##.rounded.mb-3:has(> script[src*="pagead2.googlesyndication.com"])
+moreto.net##td[width="300"]:has(b:has-text(/^Реклама$/))
+bgtv-online.com##+js(aeld, load, FF_MainFunc)
+nehape.com##.widget:has(> .widget-container > .textwidget > script[src*="pagead2.googlesyndication.com"])
+nehape.com##img[width="300"][height="250"]:upward(.widget)
 
 ! allow
 vipoferta.bg#@##signup-popup

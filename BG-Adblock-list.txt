@@ -575,6 +575,7 @@ vgames.bg###bannerBG
 vmusic.bg###banner
 vcards.bg###banner
 kultura.bg##.td-a-rec
+7sport.net###randomBanner
 
 ! allow
 vipoferta.bg#@##signup-popup

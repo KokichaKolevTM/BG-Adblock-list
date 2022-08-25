@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 106
+! Version: 107
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -11,6 +11,7 @@
 /^https?:\/\/cdn\.[a-z]{4,6}\.com\/app\.js$/$3p,script,match-case
 /^https?:\/\/(www\.)?[a-z]{8,}\.com\/([a-f0-9]{2}\/){3}[a-f0-9]{32}\.js$/$3p,script
 /^https?:\/\/[a-z]{8,}\.(xyz|com|net)(\/([0-9]{1,5}|pages?|news|articles?|static|browse|view|web|index|0NaN|wiki|movie)){1,4}(\/|\.html)$/$3p,frame,match-case
+/^https:\/\/[a-f0-9]{10}\.[a-f0-9]{10}\.com\/[a-f0-9]{32}\.js$/$3p,script
 /plugins/official-facebook-pixel/*
 /cp.js|$script
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com

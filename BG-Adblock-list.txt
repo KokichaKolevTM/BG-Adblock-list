@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 102
+! Version: 103
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 24 Aug 2022
+! Last modified: 25 Aug 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -10,11 +10,14 @@
 ! block
 /^https?:\/\/cdn\.[a-z]{4,6}\.com\/app\.js$/$3p,script,match-case
 /^https?:\/\/(www\.)?[a-z]{8,}\.com\/([a-f0-9]{2}\/){3}[a-f0-9]{32}\.js$/$3p,script
+/^https?:\/\/[a-z]{8,}\.(xyz|com|net)(\/([0-9]{1,5}|pages?|news|articles?|static|browse|view|web|index|0NaN|wiki|movie)){1,4}(\/|\.html)$/$3p,frame,match-case
 /plugins/official-facebook-pixel/*
 /cp.js|$script
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
 .gif|$1p,image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 $3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com
+$3p,script,xhr,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
+$3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
 ||adwise.bg^$3p
 ||bimg.abv.bg^$~image
 ||img.abv.bg^*/as.adwise.bg/
@@ -318,6 +321,10 @@ pogled.info##img[width="300"][height="100"]
 pogled.info##.bannerTop
 pogled.info##.adbox
 mail.bg##.banner
+mail.bg###main-billboard-spacer
+mail.bg###mail_ad
+mail.bg##.adsy-channel
+mail.bg##.banner_text_top
 radar.bg##[id^="ad-"]
 zagoranews.bg##[id^="ubm-banners-"]
 vtorifront.bg##[class^="ad-"]
@@ -473,13 +480,12 @@ nenovinite.com##.ad
 razkritia.com##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])
 razkritia.com##a[href="http://bit.ly/1EQF6HG"]
 potv.bg##.mb-4.col-lg-auto:has(> div > div > div > .adsbygoogle):first-of-type
-filmiplay.com##+js(nowoif)
 cinemabg.club##+js(nowoif)
 coreni.net##.widget-title:has-text(/^Реклама$/)
 vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])
 arenabg.com##.lozad:upward([id^="spot-"])
-arenabg.com##a[href="https://kolite.bg/bg/?ref=arenabg"]
+arenabg.com##a[href^="https://kolite.bg/bg/?ref=arenabg"]
 opoznai.bg##a[href^="https://grabo.bg/vinetki/?affid="]
 opoznai.bg###b340x100
 bgtop.net##div[style="width:300px;height:600px;"]
@@ -503,6 +509,8 @@ strelanews.com##a[href^="https://grandhotelbansko.bg/offer/"] > img
 nixanbal.com##img[width="300"][height="250"]
 nixanbal.com##img[width="300"][height="350"]
 filmi.club##+js(nowoif)
+filmi.club##.mobile_ads
+filmi.club##.top_a
 myonvideo.com###ads_side_eta
 myonvideo.com##.content_box_left:has([src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="celebritybulk.com"], [src*="etargetnet.com"], [src*="clksite.com"])
 myonvideo.com##.l_panel:has(> [src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="etargetnet.com"])
@@ -587,6 +595,14 @@ moreto.net##td[width="300"]:has(b:has-text(/^Реклама$/))
 bgtv-online.com##+js(aeld, load, FF_MainFunc)
 nehape.com##.widget:has(> .widget-container > .textwidget > script[src*="pagead2.googlesyndication.com"])
 nehape.com##img[width="300"][height="250"]:upward(.widget)
+infomreja.bg##.topBanners
+novini.bg##.--banner:has(> [id^="div-gpt-ad"])
+laf.bg##.artvert
+laf.bg##.artbot
+laf.bg##.g-comments
+laf.bg##.embed
+nbox.bg##.td-a-rec
+narod.bg##.yiqr
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 104
+! Version: 105
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -603,6 +603,9 @@ laf.bg##.g-comments
 laf.bg##.embed
 nbox.bg##.td-a-rec
 narod.bg##.yiqr
+bg-dnes.tv###imCel9_01
+newsone.bg##.td-a-rec
+plevenpress.com##.code-block:has(> script[src^="https://pagead2.googlesyndication.com/"])
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 103
+! Version: 104
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -485,7 +485,7 @@ coreni.net##.widget-title:has-text(/^Реклама$/)
 vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])
 arenabg.com##.lozad:upward([id^="spot-"])
-arenabg.com##a[href^="https://kolite.bg/bg/?ref=arenabg"]
+arenabg.com##a[href^="https://kolite.bg/"][href*="?ref=arenabg"]
 opoznai.bg##a[href^="https://grabo.bg/vinetki/?affid="]
 opoznai.bg###b340x100
 bgtop.net##div[style="width:300px;height:600px;"]

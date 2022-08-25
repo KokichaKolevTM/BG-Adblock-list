@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 105
+! Version: 106
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -130,7 +130,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||cdn.economedia.bg/minj/*youtube.analytics.js$script
 ||bgmaps.com/statistics/
 ||profitshare.bg^$3p
-||fastdmr.com^
 ||analytics.bluedottech.io^
 ||adrain.bg^$3p
 ||bird.bg^*?mailoptin-ajax=track_optin_impression

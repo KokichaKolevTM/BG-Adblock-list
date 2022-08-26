@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 110
+! Version: 111
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 26 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -606,6 +606,8 @@ bg-dnes.tv###imCel9_01
 newsone.bg##.td-a-rec
 plevenpress.com##.code-block:has(> script[src^="https://pagead2.googlesyndication.com/"])
 signal.bg##.jeg_block_heading:has(> h3:has-text(/^РЕКЛАМА$/))
+zona666.com##.widget:has(> .textwidget > script[src^="https://pagead2.googlesyndication.com/"])
+zona666.com##.widget:has(> .textwidget > script[src*="//eadsrv.com/"])
 
 ! allow
 vipoferta.bg#@##signup-popup

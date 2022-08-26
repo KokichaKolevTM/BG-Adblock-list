@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 111
+! Version: 112
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 26 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -145,6 +145,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||myonvideo.com^*&ads=
 ||pdr.emag.bg^$ping
 ||technodream.bg/pixel/
+||zetsr.com^
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -608,6 +609,9 @@ plevenpress.com##.code-block:has(> script[src^="https://pagead2.googlesyndicatio
 signal.bg##.jeg_block_heading:has(> h3:has-text(/^РЕКЛАМА$/))
 zona666.com##.widget:has(> .textwidget > script[src^="https://pagead2.googlesyndication.com/"])
 zona666.com##.widget:has(> .textwidget > script[src*="//eadsrv.com/"])
+1minuta.com##.admania_widgettit:has(> h3[class]:has-text(/^Спонсорирано$/))
+72chasa.com##.admania_widgettit:has(> h3[class]:has-text(/^Спонсорирано$/))
+netvesti.com##img[width="300"][height="250"]
 
 ! allow
 vipoferta.bg#@##signup-popup

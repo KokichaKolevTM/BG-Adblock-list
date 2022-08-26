@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 109
+! Version: 110
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 26 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -274,8 +274,7 @@ iskra.bg##div > picture > img[width="510"][height="90"]
 dunavmost.com##div[class^="banner_"]
 obekti.bg##.banner
 obekti.bg##.banner + .info
-glashatai.com##h3 + a > img
-glashatai.com##h3:has(+ a > img)
+glashatai.com##.widget:has(> h3 + a[href] > img[src][style])
 clubz.bg##.square-banner
 clubz.bg##.square-banner-highlighted
 clubz.bg##.banner-wrapper

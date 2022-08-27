@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 113
+! Version: 114
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 27 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -148,6 +148,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||zetsr.com^
 ||kupinauka.com/pixel/
 ||visvitalisbg.com/pixel/
+||lumupu.xyz^
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -521,7 +522,8 @@ myonvideo.com###advrs
 myonvideo.com##+js(nowoif)
 arenabg.com##div[id^="spot-"]:has(> script[src^="https://js.inbetpartners.com"])
 epicenter.bg##.div_kare_r:matches-css(width: 300px):has(> a[href]:not([href^="/author/"]) > img[style="padding-top:10px;"])
-bgestv.com##+js(nowoif)
+player.bgestv.com##+js(aopr, BetterJsPop)
+player.bgestv.com##a[onclick="openAuc();"]
 offroad-bulgaria.com##a[href^="https://www.autodoc.bg/"], a[href^="https://gumi.avtochastionline24.bg/"], a[href^="https://www.euavtochasti.bg/"]:upward([id^="widget_"])
 bgjourney.com##p:has-text(/^РЕКЛАМА$/)
 telegraph.bg##.banner

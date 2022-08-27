@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 112
+! Version: 113
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 26 Aug 2022
+! Last modified: 27 Aug 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -146,6 +146,8 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||pdr.emag.bg^$ping
 ||technodream.bg/pixel/
 ||zetsr.com^
+||kupinauka.com/pixel/
+||visvitalisbg.com/pixel/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -612,6 +614,12 @@ zona666.com##.widget:has(> .textwidget > script[src*="//eadsrv.com/"])
 1minuta.com##.admania_widgettit:has(> h3[class]:has-text(/^Спонсорирано$/))
 72chasa.com##.admania_widgettit:has(> h3[class]:has-text(/^Спонсорирано$/))
 netvesti.com##img[width="300"][height="250"]
+zamunda.info##.widget_text:has(> .textwidget > script[src*="pagead2.googlesyndication.com"])
+eurochicago.com##.widget_text:has(> h2[class]:has-text(/^Реклама$/i))
+nauka.bg##div[class][style]:has(> b:has-text(/^РЕКЛАМА:$/))
+namoreto.bg##.td-a-rec
+namoreto.bg##[id^="namor-"]
+namoreto.bg##a[href]:not([href^="https://namoreto.bg/"]) > img[src][width]:upward(.wpb_text_column, .td_block_wrap, .widget_text)
 
 ! allow
 vipoferta.bg#@##signup-popup

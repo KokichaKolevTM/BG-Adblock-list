@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 114
+! Version: 115
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 27 Aug 2022
+! Last modified: 28 Aug 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -622,6 +622,7 @@ nauka.bg##div[class][style]:has(> b:has-text(/^РЕКЛАМА:$/))
 namoreto.bg##.td-a-rec
 namoreto.bg##[id^="namor-"]
 namoreto.bg##a[href]:not([href^="https://namoreto.bg/"]) > img[src][width]:upward(.wpb_text_column, .td_block_wrap, .widget_text)
+kaksepishe.com##.shad
 
 ! allow
 vipoferta.bg#@##signup-popup

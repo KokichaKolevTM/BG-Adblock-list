@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 115
+! Version: 116
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 28 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -455,6 +455,7 @@ hiddentruth.site##.widget:has(> div > script[src*="etargetnet.com"],script[src*=
 hiddentruth.site##[id^="hidde-"]
 bgtv.club##.col-sm-12:has(> .row > script[src*="pagead2.googlesyndication.com"])
 pero.bg##.ezclpok
+pero.bg##img[width="300"][height="250"]
 signal.bg##[id^=signal-]:has-text(Реклама)
 unison.bg##.widget-title:has-text(/^Реклама$/)
 cosmos.1.bg##div:has(> h4:has-text(Реклами))

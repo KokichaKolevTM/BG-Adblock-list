@@ -13,7 +13,6 @@
 /^https?:\/\/[a-z]{8,}\.(xyz|com|net)(\/([0-9]{1,5}|pages?|news|articles?|static|browse|view|web|index|0NaN|wiki|movie)){1,4}(\/|\.html)$/$3p,frame,match-case
 /^https:\/\/[a-f0-9]{10}\.[a-f0-9]{10}\.com\/[a-f0-9]{32}\.js$/$3p,script
 /plugins/official-facebook-pixel/*
-/cp.js|$script
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
 .gif|$1p,image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
 $3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com

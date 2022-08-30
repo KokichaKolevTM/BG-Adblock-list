@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 117
+! Version: 118
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -158,9 +158,9 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 @@||botevgrad.com/uploads/advertisement/$image
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
-@@/adblock/*$script,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com
-@@.js|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com
-@@||.*/|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com
+@@/adblock/*$script,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com|muvibg.com
+@@.js|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com|muvibg.com
+@@||.*/|$3p,xhr,domain=filmisub.com|maxfilmi.com|filmicd.com|kodfilmi.com|netfilmi.com|filmi7.com|kinofen.net|filmiseriali.com|muvibg.com
 @@*$generichide,domain=bg-gledai.live|bg-gledai.co
 @@||brat-bg.com/images/Reklama/$image
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg|dunavmost.com

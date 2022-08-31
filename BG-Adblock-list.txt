@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 122
+! Version: 123
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -150,6 +150,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||visvitalisbg.com/pixel/
 ||lumupu.xyz^
 ||chernomorie-bg.com/template/default/ajax/banner_display.php
+||yambolsport.net/reklami/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -629,6 +630,10 @@ kaksepishe.com##.shad
 teenproblem.net##.art_advert
 vsi4kifilmi.com##[class^="aid-"]
 vsi4kifilmi.com##.widget_block:has(> [id^="div-gpt-ad"])
+yambolsport.net##.banner
+yambolsport.net###menu-footer > .menu-item > a[href]:not([href^="https://www.yambolsport.net/"])
+yambolsport.net##h2[class="title"]:has-text(С подкрепата на:)
+yambolsport.net###widget_text:has-text(Сакарела)
 
 ! allow
 vipoferta.bg#@##signup-popup

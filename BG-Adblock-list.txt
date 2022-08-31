@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 121
+! Version: 122
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Aug 2022
 ! Expires: 7 days (update frequency)
@@ -12,6 +12,7 @@
 /^https?:\/\/(www\.)?[a-z]{8,}\.com\/([a-f0-9]{2}\/){3}[a-f0-9]{32}\.js$/$3p,script
 /^https?:\/\/[a-z]{8,}\.(xyz|com|net)(\/([0-9]{1,5}|pages?|news|articles?|static|browse|view|web|index|0NaN|wiki|movie)){1,4}(\/|\.html)$/$3p,frame,match-case
 /^https:\/\/[a-f0-9]{10}\.[a-f0-9]{10}\.com\/[a-f0-9]{32}\.js$/$3p,script
+/^https:\/\/media\.mediadirectory\.net\/storage\/([a-f0-9]\/){3}[a-f0-9]{40}\/index\.html#aid=/$frame
 /plugins/official-facebook-pixel/*
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
 .gif|$1p,image,domain=7dnibulgaria.bg|invitrobg.com|maritime.bg|plovdivmedia.bg
@@ -148,6 +149,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||kupinauka.com/pixel/
 ||visvitalisbg.com/pixel/
 ||lumupu.xyz^
+||chernomorie-bg.com/template/default/ajax/banner_display.php
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -181,7 +183,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ~efbet.com,~casinoefbet.com##[src^="https://cdn1.efbet.com/"]
 ~winbet.bg,~winbetaffiliates.com##[href^="https://record.winbetaffiliates."]
 ~winbet.bg,~winbetaffiliates.com##[src^="https://record.winbetaffiliates."]
-! ~palmsbet.com##[href^="https://www.palmsbet.com/"]
+~palmsbet.com##[href^="https://www.palmsbet.com/affiliate/"]
 ! test
 ##.SC_TBlock
 ##.giwrp
@@ -194,6 +196,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ##.google-adsense-bilboard
 ##.reklama-kvadrati
 ##.google_adds
+##a[href^="https://track.mediadirectory.net/click?"]
 daskalo.com,souyovkov.com,pgt-pomorie.com,ou-zahari.com,ouvoynikov-pobeda.com,pgmet1.com,pgdevin.com,radichkovls-vidin.org,pgptlom.com,pget-harmanli.com,rio-vidin.org,ghp-pld.com,sou-vetovo.org,fsgdobrich.org,soukneja.org,ouvaptsarov.net,souroman.org,lomonosov-go.com,oustmihaylovski.org,ou72.org,sou-trastenik.com,soudevin.com,outsalapitsa.com,sou-prodanov.com,soumadan.org,vasillevskibelene.org,pgtdobrich.org,4ou-shishkov.eu,ouesv-vidin.org,svetii-kardjali.org,sourazlog.net,su-dm.info,sou73.bg,soumedkovec.com,pges-tg.com,dgkatunci.com,oubyalareka.org,oulovchanci.org,ousaparevabania.com,suyyovkov-tervel.bg,oustarareka.com,romanistika.org,dg-ablanica.com##div[style]:has(> a[href][style] + br + small[style] > a[href]:has-text(Как да премахнете тази реклама?))
 plovdiv24.bg###rightbrand
 plovdiv24.bg###leftbrand
@@ -476,7 +479,6 @@ avtora.com##.bannerClickHandler
 bpost.bg##[id^="bay-"]
 bia-bg.com##.banner_wrap:upward(.tags)
 bia-bg.com##.bottom_banners_wrap
-zamundatv.com##+js(nowoif)
 informiraise.us##.widget:has(> .textwidget > script[src*="pagead2.googlesyndication.com"],script[src*="waust.at"])
 ifilmi.net##script[src*="pagead2.googlesyndication.com"]:upward(.content)
 data.bg###bannertop_new
@@ -625,6 +627,8 @@ namoreto.bg##[id^="namor-"]
 namoreto.bg##a[href]:not([href^="https://namoreto.bg/"]) > img[src][width]:upward(.wpb_text_column, .td_block_wrap, .widget_text)
 kaksepishe.com##.shad
 teenproblem.net##.art_advert
+vsi4kifilmi.com##[class^="aid-"]
+vsi4kifilmi.com##.widget_block:has(> [id^="div-gpt-ad"])
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 126
+! Version: 127
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 1 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -637,6 +637,10 @@ yambolsport.net###menu-footer > .menu-item > a[href]:not([href^="https://www.yam
 yambolsport.net##h2[class="title"]:has-text(С подкрепата на:)
 yambolsport.net###widget_text:has-text(Сакарела)
 fbet.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
+qkifilmi.com,onlain-filmi.com###movie_ad
+qkifilmi.com,onlain-filmi.com##.selected:has-text(/^Реклама$/)
+qkifilmi.com,onlain-filmi.com###banner_300x250
+qkifilmi.com,onlain-filmi.com###place_links
 
 ! allow
 vipoferta.bg#@##signup-popup

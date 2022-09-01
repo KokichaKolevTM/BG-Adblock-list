@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 124
+! Version: 125
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 1 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -635,6 +635,7 @@ yambolsport.net##.banner
 yambolsport.net###menu-footer > .menu-item > a[href]:not([href^="https://www.yambolsport.net/"])
 yambolsport.net##h2[class="title"]:has-text(С подкрепата на:)
 yambolsport.net###widget_text:has-text(Сакарела)
+fbet.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 
 ! allow
 vipoferta.bg#@##signup-popup

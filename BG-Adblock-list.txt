@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 123
+! Version: 124
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 31 Aug 2022
+! Last modified: 1 Sep 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -78,7 +78,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||az-jenata.bg/js/copyinject.js$script
 ||poezia.ucoz.net/rtr/
 ||blagoevgrad.eu/banners/$image
-||delo.bg/wp-content/uploads/2015/09/check.bg-wall.jpg$image
 ||chjhsfctkeve.xyz^
 ||brat-bg.com/images/banners/$image
 ||vivacom.bg/online/analytics/
@@ -359,6 +358,8 @@ poezia.bg##img[width="468"][height="60"]
 poezia.bg##.vmainadsdvcl
 blagoevgrad.eu##.td-a-rec
 delo.bg##a[href^="https://samoletnibileti.check.bg/bg?utm_"]
+delo.bg##+js(set, wpsite_clickable_data, null)
+delo.bg##body:style(background-image: none !important)
 idei.bg##.banner-holder
 fun.9999999views.com##h3:has-text(/^Реклама$/)
 kazanlak-bg.info##div:has(> iframe[width="628"][height="230"])

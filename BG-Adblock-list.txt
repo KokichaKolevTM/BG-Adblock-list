@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 128
+! Version: 129
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 4 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -452,6 +452,7 @@ bukvi.bg##[id^=reklama]
 topbg.org##.widget:has(> div:has-text(/^Реклама$/))
 artday.bg##a[href="http://www.creativeeurope.bg"] > img
 artday.bg##a[href^="https://heikotera.com?utm_"] > img
+football24.bg##div[style]:has(> [src^="https://cdn1.efbet.com/"])
 football24.bg##.widget:has(> div > iframe[src^="https://cdn1.efbet.com/"])
 football24.bg###affcontainer
 prosveshtenieto.com##.widget:has(> h2:has-text(/^Реклама$/i))
@@ -509,7 +510,6 @@ svejo.net##.banner
 blitz.bg##.widget-title:has-text(/^РЕКЛАМА$/)
 blitz.bg##.ad-container
 glasove.com##.ads
-football24.bg##div[style]:has(> [src^="https://cdn1.efbet.com/"])
 dsport.bg##.ads
 dsport.bg##.ads-ggl
 dsport.bg##.paid-banner

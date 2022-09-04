@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 130
+! Version: 131
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 4 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -309,7 +309,7 @@ automoto.bg###home-banner
 pazarluk.com###automoto-banner
 pazarluk.com##.item-list:has(> .adsbygoogle)
 pazarluk.com##.suggestions-adsense
-1chas.bg##img[class="float-right"]
+1chas.bg##.logo-right-wrapper > a[href] > img[class="float-right"][src]
 zona98.com##.code-block
 zona98.com##.ai_widget:has(.code-block)
 lifebites.bg##div[style="margin:20px 0 10px;"]

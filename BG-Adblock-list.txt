@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 127
+! Version: 128
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 1 Sep 2022
+! Last modified: 4 Sep 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -641,6 +641,8 @@ qkifilmi.com,onlain-filmi.com###movie_ad
 qkifilmi.com,onlain-filmi.com##.selected:has-text(/^Реклама$/)
 qkifilmi.com,onlain-filmi.com###banner_300x250
 qkifilmi.com,onlain-filmi.com###place_links
+filmi.link##.banner-top
+filmi.link##.select-area
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 131
+! Version: 132
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 4 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -644,6 +644,7 @@ qkifilmi.com,onlain-filmi.com###place_links
 filmi.link##.banner-top
 filmi.link##.select-area
 trendynews.bg###credissimo-banners
+trendynews.bg##.gofollow
 
 ! allow
 vipoferta.bg#@##signup-popup

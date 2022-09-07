@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 135
+! Version: 136
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 7 Sep 2022
+! Last modified: 8 Sep 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -174,6 +174,8 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 @@||1001idei.com/banners/$image
 @@||klukite.com/banners/$image
 @@||moreto.net/ads_userpics/$image
+@@||nu6i-bg-net.com^$generichide
+@@||player.nu6i-bg-net.com/ad/api/popunder.js$script
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
@@ -645,6 +647,8 @@ filmi.link##.select-area
 trendynews.bg###credissimo-banners
 trendynews.bg##.gofollow
 btvplus.bg##.bweb-gpt
+player.nu6i-bg-net.com##+js(aopr, BetterJsPop)
+player.nu6i-bg-net.com##a[onclick="openAuc();"]
 
 ! allow
 vipoferta.bg#@##signup-popup

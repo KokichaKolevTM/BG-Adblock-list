@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 133
+! Version: 134
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 7 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -645,6 +645,7 @@ filmi.link##.banner-top
 filmi.link##.select-area
 trendynews.bg###credissimo-banners
 trendynews.bg##.gofollow
+btvplus.bg##.bweb-gpt
 
 ! allow
 vipoferta.bg#@##signup-popup

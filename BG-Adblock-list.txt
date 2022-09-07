@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+[uBlock Origin]
 ! Version: 132
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 4 Sep 2022

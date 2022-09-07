@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 134
+! Version: 135
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 7 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -78,7 +78,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||az-jenata.bg/js/copyinject.js$script
 ||poezia.ucoz.net/rtr/
 ||blagoevgrad.eu/banners/$image
-||chjhsfctkeve.xyz^
 ||brat-bg.com/images/banners/$image
 ||vivacom.bg/online/analytics/
 ||androidbg.com/images/a/$image
@@ -636,7 +635,7 @@ yambolsport.net##.banner
 yambolsport.net###menu-footer > .menu-item > a[href]:not([href^="https://www.yambolsport.net/"])
 yambolsport.net##h2[class="title"]:has-text(С подкрепата на:)
 yambolsport.net###widget_text:has-text(Сакарела)
-fbet.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
+fbet.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display: block !important)
 qkifilmi.com,onlain-filmi.com###movie_ad
 qkifilmi.com,onlain-filmi.com##.selected:has-text(/^Реклама$/)
 qkifilmi.com,onlain-filmi.com###banner_300x250

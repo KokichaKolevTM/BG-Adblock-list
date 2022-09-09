@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 136
+! Version: 137
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 8 Sep 2022
+! Last modified: 9 Sep 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -154,6 +154,8 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
 @@||id24.bg/bans/sendnn.png$image
+@@||id24.bg/bans/googlealogo.png$image
+@@||id24.bg/bans/futontv*.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
 @@||seirsanduk.*/popunder.js$script
 @@||seir-sanduk.*/popunder.js$script
@@ -200,8 +202,9 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ##.google_adds
 ##a[href^="https://track.mediadirectory.net/click?"]
 daskalo.com,souyovkov.com,pgt-pomorie.com,ou-zahari.com,ouvoynikov-pobeda.com,pgmet1.com,pgdevin.com,radichkovls-vidin.org,pgptlom.com,pget-harmanli.com,rio-vidin.org,ghp-pld.com,sou-vetovo.org,fsgdobrich.org,soukneja.org,ouvaptsarov.net,souroman.org,lomonosov-go.com,oustmihaylovski.org,ou72.org,sou-trastenik.com,soudevin.com,outsalapitsa.com,sou-prodanov.com,soumadan.org,vasillevskibelene.org,pgtdobrich.org,4ou-shishkov.eu,ouesv-vidin.org,svetii-kardjali.org,sourazlog.net,su-dm.info,sou73.bg,soumedkovec.com,pges-tg.com,dgkatunci.com,oubyalareka.org,oulovchanci.org,ousaparevabania.com,suyyovkov-tervel.bg,oustarareka.com,romanistika.org,dg-ablanica.com##div[style]:has(> a[href][style] + br + small[style] > a[href]:has-text(Как да премахнете тази реклама?))
-plovdiv24.bg###rightbrand
-plovdiv24.bg###leftbrand
+plovidv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg##body:style(background: none !important)
+plovidv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg###leftbrand
+plovidv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg###rightbrand
 frognews.bg##.world-area-ad
 frognews.bg##.health-ad-blk
 frognews.bg##.politics-area-ad
@@ -406,8 +409,6 @@ sanovnik.bg##.gidd
 sanovnik.bg##.gidm
 tvn.bg##.td-a-rec
 flagman.bg##[class*="bannerRow"]
-burgas24.bg###rightbrand
-burgas24.bg###leftbrand
 vihrogon.bg##div[style*="text-align:center;"]:has-text(външна реклама)
 cross.bg##.adv
 capital.bg##.banner-box
@@ -652,7 +653,7 @@ player.nu6i-bg-net.com##a[onclick="openAuc();"]
 
 ! allow
 vipoferta.bg#@##signup-popup
-plovdiv24.bg#@##adbox
+plovidv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox
 stz24.com#@#.weather_ad
 botevgrad.com#@#.adverts
 botevgrad.com#@#.advert-title

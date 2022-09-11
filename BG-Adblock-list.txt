@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 137
+! Version: 138
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 9 Sep 2022
+! Last modified: 11 Sep 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -637,7 +637,7 @@ vsi4kifilmi.com##.widget_block:has(> [id^="div-gpt-ad"])
 yambolsport.net##.banner
 yambolsport.net###menu-footer > .menu-item > a[href]:not([href^="https://www.yambolsport.net/"])
 yambolsport.net##h2[class="title"]:has-text(С подкрепата на:)
-yambolsport.net###widget_text:has-text(Сакарела)
+yambolsport.net###widget_text:has(> h3[class="title"]:has-text(Сакарела))
 fbet.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display: block !important)
 qkifilmi.com,onlain-filmi.com###movie_ad
 qkifilmi.com,onlain-filmi.com##.selected:has-text(/^Реклама$/)

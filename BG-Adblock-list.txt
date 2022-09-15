@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 140
+! Version: 141
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 12 Sep 2022
+! Last modified: 15 Sep 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -257,7 +257,8 @@ novsport.com##div[style*="width: 468px; height: 60px;"]
 novsport.com##div[style*="width: 300px; height: 250px;"]
 alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*,seir-sanduk.*###banner
-seirsanduk.*,seir-sanduk.*##p:has-text(Реклама)
+seirsanduk.*,seir-sanduk.*##p:has-text(/^Реклама:/)
+seirsanduk.*,seir-sanduk.*##a[href^="https://www.bybit.com/"]
 presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([href*="https://visvitalis.radiostream123.com/"])
 presstv.bg###media_image-2
 bgvest.eu###b3p
@@ -345,7 +346,6 @@ bg-gledai.live,bg-gledai.co##.squarebanner
 bg-gledai.live,bg-gledai.co##.smallbanner
 bul-tv.com##.ban-head
 bul-tv.com##.banner-sticky
-seirsanduk.*,seir-sanduk.*##a[href^="https://www.bybit.com/"]
 gledaibgtv.com##.widebanner
 gledaibgtv.com##.squarebanner
 gledaibgtv.com##.smallbanner

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 146
+! Version: 147
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 17 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -151,6 +151,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||chernomorie-bg.com/template/default/ajax/banner_display.php
 ||yambolsport.net/reklami/$image
 ||nullrefer.com/js/parking*.js$script
+||burevestnik.bg/banner$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -657,6 +658,8 @@ btv.bg##.title-ad
 btv.bg##.is-advertisement
 sv-news.com,bgnew.info##.widget_text:has(> h3[class="widgettitle"]:has-text(/^Спонсорирани връзки:$/))
 sv-news.com,bgnew.info##.widget_text:has(> .textwidget > script[src*="//pagead2.googlesyndication.com/"])
+burevestnik.bg##.sidebar-inset:has(> h6[class]:has-text(/^Реклама|Препоръчано$/))
+burevestnik.bg##div[style]:has(> .section-md div.heading-divider > h2:has-text(/^Реклама$/))
 
 ! allow
 vipoferta.bg#@##signup-popup

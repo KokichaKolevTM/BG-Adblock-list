@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 144
+! Version: 145
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 17 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -296,7 +296,7 @@ clubz.bg##.banner-wrapper
 pronewsdobrich.bg##.elementor-image
 pronewsdobrich.bg##[id^="news247_ads_banner_widget"]
 pronewsdobrich.bg##div:has(> h3:has-text(Реклама) + div:has(iframe[src^="/Banners/"]))
-bgnewscom.eu##[id^="custom_html"]:has(> div > script[async=""])
+bgnewscom.eu##.widget_text:has(> .textwidget > script[src*="//pagead2.googlesyndication.com/"])
 slava.bg##.ad
 slava.bg##.left:has(> script)
 pronewsdobrich.bg##[id^="block-"]

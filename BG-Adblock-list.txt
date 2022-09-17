@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 143
+! Version: 144
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 17 Sep 2022
 ! Expires: 7 days (update frequency)
@@ -655,6 +655,8 @@ player.nu6i-bg-net.com##a[onclick="openAuc();"]
 tvmaniabg.com##div[style]:has(> div[align="center"] > script[src*="//bdv.bidvertiser.com/"])
 btv.bg##.title-ad
 btv.bg##.is-advertisement
+sv-news.com,bgnew.info##.widget_text:has(> h3[class="widgettitle"]:has-text(/^Спонсорирани връзки:$/))
+sv-news.com,bgnew.info##.widget_text:has(> .textwidget > script[src*="//pagead2.googlesyndication.com/"])
 
 ! allow
 vipoferta.bg#@##signup-popup

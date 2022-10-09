@@ -660,6 +660,7 @@ sv-news.com,bgnew.info##.widget_text:has(> h3[class="widgettitle"]:has-text(/^С
 sv-news.com,bgnew.info##.widget_text:has(> .textwidget > script[src*="//pagead2.googlesyndication.com/"])
 burevestnik.bg##.sidebar-inset:has(> h6[class]:has-text(/^Реклама|Препоръчано$/))
 burevestnik.bg##div[style]:has(> .section-md div.heading-divider > h2:has-text(/^Реклама$/))
+forgottenbulgaria.com##.sidebar-widget:has(> .widget-head > h4.title:has-text(/^Реклама$/i))
 
 ! allow
 vipoferta.bg#@##signup-popup

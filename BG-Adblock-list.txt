@@ -152,6 +152,8 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||yambolsport.net/reklami/$image
 ||nullrefer.com/js/parking*.js$script
 ||burevestnik.bg/banner$image
+/images/radio999bg/banners/*$image,domain=radio999bg.com|radio999.bg
+/images/radio999bg/cache/banner/*$image,domain=radio999bg.com|radio999.bg
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -661,6 +663,7 @@ sv-news.com,bgnew.info##.widget_text:has(> .textwidget > script[src*="//pagead2.
 burevestnik.bg##.sidebar-inset:has(> h6[class]:has-text(/^Реклама|Препоръчано$/))
 burevestnik.bg##div[style]:has(> .section-md div.heading-divider > h2:has-text(/^Реклама$/))
 forgottenbulgaria.com##.sidebar-widget:has(> .widget-head > h4.title:has-text(/^Реклама$/i))
+radio999bg.com,radio999.bg##h4.titles:has-text(/^Реклама$/i)
 
 ! allow
 vipoferta.bg#@##signup-popup

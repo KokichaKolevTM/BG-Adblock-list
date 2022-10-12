@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 150
+! Version: 151
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 12 Oct 2022
 ! Expires: 7 days (update frequency)
@@ -666,6 +666,7 @@ forgottenbulgaria.com##.sidebar-widget:has(> .widget-head > h4.title:has-text(/^
 radio999bg.com,radio999.bg##h4.titles:has-text(/^Реклама$/i)
 svobodnabulgaria.eu##div[class^="twp-col-"]:has(> .widget > h3.widget-title + a[href]:not([href^="https://svobodnabulgaria.eu/"]) > img[src][style])
 svobodnabulgaria.eu##div[class^="twp-col-"]:has(> .widget > h3.widget-title + a[href] > img[src][style][title*="реклама"])
+vratovrazka.bg##.td-a-rec
 
 ! allow
 vipoferta.bg#@##signup-popup

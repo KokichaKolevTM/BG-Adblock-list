@@ -647,6 +647,7 @@ qkifilmi.com,onlain-filmi.com###place_links
 filmi.link##.banner-top
 filmi.link##.select-area
 trendynews.bg###credissimo-banners
+trendynews.bg###creativex
 trendynews.bg##.gofollow
 btvplus.bg##.bweb-gpt
 player.nu6i-bg-net.com##+js(aopr, BetterJsPop)

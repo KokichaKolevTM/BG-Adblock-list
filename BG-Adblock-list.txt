@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 155
+! Version: 156
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Oct 2022
 ! Expires: 7 days (update frequency)
@@ -154,6 +154,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||burevestnik.bg/banner$image
 /images/radio999bg/banners/*$image,domain=radio999bg.com|radio999.bg
 /images/radio999bg/cache/banner/*$image,domain=radio999bg.com|radio999.bg
+||bans.zajenata.bg^
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -668,6 +669,7 @@ vratovrazka.bg##.td-a-rec
 apteka-optima.com##[class^="commercial-wrap-home-"]
 apteka-optima.com##.commercial-wrap
 apteka-optima.com##.listing-commercial-wrap
+zajenata.bg##.shop_box:has(> #right_t_banner)
 
 ! allow
 vipoferta.bg#@##signup-popup

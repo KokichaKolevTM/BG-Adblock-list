@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 154
+! Version: 155
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Oct 2022
 ! Expires: 7 days (update frequency)
@@ -240,7 +240,7 @@ miau.bg##.gidb
 edna.bg##.edna-adContainer
 agroplovdiv.bg###logo-right
 agroplovdiv.bg##div[id^="widget_sp_image-"]
-gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title:has-text(/^Реклама$/)
+gabrovonews.bg##.mvp-widget-home-head > .mvp-widget-home-title:has-text(Реклама)
 gabrovonews.bg##.banner
 gabrovonews.bg##.wp-block-image > a[href]:not([href^="https://www.gabrovonews.bg/"]) > img[src]
 gabrovonews.bg###mvp-leader-wrap:has(> a[href][target="_blank"] > img[class][src])

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 158
+! Version: 159
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Oct 2022
 ! Expires: 7 days (update frequency)
@@ -479,7 +479,7 @@ bg-mamma.com##.ad-cont
 pariteni.bg##.wrap-banner
 kliuki.bg,kliuki.net,kliuki.ws##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])
 kliuki.bg,kliuki.net,kliuki.ws##a[href="http://bit.ly/1EQF6HG"]
-zvezden.com##h3:has-text(/^Реклама$/)
+zvezden.com##h3.widget-title:has-text(/^Реклама$/)
 digital.bg##.banner-holder
 bmm.bike##.gofollow
 bmm.bike##.widget-title:has-text(/^Реклама$/):upward(.widget)

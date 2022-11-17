@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 163
+! Version: 164
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 11 Nov 2022
+! Last modified: 17 Nov 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -157,6 +157,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||bans.zajenata.bg^
 ||geozo.com^$3p
 ||agronovinite.com/wp-content/uploads/minibanners/$image
+||alle.bg/a.html?t=adsenseblock$frame
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -677,6 +678,8 @@ agronovinite.com##.myownadvert
 agronovinite.com##.ubm_banners_rotation
 agronovinite.com##.widget_text:has(> .textwidget > a[href][target="_blank"]:not([href^="https://agronovinite.com/"]) > img[src])
 lex.bg##.banner-box
+alle.bg##.wstad
+alle.bg##.allebg-ads
 
 ! allow
 vipoferta.bg#@##signup-popup

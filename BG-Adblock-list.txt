@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 165
+! Version: 166
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 28 Nov 2022
+! Last modified: 29 Nov 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -599,7 +599,8 @@ carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
 chervenkarton.com##.nx-youtubebox:has(iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo"])
 news.bg,money.bg,lifestyle.bg,topsport.bg##.topic > a[href^="https://shop.gladen.bg/?utm_"]:upward(.recent-articles.active-articles)
-bulnews.bg##.ad-cont:not(> .search-container)
+bulnews.bg##.ad-cont:not(:has(> .search-container))
+bulnews.bg##.banner
 vgames.bg###banner300x250d
 vgames.bg###bannerBox
 vgames.bg###bannerBG

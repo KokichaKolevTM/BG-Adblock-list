@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 166
+! Version: 167
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 29 Nov 2022
 ! Expires: 7 days (update frequency)
@@ -682,6 +682,7 @@ lex.bg##.banner-box
 alle.bg##.wstad
 alle.bg##.allebg-ads
 hapche.bg##.advertising-label
+inews.bg##.rightContentBox:has(> .newHeading > h3:has-text(/^Наши партньори$/i))
 
 ! allow
 vipoferta.bg#@##signup-popup

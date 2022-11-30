@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 170
+! Version: 171
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Nov 2022
 ! Expires: 7 days (update frequency)
@@ -692,6 +692,7 @@ nariba.com##.box:has(> .box-title:has-text(/Реклама$/i))
 nariba.com##.ads
 ezine.nariba.com##.widget:has(> h3:has-text(/^Реклама$/i))
 ezine.nariba.com###mts_ad_widget
+karlovopress.com##.widget:has(img[src^="assets/img/banners/"])
 
 ! allow
 vipoferta.bg#@##signup-popup

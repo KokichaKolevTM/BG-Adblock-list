@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 169
+! Version: 170
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Nov 2022
 ! Expires: 7 days (update frequency)
@@ -687,6 +687,11 @@ novini247.com##.banner
 novini247.com##div[style="height:270px;"]:has(> .adsbygoogle)
 novini247.com##a[href^="https://promomall.bg/?novini247"]
 istinata.net##.widget_text:has(> [class$="-title"]:has-text(/^Реклама$/i))
+nariba.com##[id^="div-gpt-ad"]:upward(div[style*="height:250px"][style*="width:"])
+nariba.com##.box:has(> .box-title:has-text(/Реклама$/i))
+nariba.com##.ads
+ezine.nariba.com##.widget:has(> h3:has-text(/^Реклама$/i))
+ezine.nariba.com###mts_ad_widget
 
 ! allow
 vipoferta.bg#@##signup-popup

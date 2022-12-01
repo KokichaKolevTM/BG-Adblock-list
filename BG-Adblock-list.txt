@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 171
+! Version: 172
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 30 Nov 2022
+! Last modified: 1 Dec 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -693,6 +693,7 @@ nariba.com##.ads
 ezine.nariba.com##.widget:has(> h3:has-text(/^Реклама$/i))
 ezine.nariba.com###mts_ad_widget
 karlovopress.com##.widget:has(img[src^="assets/img/banners/"])
+filmisub.com##a[href^="https://mercurybest.com/gg/gb/?"]
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 180
+! Version: 181
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 1 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -699,6 +699,8 @@ mignews.info##.onecolumn a[href][target="_blank"]:not([href^="https://mignews.in
 auto-data.net##.ad970nm
 ekspresso.bg##.td-a-rec:not(:has(a[href^="https://ekspresso.bg"]))
 vecherno.com##.td-a-rec
+retro.bg##.BannersUnderArticle
+retro.bg##.banner-adv-1
 
 ! allow
 vipoferta.bg#@##signup-popup

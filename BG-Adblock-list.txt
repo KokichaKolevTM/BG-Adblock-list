@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 176
+! Version: 177
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 1 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -475,7 +475,7 @@ pero.bg##.ezclpok
 pero.bg##img[width="300"][height="250"]
 signal.bg##[id^=signal-]:has-text(Реклама)
 unison.bg##.widget-title:has-text(/^Реклама$/)
-cosmos.1.bg##div:has(> h4:has-text(Реклами))
+cosmos.1.bg##.bd-container-inner > div.bd-tagstyles:has(> h4:has-text(/^Реклами/i))
 economic.bg##.plakat
 bg-mamma.com##.ad-cont
 pariteni.bg##.wrap-banner

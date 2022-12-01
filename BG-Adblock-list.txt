@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 178
+! Version: 179
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 1 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -697,6 +697,7 @@ filmisub.com##a[href^="https://mercurybest.com/gg/gb/?"]
 novapress.today##.stream-item-top > a[href] > img[src][width="728"][height="90"]
 mignews.info##.onecolumn a[href][target="_blank"]:not([href^="https://mignews.info"]):not([href^="https://www.mignews.info"]):not([href^="https://twitter.com/"]) > img[src]
 auto-data.net##.ad970nm
+ekspresso.bg##.td-a-rec:not(:has(a[href^="https://ekspresso.bg"]))
 
 ! allow
 vipoferta.bg#@##signup-popup

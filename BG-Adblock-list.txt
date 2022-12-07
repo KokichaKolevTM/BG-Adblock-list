@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 184
+! Version: 185
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 7 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -701,6 +701,8 @@ ekspresso.bg##.td-a-rec:not(:has(a[href^="https://ekspresso.bg"]))
 vecherno.com##.td-a-rec
 retro.bg##.BannersUnderArticle
 retro.bg##.banner-adv-1
+tiendeo.bg##div[data-testid^="div-gpt-ad"]
+tiendeo.bg##div[data-testid^="div-gpt-ad"]:upward(#header-standard-container)
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 188
+! Version: 189
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 13 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -702,6 +702,10 @@ tiendeo.bg##div[data-testid^="div-gpt-ad"]
 tiendeo.bg##div[data-testid^="div-gpt-ad"]:upward(#header-standard-container)
 silistranews.net##.textwidget:has(> a[href]:not([href^="https://silistranews.net/"]) > img[src])
 silistranews.net##.marketing-area
+utroruse.com##.widget:has(h3:has-text(Реклама))
+utroruse.com##.widget:has(> .cwidget > .text-center > a[href] > img[src$="/sesame.gif"])
+utroruse.com##.widget:has(> .cwidget > .text-center > div[style] script[src^="https://pagead2.googlesyndication.com"])
+utroruse.com###news_ad
 
 ! allow
 vipoferta.bg#@##signup-popup

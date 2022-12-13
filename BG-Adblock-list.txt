@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 189
+! Version: 190
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 13 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -158,6 +158,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||alle.bg/a.html?t=adsenseblock$frame
 ||agroplovdiv.bg/adro/
 ||uppyads.com^
+||pronewsdobrich.bg/wp-content/uploads/rklm$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -297,13 +298,13 @@ glashatai.com##.widget:has(> h3 + a[href] > img[src][style])
 clubz.bg##.square-banner
 clubz.bg##.square-banner-highlighted
 clubz.bg##.banner-wrapper
-pronewsdobrich.bg##.elementor-image
-pronewsdobrich.bg##[id^="news247_ads_banner_widget"]
-pronewsdobrich.bg##div:has(> h3:has-text(Реклама) + div:has(iframe[src^="/Banners/"]))
+pronewsdobrich.bg##.news247_ads_banner_widget
+pronewsdobrich.bg##.widget_block:has(> div > a[href]:not([href^="https://pronewsdobrich.bg/"]))
+pronewsdobrich.bg##.elementor-image:has(> a[href]:not([href^="https://pronewsdobrich.bg/"]) > img[src])
+pronewsdobrich.bg##.elementor-widget-container:has(> div > a[href]:not([href^="https://pronewsdobrich.bg/"]))
 bgnewscom.eu##.widget_text:has(> .textwidget > script[src*="//pagead2.googlesyndication.com/"])
 slava.bg##.ad
 slava.bg##.left:has(> script)
-pronewsdobrich.bg##[id^="block-"]
 moreto.net###RightBrand
 moreto.net###LeftBrand
 moreto.net##a[href^="https://ad2.moreto.net/"]

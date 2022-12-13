@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 192
+! Version: 193
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 13 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -160,6 +160,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||uppyads.com^
 ||pronewsdobrich.bg/wp-content/uploads/rklm$image
 ||dobrudjabg.com/upload/banners/
+||dobrichonline.com/media/banners/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -710,6 +711,7 @@ utroruse.com##.widget:has(> .cwidget > .text-center > div[style] script[src^="ht
 utroruse.com###news_ad
 dobrudjabg.com##.widget_goodlayers-1-1-banner-widget
 novinivarna.com,dobrichonline.com###partners
+novinivarna.com##div[style]:has(> iframe[src^="https://www.dobrichonline.com/media/banners/"])
 
 ! allow
 vipoferta.bg#@##signup-popup

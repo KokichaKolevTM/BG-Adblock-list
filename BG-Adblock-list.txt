@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 187
+! Version: 188
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 11 Dec 2022
+! Last modified: 13 Dec 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -700,6 +700,8 @@ retro.bg##.BannersUnderArticle
 retro.bg##.banner-adv-1
 tiendeo.bg##div[data-testid^="div-gpt-ad"]
 tiendeo.bg##div[data-testid^="div-gpt-ad"]:upward(#header-standard-container)
+silistranews.net##.textwidget:has(> a[href]:not([href^="https://silistranews.net/"]) > img[src])
+silistranews.net##.marketing-area
 
 ! allow
 vipoferta.bg#@##signup-popup

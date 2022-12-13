@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 191
+! Version: 192
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 13 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -709,6 +709,7 @@ utroruse.com##.widget:has(> .cwidget > .text-center > a[href] > img[src$="/sesam
 utroruse.com##.widget:has(> .cwidget > .text-center > div[style] script[src^="https://pagead2.googlesyndication.com"])
 utroruse.com###news_ad
 dobrudjabg.com##.widget_goodlayers-1-1-banner-widget
+novinivarna.com,dobrichonline.com###partners
 
 ! allow
 vipoferta.bg#@##signup-popup
@@ -718,3 +719,7 @@ botevgrad.com#@#.adverts
 botevgrad.com#@#.advert-title
 fun.9999999views.com#@#.bottomad
 kotasport.com#@#.td-a-rec
+novinivarna.com,dobrichonline.com#@#.ad-block
+novinivarna.com,dobrichonline.com#@#.ad-title
+novinivarna.com,dobrichonline.com#@#.ad-description
+novinivarna.com,dobrichonline.com#@##ads-header

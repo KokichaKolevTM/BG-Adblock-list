@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 194
+! Version: 195
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 13 Dec 2022
+! Last modified: 14 Dec 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -306,7 +306,7 @@ pronewsdobrich.bg##.elementor-image:has(> a[href]:not([href^="https://pronewsdob
 pronewsdobrich.bg##.elementor-widget-container:has(> div > a[href]:not([href^="https://pronewsdobrich.bg/"]))
 bgnewscom.eu##.widget_text:has(> .textwidget > script[src*="//pagead2.googlesyndication.com/"])
 slava.bg##.ad
-slava.bg##.left:has(> script)
+slava.bg##.left:has(> script[src])
 moreto.net###RightBrand
 moreto.net###LeftBrand
 moreto.net##a[href^="https://ad2.moreto.net/"]

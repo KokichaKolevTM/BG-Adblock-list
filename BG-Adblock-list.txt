@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 195
+! Version: 196
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 14 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -714,6 +714,8 @@ novinivarna.com,dobrichonline.com###partners
 novinivarna.com##div[style]:has(> iframe[src^="https://www.dobrichonline.com/media/banners/"])
 haskovo.info##a[href] > img[width="728"][height="90"]
 haskovo.info##a[href="http://www.radiometronom.com/"][target="_blank"]:has(img[src])
+sakarnews.info##.banner
+sakarnews.info##.widget:has(> h3:has-text(/^Реклама$/i))
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 197
+! Version: 198
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 15 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -161,6 +161,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||pronewsdobrich.bg/wp-content/uploads/rklm$image
 ||dobrudjabg.com/upload/banners/
 ||dobrichonline.com/media/banners/
+||travelnews.bg/pic/banners/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -718,6 +719,8 @@ sakarnews.info##.banner
 sakarnews.info##.widget:has(> h3:has-text(/^Реклама$/i))
 knews.bg##.widget_text:has(> div > h3:has-text(/^Партньори$/i))
 knews.bg##.elementor-widget-container:has(> a[href]:not([href^="https://knews.bg/"]) > img[src])
+travelnews.bg##.banner
+travelnews.bg##.hidbanner
 
 ! allow
 vipoferta.bg#@##signup-popup

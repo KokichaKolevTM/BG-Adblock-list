@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 198
+! Version: 199
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 15 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -269,8 +269,6 @@ alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*,seir-sanduk.*###banner
 seirsanduk.*,seir-sanduk.*##p:has-text(/^Реклама:/)
 seirsanduk.*,seir-sanduk.*##a[href^="https://www.bybit.com/"]
-presstv.bg##a[class="td_spot_img_all"]:not([href^="https://presstv.bg/"]):not([href*="https://visvitalis.radiostream123.com/"])
-presstv.bg###media_image-2
 bgvest.eu###b3p
 bgvest.eu##+js(nowoif)
 kriminalno.com##.float-right

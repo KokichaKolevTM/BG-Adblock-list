@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 199
+! Version: 200
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 15 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -719,6 +719,7 @@ knews.bg##.widget_text:has(> div > h3:has-text(/^Партньори$/i))
 knews.bg##.elementor-widget-container:has(> a[href]:not([href^="https://knews.bg/"]) > img[src])
 travelnews.bg##.banner
 travelnews.bg##.hidbanner
+stzagora.net##.standard-ad
 
 ! allow
 vipoferta.bg#@##signup-popup

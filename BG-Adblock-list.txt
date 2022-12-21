@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 205
+! Version: 206
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 21 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -258,7 +258,6 @@ nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml
 yavka.net##.rek
 yavka.net##.bar_topadd:not(:has(.alert))
 zagoranews.bg##.bg-ad
-zarata.info##a[style="background-color: yellow;"]
 technews.bg##.baner_top
 technews.bg##.baner_after_post
 technews.bg##.baner_under_post
@@ -725,6 +724,9 @@ travelnews.bg##.hidbanner
 stzagora.net##.standard-ad
 rousse.info##.gofollow
 rousse.info##.widget:has(> .widget-header > .widget-title:has-text(/^(VIP )?Профили$/i))
+zarata.info##.entry-content > p:has-text(/^\[ad id=/)
+zarata.info##.text-adv
+zarata.info##.entry-content .code-block:has(> a[href]:not([href^="https://zarata.info"]) > img[src])
 
 ! allow
 vipoferta.bg#@##signup-popup

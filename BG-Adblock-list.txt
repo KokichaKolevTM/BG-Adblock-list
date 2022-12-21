@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 203
+! Version: 204
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 21 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -278,8 +278,8 @@ kriminalno.com##.azn
 stz24.com##.addv
 stz24.com##.widget > .inner:has(> .addv)
 plovdivmedia.bg##div:has(> a > img[src$=".gif"])
-smolyanpress.net##div[id^="buffercode_banner_upload_info"]
-smolyanpress.net##.logo > :not(a[href="http://smolyanpress.net"])
+smolyanpress.net##.logo > a[href]:not([href^="http://smolyanpress.net"]) > img[src]
+smolyanpress.net##.widget_buffercode_banner_upload_info
 zara-live.com##div:has(> h6:has-text(реклама))
 senzacia-bg.com##h2:has-text(РЕКЛАМА)
 senzacia-bg.com##center:has-text(РЕКЛАМА)

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 206
+! Version: 207
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 21 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -727,6 +727,8 @@ rousse.info##.widget:has(> .widget-header > .widget-title:has-text(/^(VIP )?Пр
 zarata.info##.entry-content > p:has-text(/^\[ad id=/)
 zarata.info##.text-adv
 zarata.info##.entry-content .code-block:has(> a[href]:not([href^="https://zarata.info"]) > img[src])
+dnes.bg##.natives-title
+dnes.bg##.natives
 
 ! allow
 vipoferta.bg#@##signup-popup

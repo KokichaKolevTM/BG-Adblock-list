@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 202
+! Version: 203
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 17 Dec 2022
+! Last modified: 21 Dec 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -163,6 +163,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||dobrichonline.com/media/banners/
 ||travelnews.bg/pic/banners/
 ||hdvmyo.com^
+||zamunda.*/banners/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -384,6 +385,7 @@ kazanlak-bg.info##div:has(> iframe[width="265"][height="250"])
 kazanlak-bg.info##div:has(> iframe[width="100%"][height="260"])
 zamunda.net,zamunda.ch##.clickads
 zamunda.net,zamunda.ch##[class^="unique-"]:has(> script[src*="advertere.zamunda."])
+zamunda.net,zamunda.ch##a[href="https://dmsbg.com/?r=z"]
 moiatabroshura.bg##[class^="banner"]
 moiatabroshura.bg##.col-desktop-5-banner
 androidbg.com##img[src*="androidbg.com/images/a/"]:upward(.textwidget)

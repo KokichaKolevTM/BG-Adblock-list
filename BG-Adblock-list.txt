@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 210
+! Version: 211
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 22 Dec 2022
+! Last modified: 25 Dec 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -734,6 +734,8 @@ manifesto.bg##.right_reklama
 manifesto.bg##.rt-block .title:has-text(/^Реклама$/i)
 manifesto.bg##.bannergroup
 manifesto.bg##.front_right_banner
+framar.bg##.banner-box
+framar.bg##.bnr
 
 ! allow
 vipoferta.bg#@##signup-popup

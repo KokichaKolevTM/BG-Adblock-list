@@ -743,6 +743,7 @@ novsport.com##+js(refresh-defuser)
 tribunaplovdiv.bg##.stream-item-above-header > .stream-item-size:has(> a[href*="adsrv.eacdn.com/"] > img[src])
 tribunaplovdiv.bg##a[href] > img[width="300"][height="250"]
 tribunaplovdiv.bg##+js(set, SGPB_POPUP_PARAMS, {})
+tribunaplovdiv.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display: block !important)
 
 ! allow
 vipoferta.bg#@##signup-popup

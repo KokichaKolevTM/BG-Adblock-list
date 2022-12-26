@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 213
+! Version: 214
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 26 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -164,6 +164,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||travelnews.bg/pic/banners/
 ||hdvmyo.com^
 ||zamunda.*/banners/
+||sesameaffiliates.bg^$3p
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -739,6 +740,9 @@ framar.bg##.bnr
 argumenti.bg##.widget_thbadsingle
 argumenti.bg##a[href="http://paconsulting.bg/"] > img[src]
 novsport.com##+js(refresh-defuser)
+tribunaplovdiv.bg##.stream-item-above-header > .stream-item-size:has(> a[href*="adsrv.eacdn.com/"] > img[src])
+tribunaplovdiv.bg##a[href] > img[width="300"][height="250"]
+tribunaplovdiv.bg##+js(set, SGPB_POPUP_PARAMS, {})
 
 ! allow
 vipoferta.bg#@##signup-popup

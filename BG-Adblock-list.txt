@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 215
+! Version: 216
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 28 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -745,6 +745,8 @@ tribunaplovdiv.bg##a[href] > img[width="300"][height="250"]
 tribunaplovdiv.bg##+js(set, SGPB_POPUP_PARAMS, {})
 tribunaplovdiv.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display: block !important)
 textove.com###sidebar_banner
+temasport.com##a[href="https://7sport.net/palmsbet/"] > img[src]
+temasport.com##a[href="https://betenemy.com/"] > img[src]
 
 ! allow
 vipoferta.bg#@##signup-popup

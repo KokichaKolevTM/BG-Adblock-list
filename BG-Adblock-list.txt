@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 214
+! Version: 215
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 26 Dec 2022
+! Last modified: 28 Dec 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -744,6 +744,7 @@ tribunaplovdiv.bg##.stream-item-above-header > .stream-item-size:has(> a[href*="
 tribunaplovdiv.bg##a[href] > img[width="300"][height="250"]
 tribunaplovdiv.bg##+js(set, SGPB_POPUP_PARAMS, {})
 tribunaplovdiv.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display: block !important)
+textove.com###sidebar_banner
 
 ! allow
 vipoferta.bg#@##signup-popup

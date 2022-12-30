@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 217
+! Version: 218
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -748,6 +748,7 @@ textove.com###sidebar_banner
 temasport.com##a[href="https://7sport.net/palmsbet/"] > img[src]
 temasport.com##a[href="https://betenemy.com/"] > img[src]
 bedenbogat.com##.widget:has(> .fbt-sep-title > .title:has-text(/^Реклама$/i))
+abcnews.bg##.banner
 
 ! allow
 vipoferta.bg#@##signup-popup

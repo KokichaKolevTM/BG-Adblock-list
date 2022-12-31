@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 218
+! Version: 219
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 30 Dec 2022
+! Last modified: 31 Dec 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -165,6 +165,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||hdvmyo.com^
 ||zamunda.*/banners/
 ||sesameaffiliates.bg^$3p
+||bg7.eu/Banner/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -749,6 +750,9 @@ temasport.com##a[href="https://7sport.net/palmsbet/"] > img[src]
 temasport.com##a[href="https://betenemy.com/"] > img[src]
 bedenbogat.com##.widget:has(> .fbt-sep-title > .title:has-text(/^Реклама$/i))
 abcnews.bg##.banner
+vchas.net##+js(nowoif, /share4pay|smarthome.mall24.bg/)
+vchas.net##.widget_text:has(> .textwidget > div[style] > :is(script[src^="https://pagead2.googlesyndication.com/"], iframe[src^="https://bg7.eu/Banner/"]))
+vchas.net###xrel
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 219
+! Version: 220
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Dec 2022
 ! Expires: 7 days (update frequency)
@@ -753,6 +753,7 @@ abcnews.bg##.banner
 vchas.net##+js(nowoif, /share4pay|smarthome.mall24.bg/)
 vchas.net##.widget_text:has(> .textwidget > div[style] > :is(script[src^="https://pagead2.googlesyndication.com/"], iframe[src^="https://bg7.eu/Banner/"]))
 vchas.net###xrel
+news7.eu##+js(nowoif, bitly.com)
 
 ! allow
 vipoferta.bg#@##signup-popup

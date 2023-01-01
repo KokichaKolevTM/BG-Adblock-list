@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 221
+! Version: 222
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 01 Jan 2022
 ! Expires: 7 days (update frequency)
@@ -534,7 +534,7 @@ filmi.club##+js(nowoif)
 filmi.club##.mobile_ads
 filmi.club##.top_a
 myonvideo.com###ads_side_eta
-myonvideo.com##.content_box_left:has([src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="celebritybulk.com"], [src*="etargetnet.com"], [src*="clksite.com"])
+myonvideo.com##.content_box_left:has([src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="celebritybulk.com"], [src*="etargetnet.com"], [src*="clksite.com"], #ad_inline_900_head)
 myonvideo.com##.l_panel:has(> [src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="etargetnet.com"])
 myonvideo.com##.content_box_left:has(> h3:has-text(/^Реклама$/))
 myonvideo.com###advrs

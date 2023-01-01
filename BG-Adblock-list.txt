@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 220
+! Version: 221
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 31 Dec 2022
+! Last modified: 01 Jan 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -274,7 +274,7 @@ seirsanduk.*,seir-sanduk.*###banner
 seirsanduk.*,seir-sanduk.*##p:has-text(/^Реклама:/)
 seirsanduk.*,seir-sanduk.*##a[href^="https://www.bybit.com/"]
 bgvest.eu###b3p
-bgvest.eu##+js(nowoif)
+bgvest.eu##+js(nowoif, bitly.com)
 kriminalno.com##.float-right
 kriminalno.com##.azn
 stz24.com##.addv
@@ -291,7 +291,7 @@ novavarna.net##h2:has-text(реклама)
 novavarna.net##.textwidget > p > :not(a[href^="https://novavarna.net/"])
 pik.bg##div[class^="banners_"]
 pro4eti.eu###b3p
-pro4eti.eu##+js(nowoif)
+pro4eti.eu##+js(nowoif, bitly.com)
 bg7.eu###b3p
 enovina.bg##.banner
 iskra.bg##a:not([href^="https://www.iskra.bg/"]) > picture > img[width="510"][height="90"]
@@ -503,7 +503,7 @@ nenovinite.com##.ad
 razkritia.com##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])
 razkritia.com##a[href="http://bit.ly/1EQF6HG"]
 potv.bg##.mb-4.col-lg-auto:has(> div > div > div > .adsbygoogle):first-of-type
-cinemabg.club##+js(nowoif)
+cinemabg.club##+js(acis, document.querySelectorAll, popMagic)
 coreni.net##.widget-title:has-text(/^Реклама$/)
 vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])

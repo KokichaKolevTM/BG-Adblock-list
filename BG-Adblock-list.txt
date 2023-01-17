@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 224
+! Version: 225
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 17 Jan 2022
 ! Expires: 7 days (update frequency)
@@ -316,7 +316,7 @@ moreto.net###LeftBrand
 moreto.net##a[href^="https://ad2.moreto.net/"]
 moreto.net##td[width="300"]:has(b:has-text(/^Реклама$/))
 bgmateriali.com##a[href="http://yankod.com"] > img
-burgasnovinite.bg##div[id^="HTML"]:has(> .widget-content > [src^="https://b.grabo.bg/"], [src*="googlesyndication.com"], [src*="etargetnet.com"], .azn)
+burgasnovinite.bg##.widget:has(> .widget-content > :is(iframe[src^="https://b.grabo.bg/"], script[src^="https://pagead2.googlesyndication.com/"], script[src*=".etargetnet.com/"], script[src^="https://jsc.adskeeper.com/"], script[src^="https://secure.statcounter.com/"], .azn + script))
 bgvesti.net,haskovo.net##.wide-banner
 bgvesti.net,haskovo.net##.square-banner
 pbnovini.com##.gofollow

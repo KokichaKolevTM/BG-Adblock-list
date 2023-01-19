@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 226
+! Version: 227
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 17 Jan 2022
+! Last modified: 19 Jan 2022
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -770,3 +770,4 @@ novinivarna.com,dobrichonline.com#@#.ad-block
 novinivarna.com,dobrichonline.com#@#.ad-title
 novinivarna.com,dobrichonline.com#@#.ad-description
 novinivarna.com,dobrichonline.com#@##ads-header
+kotelnews.com#@#.sidebaradbox

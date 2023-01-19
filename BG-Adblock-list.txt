@@ -636,7 +636,7 @@ zona666.com##.widget:has(> .textwidget > script[src*="//eadsrv.com/"])
 1minuta.com##.admania_widgettit:has(> h3[class]:has-text(/^Спонсорирано$/))
 72chasa.com##.admania_widgettit:has(> h3[class]:has-text(/^Спонсорирано$/))
 netvesti.com##img[width="300"][height="250"]
-zamunda.info##.widget_text:has(> .textwidget > :is(script[src*="pagead2.googlesyndication.com/"], script[src*="//geniusdexchange.com/"))
+zamunda.info##.widget_text:has(> .textwidget > :is(script[src*="pagead2.googlesyndication.com/"], script[src*="//geniusdexchange.com/"]))
 eurochicago.com##.widget_text:has(> h2[class]:has-text(/^Реклама$/i))
 nauka.bg##div[class][style]:has(> b:has-text(/^РЕКЛАМА:$/))
 namoreto.bg##.td-a-rec

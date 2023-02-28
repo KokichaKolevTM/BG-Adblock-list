@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 231
+! Version: 232
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 26 Feb 2023
+! Last modified: 28 Feb 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -728,6 +728,7 @@ knews.bg##.elementor-widget-container:has(> a[href]:not([href^="https://knews.bg
 travelnews.bg##.banner
 travelnews.bg##.hidbanner
 stzagora.net##.standard-ad
+stzagora.net##.videohead:has(> .videotitle:has-text(/^Реклама$/i))
 rousse.info##.gofollow
 rousse.info##.widget:has(> .widget-header > .widget-title:has-text(/^(VIP )?Профили$/i))
 zarata.info##.entry-content > p:has-text(/^\[ad id=/)

@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 236
+! Version: 237
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 06 Mar 2023
+! Last modified: 07 Mar 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -167,6 +167,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||sesameaffiliates.bg^$3p
 ||bg7.eu/Banner/
 ||tomorrowwillbehotmaybe.com^
+||sevlievo-online.com/images/canvas/ads/reklami/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -765,6 +766,8 @@ themainline.top##+js(nowoif, /share4pay|smarthome.mall24.bg/)
 prekrasna.bg##aside > .widget.widget_text
 politikata.net##center:has(> [id^="SC_TBlock"] ~ script[src^="https://adrain.check-system.online/"])
 newsbg.eu##img[alt="Header AD Image"]
+sevlievo-online.com##.banner
+sevlievo-online.com##.cont-adv-block
 
 ! allow
 vipoferta.bg#@##signup-popup

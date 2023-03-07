@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 237
+! Version: 238
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 07 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -324,6 +324,7 @@ bgvesti.net,haskovo.net##.square-banner
 pbnovini.com##.gofollow
 otzvuk.bg##.gofollow
 otzvuk.bg##span.stream-title:has-text(/^Advertisement/)
+otzvuk.bg##div.adsbygoogle.Ad-Container.sidebar-ad:style(display: block !important)
 ejednevno.eu##center:has-text(/^Advertisement/)
 24plovdiv.bg##.margin-tb-10
 automoto.bg###home-banner

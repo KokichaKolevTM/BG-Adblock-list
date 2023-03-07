@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 238
+! Version: 239
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 07 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -769,6 +769,9 @@ politikata.net##center:has(> [id^="SC_TBlock"] ~ script[src^="https://adrain.che
 newsbg.eu##img[alt="Header AD Image"]
 sevlievo-online.com##.banner
 sevlievo-online.com##.cont-adv-block
+blagoevgrad-news.com##.penci-banner-box
+blagoevgrad-news.com##.penci-widget-sidebar.widget_media_image
+blagoevgrad-news.com##.widget_text:has(> .textwidget > script[src^="https://pagead2.googlesyndication.com/"])
 
 ! allow
 vipoferta.bg#@##signup-popup

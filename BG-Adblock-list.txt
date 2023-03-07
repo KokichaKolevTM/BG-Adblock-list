@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 239
+! Version: 240
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 07 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -40,7 +40,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||a.actualno.com^
 ||ads2native.com^
 ||moreto.net^*-ads.php
-||mediapool.bg/assets/js/ads_deffinitions.js$script
+||mediapool.bg/assets/js/ads_deffinitions*.js$script
 ||webnews.bg/assets/js/jquery.ads.js$script
 ||ping.contactpigeon.com/bi/bail/
 ||laptop.bg/identity?
@@ -585,6 +585,7 @@ bremenna.bg##.main-box:has(> h3[class]:has-text(/^Реклама$/))
 mediapool.bg##.header_banner_container
 mediapool.bg##.banner
 mediapool.bg##.etarget_container
+mediapool.bg##.c-header-banner-wrapper
 mamamia.bg##[id^="div-gpt-ad"]
 webcafe.bg##.container:has(a[href^="https://shop.gladen.bg/?utm_"])
 webcafe.bg##.banner

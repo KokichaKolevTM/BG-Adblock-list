@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 247
+! Version: 248
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 08 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -291,8 +291,7 @@ senzacia-bg.com##h2:has-text(РЕКЛАМА)
 senzacia-bg.com##center:has-text(РЕКЛАМА)
 bivol.bg##.widget.ai_widget > .widget-title:has-text(/^Реклама/i)
 bivol.bg##.code-block
-novavarna.net##h2:has-text(реклама)
-novavarna.net##.textwidget > p > :not(a[href^="https://novavarna.net/"])
+novavarna.net##.widgettitle:has-text(/^Реклама$/i)
 pik.bg##div[class^="banners_"]
 pro4eti.eu###b3p
 pro4eti.eu##+js(nowoif, bitly.com)

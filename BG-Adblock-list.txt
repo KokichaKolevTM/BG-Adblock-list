@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 243
+! Version: 244
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 08 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -426,7 +426,8 @@ sanovnik.bg##.giwrp
 sanovnik.bg##.gidb
 sanovnik.bg##.gidd
 sanovnik.bg##.gidm
-tvn.bg##.td-a-rec
+tvn.bg###container_ads
+tvn.bg##.td-all-devices
 flagman.bg##[class*="bannerRow"]
 vihrogon.bg##div[style*="text-align:center;"]:has-text(външна реклама)
 cross.bg##.adv

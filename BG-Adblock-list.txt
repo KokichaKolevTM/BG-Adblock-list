@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 242
+! Version: 243
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 08 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -168,6 +168,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||bg7.eu/Banner/
 ||tomorrowwillbehotmaybe.com^
 ||sevlievo-online.com/images/canvas/ads/reklami/$image
+||dupnicanews.eu/images/banners/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -777,6 +778,7 @@ zovnews.com##.widget_media_image
 zovnews.com##.widget_text > .widget-title:has-text(/^Реклама$/i)
 zovnews.com##img[width="728"][height="90"]
 delnik.net##.widget_media_image > img
+dupnicanews.eu##.bannergroup
 
 ! allow
 vipoferta.bg#@##signup-popup

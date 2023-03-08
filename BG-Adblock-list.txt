@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 248
+! Version: 249
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 08 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -583,9 +583,7 @@ zakazanlak.bg##img[alt="Ad"]
 ams.bg###leaderboard
 24novini.bg,bgsport.bg,spravka.bg,jiloto.com,timeart.bg,farmar.bg,mediafax.bg,24info.bg,d7-news.com##.td-a-rec
 bremenna.bg##.main-box:has(> h3[class]:has-text(/^Реклама$/))
-mediapool.bg##.header_banner_container
 mediapool.bg##.banner
-mediapool.bg##.etarget_container
 mediapool.bg##.c-header-banner-wrapper
 mamamia.bg##[id^="div-gpt-ad"]
 webcafe.bg##a[href^="https://shop.gladen.bg/?utm_"]:upward(.container)

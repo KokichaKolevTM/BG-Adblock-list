@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 244
+! Version: 245
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 08 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -780,6 +780,7 @@ zovnews.com##.widget_text > .widget-title:has-text(/^Реклама$/i)
 zovnews.com##img[width="728"][height="90"]
 delnik.net##.widget_media_image > img
 dupnicanews.eu##.bannergroup
+elhovo.news##.widget_text:has(> .widget-title:has-text(/^Реклама$/i))
 
 ! allow
 vipoferta.bg#@##signup-popup

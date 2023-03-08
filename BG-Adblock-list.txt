@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 245
+! Version: 246
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 08 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -589,7 +589,7 @@ mediapool.bg##.banner
 mediapool.bg##.etarget_container
 mediapool.bg##.c-header-banner-wrapper
 mamamia.bg##[id^="div-gpt-ad"]
-webcafe.bg##.container:has(a[href^="https://shop.gladen.bg/?utm_"])
+webcafe.bg##a[href^="https://shop.gladen.bg/?utm_"]:upward(.container)
 webcafe.bg##.banner
 eurocom.bg##.col-12:has(> script + div[class] > strong:has-text(/^ADS$/))
 marica.bg##.ads-container

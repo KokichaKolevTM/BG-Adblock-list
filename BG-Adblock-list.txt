@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 249
+! Version: 250
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 08 Mar 2023
+! Last modified: 09 Mar 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -590,7 +590,7 @@ webcafe.bg##a[href^="https://shop.gladen.bg/?utm_"]:upward(.container)
 webcafe.bg##.banner
 eurocom.bg##.col-12:has(> script + div[class] > strong:has-text(/^ADS$/))
 marica.bg##.ads-container
-marica.bg##.ad
+marica.bg##.ad:not(:has(.widget.currency))
 bubolechko.com##.widget:has(> .textwidget > script[src*="pagead2.googlesyndication.com"])
 informiran.net##.widget > .widget-title:has-text(/промоция:/i)
 informiran.net##.widget:has(> .widget-title:has-text(/^реклама$/i))
@@ -792,3 +792,4 @@ novinivarna.com,dobrichonline.com#@#.ad-title
 novinivarna.com,dobrichonline.com#@#.ad-description
 novinivarna.com,dobrichonline.com#@##ads-header
 kotelnews.com#@#.sidebaradbox
+obqvi.marica.bg#@#.ads-title

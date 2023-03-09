@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 250
+! Version: 251
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 09 Mar 2023
 ! Expires: 7 days (update frequency)
@@ -606,7 +606,7 @@ bg-gledai.com##div[style]:has(> div > script[src*="bidvertiser.com"])
 intrigi.bg##.td-a-rec
 carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
-chervenkarton.com##.nx-youtubebox:has(iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo"])
+chervenkarton.com##iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo?"]:upward(.nx-youtubebox)
 news.bg,money.bg,lifestyle.bg,topsport.bg##.topic > a[href^="https://shop.gladen.bg/?utm_"]:upward(.recent-articles.active-articles)
 bulnews.bg##.ad-cont:not(:has(> .search-container))
 bulnews.bg##.banner

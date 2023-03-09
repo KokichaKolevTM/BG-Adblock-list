@@ -515,6 +515,7 @@ vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])
 arenabg.com##.lozad:upward([id^="spot-"])
 arenabg.com##a[href^="https://kolite.bg/"][href*="?ref=arenabg"]
+arenabg.com##div[id^="spot-"]:has(> script[src^="https://js.inbetpartners.com"])
 opoznai.bg##a[href^="https://grabo.bg/vinetki/?affid="]
 opoznai.bg###b340x100
 bgtop.net##div[style="width:300px;height:600px;"]
@@ -545,7 +546,6 @@ myonvideo.com##.l_panel:has(> [src^="https://myonvideo.com/"][src*="&ads="], [sr
 myonvideo.com##.content_box_left:has(> h3:has-text(/^Реклама$/))
 myonvideo.com###advrs
 myonvideo.com##+js(nowoif)
-arenabg.com##div[id^="spot-"]:has(> script[src^="https://js.inbetpartners.com"])
 epicenter.bg##.div_kare_r:matches-css(width: 300px):has(> a[href]:not([href^="/author/"]) > img[style="padding-top:10px;"])
 player.bgestv.com##+js(aopr, BetterJsPop)
 player.bgestv.com##a[onclick="openAuc();"]

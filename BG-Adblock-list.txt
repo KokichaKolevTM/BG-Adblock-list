@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 257
+! Version: 258
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Apr 2023
 ! Expires: 7 days (update frequency)
@@ -776,7 +776,9 @@ elhovo.news##.widget_text:has(> .widget-title:has-text(/^Реклама$/i))
 montana24.net##.td-a-rec
 autonews.bg###osnban
 autonews.bg###prods-cntv.hide :is([src^="Files/Baners/"], #etarget-hb-wrap, ins.adsbygoogle):upward(#prods-cntv.hide)
-troyanexpress.com##.container-wrapper.widget:has(> .widget-title:has-text(/^Реклама$/))
+troyanexpress.com##.container-wrapper.widget:has(> .widget-title:has-text(/^Реклама$/i))
+troyanpress.com##.wpb_wrapper a[href] > img[width="1200"][height="200"]
+troyanpress.com##.widget:has(> .section-heading > .h-text:has-text(/^Реклама$/i))
 
 ! allow
 vipoferta.bg#@##signup-popup

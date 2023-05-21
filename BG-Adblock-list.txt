@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 261
+! Version: 262
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 21 May 2023
 ! Expires: 7 days (update frequency)
@@ -781,6 +781,7 @@ troyanexpress.com##.container-wrapper.widget:has(> .widget-title:has-text(/^Ре
 troyanpress.com##.wpb_wrapper a[href] > img[width="1200"][height="200"]
 troyanpress.com##.widget:has(> .section-heading > .h-text:has-text(/^Реклама$/i))
 ranica.bg##.ranicarekl
+e-vestnik.bg##.video_title:has-text(/Реклама/i)
 
 ! allow
 vipoferta.bg#@##signup-popup

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 265
+! Version: 266
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 23 May 2023
 ! Expires: 7 days (update frequency)
@@ -788,6 +788,7 @@ econ.bg##.staticBanner
 econ.bg##.betBanner
 econ.bg##.banner
 jenite.bg##.newOffers
+programata.tv###banner2Column
 
 ! allow
 vipoferta.bg#@##signup-popup

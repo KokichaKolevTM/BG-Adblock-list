@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 273
+! Version: 274
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 May 2023
 ! Expires: 7 days (update frequency)
@@ -358,6 +358,7 @@ radar.bg##[id^="ad-"]
 zagoranews.bg##[id^="ubm-banners-"]
 vtorifront.bg##[class^="ad-"]
 bg-gledai.live,bg-gledai.co##img[width="728"][height="90"]
+bg-gledai.live,bg-gledai.co##img[width="970"][height="250"]
 bg-gledai.live,bg-gledai.co##.squarebanner
 bg-gledai.live,bg-gledai.co##.smallbanner
 bul-tv.com##.ban-head

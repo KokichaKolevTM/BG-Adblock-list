@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 272
+! Version: 273
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 May 2023
 ! Expires: 7 days (update frequency)
@@ -274,9 +274,9 @@ flashnews.bg##.flashnewsadzone.widget
 flashnews.bg###custom_html-5
 flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"])
 alfabass-tvfree.do.am##.ads-top-banner
-seirsanduk.*,seir-sanduk.*###banner
-seirsanduk.*,seir-sanduk.*##p:has-text(/^Реклама:/)
-seirsanduk.*,seir-sanduk.*##a[href^="https://www.bybit.com/"]
+seirsanduk.*,seir-sanduk.*,glebul.com###banner
+seirsanduk.*,seir-sanduk.*,glebul.com##p:has-text(/^Реклама:/)
+seirsanduk.*,seir-sanduk.*,glebul.com##a[href^="https://www.bybit.com/"]
 bgvest.eu###b3p
 bgvest.eu##+js(nowoif, bitly.com)
 kriminalno.com##.float-right

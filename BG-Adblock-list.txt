@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 277
+! Version: 278
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 27 May 2023
+! Last modified: 29 May 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -173,6 +173,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||econ.bg/img/banners/$image
 ||cdn.gledaitv.live/js/abdetector.script.min.js$script
 ||cdn.bg-gledai.*/js/abdetector.script.min.js$script
+||faragency.bg/pic/banners/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -796,6 +797,7 @@ programata.tv###banner2Column
 olaybg.com##.td-a-rec
 24shumen.com##.td-a-rec
 inra.bg##+js(noeval-if, chp_ads_blocker_detector)
+faragency.bg##.banner
 
 ! allow
 vipoferta.bg#@##signup-popup

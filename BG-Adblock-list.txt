@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 282
+! Version: 283
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 04 Jun 2023
 ! Expires: 7 days (update frequency)
@@ -340,7 +340,7 @@ lifebites.bg##div[style="margin:20px 0 10px;"]
 maritime.bg##.better-ads-listitemad
 maritime.bg##.adcontainer
 maritime.bg##div[itemtype="https://schema.org/WPAdBlock"]:upward(1)
-maritime.bg##.primary-sidebar-widget:has(div[itemtype="https://schema.org/WPAdBlock"])
+maritime.bg,maritimefirst.com##.primary-sidebar-widget:has(div[itemtype="https://schema.org/WPAdBlock"])
 botevgrad.com##div[style]:has(> script[src^="https://reklama.botevgrad.com/"])
 botevgrad.com##.advert
 starozagorskinovini.com##.ubm_banners_rotation

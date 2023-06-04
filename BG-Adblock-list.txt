@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 281
+! Version: 282
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 04 Jun 2023
 ! Expires: 7 days (update frequency)
@@ -799,6 +799,7 @@ olaybg.com##.td-a-rec
 24shumen.com##.td-a-rec
 inra.bg##+js(noeval-if, chp_ads_blocker_detector)
 faragency.bg##.banner
+maritime.news##.td-a-rec
 
 ! allow
 vipoferta.bg#@##signup-popup

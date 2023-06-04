@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 280
+! Version: 281
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 04 Jun 2023
 ! Expires: 7 days (update frequency)
@@ -16,7 +16,7 @@
 /plugins/official-facebook-pixel/*
 /usrtrk.php
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
-.gif|$1p,image,domain=7dnibulgaria.bg|maritime.bg|plovdivmedia.bg
+.gif|$1p,image,domain=7dnibulgaria.bg|plovdivmedia.bg
 $3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com
 $3p,script,xhr,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
 $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
@@ -337,10 +337,10 @@ pazarluk.com##.suggestions-adsense
 zona98.com##.code-block
 zona98.com##.ai_widget:has(.code-block)
 lifebites.bg##div[style="margin:20px 0 10px;"]
-maritime.bg##.xuymj
 maritime.bg##.better-ads-listitemad
-maritime.bg##[id^="xuymj-"]
-maritime.bg##+js(set, cpp_loc, null)
+maritime.bg##.adcontainer
+maritime.bg##div[itemtype="https://schema.org/WPAdBlock"]:upward(1)
+maritime.bg##.primary-sidebar-widget:has(div[itemtype="https://schema.org/WPAdBlock"])
 botevgrad.com##div[style]:has(> script[src^="https://reklama.botevgrad.com/"])
 botevgrad.com##.advert
 starozagorskinovini.com##.ubm_banners_rotation

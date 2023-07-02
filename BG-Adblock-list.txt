@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 287
+! Version: 288
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 02 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -803,6 +803,7 @@ faragency.bg##.banner
 maritime.news##.td-a-rec
 manager.bg##.central-banner
 manager.bg##.advertorial-holder
+beroe.bg##.video-block-container:style(background-image: none !important)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

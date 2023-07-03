@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 290
+! Version: 291
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 03 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -172,7 +172,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||novinite.bg/media/banners/
 ||econ.bg/img/banners/$image
 ||faragency.bg/pic/banners/
-/rotate.php?$1p,script,domain=bg-gledai.co|bg-gledai.live
+/rotate.php?$1p,script,domain=bg-gledai.live|bg-gledai.co
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -185,7 +185,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 @@||botevgrad.com/uploads/advertisement/$image
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
-@@*$generichide,domain=bg-gledai.live|bg-gledai.co
 @@||brat-bg.com/images/Reklama/$image
 @@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg|dunavmost.com
 @@||player.bgestv.com/ad/api/popunder.js$script
@@ -364,6 +363,7 @@ bg-gledai.live,bg-gledai.co##img[width="970"][height="250"]
 bg-gledai.live,bg-gledai.co##.squarebanner
 bg-gledai.live,bg-gledai.co##.smallbanner
 bg-gledai.live,bg-gledai.co##+js(no-xhr-if, googlesyndication.com)
+bg-gledai.live,bg-gledai.co###adDetectorElm:style(display: block !important)
 bul-tv.com##.ban-head
 bul-tv.com##.banner-sticky
 gledaibgtv.com##.widebanner

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 294
+! Version: 295
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 07 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -806,6 +806,7 @@ beroe.bg##.video-block-container:style(background-image: none !important)
 gledaitv.live##+js(no-xhr-if, googlesyndication.com)
 gledaitv.live###adDetectorElm:style(display: block !important)
 agri.bg##.megaboard
+tractor.bg##.banner
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox
@@ -820,3 +821,4 @@ novinivarna.com,dobrichonline.com#@#.ad-description
 novinivarna.com,dobrichonline.com#@##ads-header
 kotelnews.com#@#.sidebaradbox
 obqvi.marica.bg#@#.ads-title
+tractor.bg#@#.adverts

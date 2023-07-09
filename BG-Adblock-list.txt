@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 296
+! Version: 297
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 07 Jul 2023
+! Last modified: 09 Jul 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -807,6 +807,9 @@ cdn.gledaitv.live##+js(no-xhr-if, googlesyndication.com)
 cdn.gledaitv.live###adDetectorElm:style(display: block !important)
 agri.bg##.megaboard
 tractor.bg##.banner
+tsarevo.info##.footer-friends
+tsarevo.info##.td-a-rec
+tsarevo.info##.td-header-sp-rec
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

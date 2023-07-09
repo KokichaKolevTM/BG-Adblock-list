@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 297
+! Version: 298
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 09 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -173,6 +173,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||faragency.bg/pic/banners/
 /rotate.php?$1p,script,domain=bg-gledai.live|bg-gledai.co
 ||pariteni.bg/niads.html?$frame
+||pahtpw.tech^
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image

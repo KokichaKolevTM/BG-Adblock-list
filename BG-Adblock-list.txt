@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 304
+! Version: 305
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 17 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -808,6 +808,7 @@ burgasnews.com##body.td-animation-stack-type0:remove-class(td-animation-stack-ty
 chestno.bg##.elementor-widget-image-box
 betenemy.com##+js(nostif, show_adblocker)
 betenemy.com##.topheadbnr
+boec.com##.widget_media_image
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

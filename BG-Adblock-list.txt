@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 307
+! Version: 308
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 17 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -298,8 +298,6 @@ obekti.bg##.banner
 obekti.bg##.banner + .info
 obekti.bg##+js(acs, adBlockerCookie)
 glashatai.com##.widget:has(> h3 + a[href] > img[src][style])
-clubz.bg##.square-banner
-clubz.bg##.square-banner-highlighted
 clubz.bg##.banner-wrapper
 pronewsdobrich.bg##.news247_ads_banner_widget
 pronewsdobrich.bg##.widget_block:has(> div > a[href]:not([href^="https://pronewsdobrich.bg/"]))

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 311
+! Version: 312
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 20 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -460,6 +460,7 @@ cookwithasmile.com##.item-isotope:has(.post-media-body > script[src*="pagead2.go
 yankod.com##.actual_ad
 pirinsko.com##.slidingBanners
 expert.bg##.mega-board
+expert.bg##.links-ads
 novinite.bg##.banner640
 bukvi.bg###top-banner
 bukvi.bg##.side:has(> div:has-text(/^Реклама$/))

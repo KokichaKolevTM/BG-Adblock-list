@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 313
+! Version: 314
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 22 Jul 2023
 ! Expires: 7 days (update frequency)
@@ -813,6 +813,7 @@ flashscore.bg##.boxOverContent__banner
 flashscore.bg##.detailLeaderboard
 sportlive.bg##.links-ads
 sportlive.bg##.mega-board:style(min-height: 0px !important)
+bball.bg##.td-a-rec
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

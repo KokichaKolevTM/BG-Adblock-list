@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 314
+! Version: 315
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 22 Jul 2023
+! Last modified: 23 Jul 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -259,6 +259,7 @@ nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml
 yavka.net##.rek
 yavka.net##.bar_topadd:not(:has(.alert))
 zagoranews.bg##.bg-ad
+zagoranews.bg##[id^="ubm-banners-"]
 technews.bg##.baner_top
 technews.bg##.baner_after_post
 technews.bg##.baner_under_post
@@ -348,7 +349,6 @@ mail.bg###mail_ad
 mail.bg##.adsy-channel
 mail.bg##.banner_text_top
 radar.bg##[id^="ad-"]
-zagoranews.bg##[id^="ubm-banners-"]
 vtorifront.bg##[class^="ad-"]
 bg-gledai.live,bg-gledai.co##img[width="728"][height="90"]
 bg-gledai.live,bg-gledai.co##img[width="970"][height="250"]

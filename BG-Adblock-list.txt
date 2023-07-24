@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 315
+! Version: 316
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 23 Jul 2023
+! Last modified: 25 Jul 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -108,7 +108,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||bia-bg.com/images/banner/$image
 ||karlovopress.com/assets/img/banners/$image
 ||adnet.bg^
-||arenabg.com/var/inbet/$frame
 ||vipoferta.bg/tracking/
 ||rapolok.com^
 ||lekar.bg/wp-content/uploads/banners/$image
@@ -508,10 +507,10 @@ cinemabg.club##+js(acis, document.querySelectorAll, popMagic)
 coreni.net##.widget-title:has-text(/^Реклама$/)
 vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])
-arenabg.com##.lozad:upward([id^="spot-"])
-arenabg.com##a[href^="https://kolite.bg/"][href*="?ref=arenabg"]
-arenabg.com##div[id^="spot-"]:has(> script[src^="https://js.inbetpartners.com"])
-arenabg.com##.d-sm-block[id]:has(> iframe[src^="https://kolite.bg/banners/"])
+arenabg.com##div[id^="spot-"]
+arenabg.com##.row > .text-center > a[href^="http"]:not([href^="https://arenabg.com/"])
+arenabg.com##.row > .col-md-3 > a[href="https://fvpn.com"]:upward(.row)
+arenabg.com##:matches-path(/help) .card > .card-header > h2:has-text(/^Приятели|Friends$/i):upward(.card)
 opoznai.bg##a[href^="https://grabo.bg/vinetki/?affid="]
 opoznai.bg###b340x100
 bgtop.net##div[style="width:300px;height:600px;"]

@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 322
+! Version: 323
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 11 Aug 2023
+! Last modified: 12 Aug 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -356,7 +356,7 @@ bg-gledai.live,bg-gledai.co##img[width="728"][height="90"]
 bg-gledai.live,bg-gledai.co##img[width="970"][height="250"]
 bg-gledai.live,bg-gledai.co##.squarebanner
 bg-gledai.live,bg-gledai.co##.smallbanner
-cdn.bg-gledai.live,cdn.bg-gledai.co##+js(no-xhr-if, googlesyndication.com)
+cdn.bg-gledai.live,cdn.bg-gledai.co##+js(no-xhr-if, googletagservices.com)
 cdn.bg-gledai.live,cdn.bg-gledai.co###adDetectorElm:style(display: block !important)
 bul-tv.com##.ban-head
 bul-tv.com##.banner-sticky
@@ -797,7 +797,7 @@ maritime.news##.td-a-rec
 manager.bg##.central-banner
 manager.bg##.advertorial-holder
 beroe.bg##.video-block-container:style(background-image: none !important)
-cdn.gledaitv.live##+js(no-xhr-if, googlesyndication.com)
+cdn.gledaitv.live##+js(no-xhr-if, googletagservices.com)
 cdn.gledaitv.live###adDetectorElm:style(display: block !important)
 agri.bg##.megaboard
 tractor.bg##.banner

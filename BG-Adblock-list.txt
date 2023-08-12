@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 323
+! Version: 324
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 12 Aug 2023
 ! Expires: 7 days (update frequency)
@@ -647,8 +647,7 @@ namoreto.bg##[id^="namor-"]
 namoreto.bg##a[href]:not([href^="https://namoreto.bg/"]) > img[src][width]:upward(.wpb_text_column, .td_block_wrap, .widget_text)
 kaksepishe.com##.shad
 teenproblem.net##.art_advert
-vsi4kifilmi.com##[class^="aid-"]
-vsi4kifilmi.com##.widget_block:has(> [id^="div-gpt-ad"])
+vsi4kifilmi.com##.Footer > .Container > a[href][target="_blank"]
 yambolsport.net##.banner
 yambolsport.net###menu-footer > .menu-item > a[href]:not([href^="https://www.yambolsport.net/"])
 yambolsport.net##h2[class="title"]:has-text(С подкрепата на:)

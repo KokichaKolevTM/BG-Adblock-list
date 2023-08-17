@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 324
+! Version: 325
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 12 Aug 2023
+! Last modified: 17 Aug 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -41,7 +41,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||ads2native.com^
 ||moreto.net^*-ads.php
 ||mediapool.bg/assets/js/ads_deffinitions*.js$script
-||webnews.bg/assets/js/jquery.ads.js$script
 ||ping.contactpigeon.com/bi/bail/
 ||laptop.bg/identity?
 ||nixanbal.com/images/300_x_350.jpg$image
@@ -189,10 +188,8 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
 @@||brat-bg.com/images/Reklama/$image
-@@*$generichide,domain=money.bg|news.bg|lifestyle.bg|topsport.bg|dunavmost.com
 @@||player.bgestv.com/ad/api/popunder.js$script
 @@/wp-content/plugins/dh-anti-adblocker/*$1p,script
-@@*$generichide,domain=webcafe.bg|chr.bg|mamamia.bg
 @@||netinfocompany.bg/iframe_ads.php$frame
 @@||a.abv.bg/www/delivery/ck.php?$doc
 @@||1001idei.com/banners/$image
@@ -583,11 +580,7 @@ ams.bg###leaderboard
 bremenna.bg##.main-box:has(> h3[class]:has-text(/^Реклама$/))
 mediapool.bg##.banner
 mediapool.bg##.c-header-banner-wrapper
-mamamia.bg##[id^="div-gpt-ad"]
-webcafe.bg##a[href^="https://shop.gladen.bg/?utm_"]:upward(.container)
 webcafe.bg##.banner
-webcafe.bg##.skeleton-right a[href="http://yourfuture.bg/"] > img
-webcafe.bg##.skeleton-right a[href="https://getinshape.bg/"] > img
 eurocom.bg##.col-12:has(> script + div[class] > strong:has-text(/^ADS$/))
 marica.bg##.ads-container
 marica.bg##.ad:not(:has(.widget.currency))
@@ -606,7 +599,6 @@ intrigi.bg##.td-a-rec
 carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
 chervenkarton.com##iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo?"]:upward(.nx-youtubebox)
-news.bg,money.bg,lifestyle.bg,topsport.bg##.topic > a[href^="https://shop.gladen.bg/?utm_"]:upward(.recent-articles.active-articles)
 bulnews.bg##.ad-cont:not(:has(> .search-container))
 bulnews.bg##.banner
 vgames.bg###banner300x250d
@@ -825,6 +817,9 @@ toppresa.com##.widget_media_image
 infomax.bg##div[data-ai]
 infomax.bg##+js(acs, profitshare_id)
 goceto.com##img[alt~="banner"]
+news.bg,topsport.bg##+js(nostif, isuBlock)
+wmg.bg,news.bg,money.bg,lifestyle.bg,topsport.bg##html.async-hide:style(opacity: 1 !important;)
+news.bg,money.bg,lifestyle.bg,topsport.bg,infostock.bg,webcafe.bg,chr.bg,mamamia.bg##div[class][style^="width: 1px; height: 1px; position: absolute; left: -10000px; top:"]:style(display: block !important;)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

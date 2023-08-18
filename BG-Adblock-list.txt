@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 327
+! Version: 328
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 18 Aug 2023
 ! Expires: 7 days (update frequency)
@@ -822,6 +822,7 @@ wmg.bg,news.bg,money.bg,lifestyle.bg,topsport.bg##html.async-hide:style(opacity:
 news.bg,money.bg,lifestyle.bg,topsport.bg,infostock.bg,webcafe.bg,chr.bg,mamamia.bg##div[class][style^="width: 1px; height: 1px; position: absolute; left: -10000px; top:"]:style(display: block !important;)
 filmi99.com##.mvi-images:empty
 filmi99.com##.mvi-images:has(> center > script[src*="//filmi99.com/rtr/"])
+chernomorie-bg.com##.horizontal-banner
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 330
+! Version: 331
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 19 Aug 2023
+! Last modified: 20 Aug 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -205,12 +205,11 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ! Element hiding, Cosmetic filtering & Sciptlets
 !
 ! hide
-~efbet.com,~casinoefbet.com,~betenemy.com##[href^="https://cdn1.efbet.com/"]
+~efbet.com,~casinoefbet.com,~betenemy.com,~nostrabet.com,~silentbet.com,~efirbet.com##[href^="https://cdn1.efbet.com/"]
 ~efbet.com,~casinoefbet.com##[src^="https://cdn1.efbet.com/"]
-~winbet.bg,~winbetaffiliates.com,~betenemy.com##[href^="https://record.winbetaffiliates."]
+~winbet.bg,~winbetaffiliates.com,~betenemy.com,~nostrabet.com,~silentbet.com,~efirbet.com##[href^="https://record.winbetaffiliates."]
 ~winbet.bg,~winbetaffiliates.com##[src^="https://record.winbetaffiliates."]
-~palmsbet.com,~betenemy.com##[href^="https://www.palmsbet.com/affiliate/"]
-! test
+~palmsbet.com,~betenemy.com,~nostrabet.com,~silentbet.com,~efirbet.com##[href^="https://www.palmsbet.com/affiliate/"]
 ##.SC_TBlock
 ##.google-adsense-bilboard
 ##.reklama-kvadrati
@@ -799,8 +798,8 @@ burgasnews.com##.td-a-rec
 burgasnews.com##.wpb_single_image:not(:has(a[href^="https://bgtop.net"]))
 burgasnews.com##body.td-animation-stack-type0:remove-class(td-animation-stack-type0)
 chestno.bg##.elementor-widget-image-box
-betenemy.com##+js(nostif, show_adblocker)
-betenemy.com##.topheadbnr
+betenemy.com,nostrabet.com,silentbet.com,efirbet.com##+js(nostif, show_adblocker)
+betenemy.com,nostrabet.com,silentbet.com,efirbet.com##.topheadbnr
 boec.com##.widget_media_image
 flashscore.bg##.boxOverContent__banner
 flashscore.bg##.detailLeaderboard
@@ -837,5 +836,5 @@ novinivarna.com,dobrichonline.com#@##ads-header
 kotelnews.com#@#.sidebaradbox
 obqvi.marica.bg#@#.ads-title
 tractor.bg#@#.adverts
-betenemy.com#@#.ad-content
-betenemy.com#@##reklama
+betenemy.com,nostrabet.com,silentbet.com,efirbet.com#@#.ad-content
+betenemy.com,nostrabet.com,silentbet.com,efirbet.com#@##reklama

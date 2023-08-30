@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 338
+! Version: 339
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Aug 2023
 ! Expires: 7 days (update frequency)
@@ -528,7 +528,7 @@ dsport.bg##.ads
 dsport.bg##.ads-ggl
 dsport.bg##.paid-banner
 dsport.bg##.logo8888[href*="?aff_id="]
-strelanews.com##a[href^="https://grandhotelbansko.bg/offer/"] > img
+strelanews.com##.elementor-widget-image
 nixanbal.com##img[width="300"][height="250"]
 nixanbal.com##img[width="300"][height="350"]
 filmi.club##+js(nowoif)

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 336
+! Version: 337
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Aug 2023
 ! Expires: 7 days (update frequency)
@@ -176,6 +176,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||goceto.com/images/banners/$image
 ||filmi99.com/rtr/
 ||startphoto.bg/banner/$image
+||zdrave.net/banner*/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -825,6 +826,8 @@ novinarsko.eu##.widget_text
 dnesbulgaria.com##.banner-promotions-wrapper
 dnesbulgaria.com##.banner_wrapper
 olx.bg##div[data-testid="qa-advert-slot"]
+zdrave.net##.boxPartBanner
+zdrave.net##.bannSelect
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

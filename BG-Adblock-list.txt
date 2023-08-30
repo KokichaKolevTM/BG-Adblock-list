@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 335
+! Version: 336
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 25 Aug 2023
+! Last modified: 30 Aug 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -824,6 +824,7 @@ chernomorie-bg.com##.horizontal-banner
 novinarsko.eu##.widget_text
 dnesbulgaria.com##.banner-promotions-wrapper
 dnesbulgaria.com##.banner_wrapper
+olx.bg##div[data-testid="qa-advert-slot"]
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 337
+! Version: 338
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Aug 2023
 ! Expires: 7 days (update frequency)
@@ -534,6 +534,7 @@ nixanbal.com##img[width="300"][height="350"]
 filmi.club##+js(nowoif)
 filmi.club##.mobile_ads
 filmi.club##.top_a
+filmi.club###module1:has(> div[style="padding: 10px;"] > script[src])
 myonvideo.com###ads_side_eta
 myonvideo.com##.content_box_left:has([src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="celebritybulk.com"], [src*="etargetnet.com"], [src*="clksite.com"], #ad_inline_900_head)
 myonvideo.com##.l_panel:has(> [src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="etargetnet.com"])

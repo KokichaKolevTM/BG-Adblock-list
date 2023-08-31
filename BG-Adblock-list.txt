@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 340
+! Version: 341
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Aug 2023
 ! Expires: 7 days (update frequency)
@@ -396,7 +396,6 @@ action-newsbg.eu##.primary-footer .widget_text:has(> .textwidget > script[src])
 19min.bg##div[style]:has(> script[src^="https://ads.slava.bg/"])
 19min.bg##.adv
 kotasport.com##.td-all-devices
-kotasport.com##.SC_TBlock
 infoz.bg##img[width="340"]
 nbp.bg##.tr_e3lan-widget
 nbp.bg##img[width="728"][height="90"]

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 341
+! Version: 342
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Aug 2023
 ! Expires: 7 days (update frequency)
@@ -828,6 +828,8 @@ dnesbulgaria.com##.banner_wrapper
 olx.bg##div[data-testid="qa-advert-slot"]
 zdrave.net##.boxPartBanner
 zdrave.net##.bannSelect
+smolyaninfo.com##.banner-image
+smolyaninfo.com##.header_bottom_right
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 345
+! Version: 346
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 01 Sep 2023
 ! Expires: 7 days (update frequency)
@@ -59,7 +59,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||vbox7.com/aj/item/adwise?
 ||winbetaffiliates.com^$3p,domain=~winbet.bg
 ||enovina.bg/upload/banners/$image
-||pronewsdobrich.bg/Banners/
+||pronewsdobrich.bg/banners/
 ||moreto.net/i/branding/$image
 ||karlovo.tv/staticImages/ads/$image
 ||otzvuk.bg/wp-content/uploads/reklami/$image
@@ -151,7 +151,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||alle.bg/a.html?t=adsenseblock$frame
 ||agroplovdiv.bg/adro/
 ||uppyads.com^
-||pronewsdobrich.bg/wp-content/uploads/rklm$image
 ||dobrudjabg.com/upload/banners/
 ||dobrichonline.com/media/banners/
 ||travelnews.bg/pic/banners/
@@ -177,6 +176,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||filmi99.com/rtr/
 ||startphoto.bg/banner/$image
 ||zdrave.net/banner*/$image
+||pronewsdobrich.bg/?h=bannerfile&$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -299,10 +299,6 @@ obekti.bg##.banner + .info
 obekti.bg##+js(acs, adBlockerCookie)
 glashatai.com##.widget:has(> h3 + a[href] > img[src][style])
 clubz.bg##.banner-wrapper
-pronewsdobrich.bg##.news247_ads_banner_widget
-pronewsdobrich.bg##.widget_block:has(> div > a[href]:not([href^="https://pronewsdobrich.bg/"]))
-pronewsdobrich.bg##.elementor-image:has(> a[href]:not([href^="https://pronewsdobrich.bg/"]) > img[src])
-pronewsdobrich.bg##.elementor-widget-container:has(> div > a[href]:not([href^="https://pronewsdobrich.bg/"]))
 bgnewscom.eu##.widget_text:has(> .textwidget > script[src*="//pagead2.googlesyndication.com/"])
 slava.bg##.ad
 slava.bg##.left:has(> script[src])

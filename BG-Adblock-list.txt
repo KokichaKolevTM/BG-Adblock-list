@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 350
+! Version: 351
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 06 Sep 2023
+! Last modified: 07 Sep 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -179,6 +179,7 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||pronewsdobrich.bg/?h=bannerfile&$image
 ||gramofona.com/ads/loadbanner/
 ||gramofona.com/assets/banners/$image
+||poligraff.net/uploads/banners/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -835,6 +836,7 @@ show.bg##.gkpc
 smolyannews.com##:not(.ads) > .ad
 smolyannews.com##.bodyad
 gramofona.com##.banner-wrap
+poligraff.net##img[data-src^="https://www.poligraff.net/uploads/banners/"]
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

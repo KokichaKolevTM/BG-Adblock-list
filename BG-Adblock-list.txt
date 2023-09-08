@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 352
+! Version: 353
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 08 Sep 2023
 ! Expires: 7 days (update frequency)
@@ -840,6 +840,7 @@ poligraff.net##img[data-src^="https://www.poligraff.net/uploads/banners/"]
 interesnifakti.eu##.widget_media_video
 interesnifakti.eu##.widget_block
 interesnifakti.eu##.widget_media_image
+zapadno.com##.widget_sp_image
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

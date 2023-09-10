@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 354
+! Version: 355
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 10 Sep 2023
 ! Expires: 7 days (update frequency)
@@ -844,6 +844,9 @@ zapadno.com##.widget_sp_image
 mirogled.com##.widgetSideAd
 mirogled.com##.widgetAd
 mirogled.com##.widget:has-text(Реклама)
+rodopi24.blogspot.com##.adbanner
+rodopi24.blogspot.com##.widget > .widget-content > a[href]:not([href*="rodopi24."]):not([href*="24rodopi."]) > img
+rodopi24.blogspot.com##.widget > .widget-content > img
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

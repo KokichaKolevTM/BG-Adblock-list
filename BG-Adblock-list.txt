@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 360
+! Version: 361
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 13 Oct 2023
 ! Expires: 7 days (update frequency)
@@ -849,6 +849,8 @@ rodopi24.blogspot.com##.widget > .widget-content > a[href]:not([href*="rodopi24.
 rodopi24.blogspot.com##.widget > .widget-content > img
 newslife.bg##.elementor-widget-image
 3e-news.net##.block
+webstage.bg##.banner
+webstage.bg##.adv
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

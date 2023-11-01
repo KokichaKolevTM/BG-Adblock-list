@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 367
+! Version: 368
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 01 Nov 2023
 ! Expires: 7 days (update frequency)
@@ -743,7 +743,7 @@ temasport.com##a[href="https://betenemy.com/"] > img[src]
 bedenbogat.com##.widget:has(> .fbt-sep-title > .title:has-text(/^Реклама$/i))
 abcnews.bg##.banner
 vchas.net##+js(nowoif, /share4pay|smarthome.mall24.bg/)
-vchas.net##.widget_text:has(> .textwidget > div[style] > :is(script[src^="https://pagead2.googlesyndication.com/"], iframe[src^="https://bg7.eu/Banner/"]))
+vchas.net##.widget_text
 vchas.net###xrel
 news7.eu##+js(nowoif, bitly.com)
 zagora.bg##.baner

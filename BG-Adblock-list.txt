@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 366
+! Version: 367
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 01 Nov 2023
 ! Expires: 7 days (update frequency)
@@ -588,9 +588,8 @@ informiran.net##.widget:has(> .widget-title:has-text(/^реклама$/i))
 informiran.net##center,div[class][style]:has(> script[src*="ads.httpool.com"],script[src*="pagead2.googlesyndication.com"])
 informiran.net##p:has-text(/^There is no ads to display, Please add some$/i)
 bgspomen.com##center:has-text(/^РЕКЛАМА$/)
-lifebg.eu,lifebg.net##+js(nowoif, /share4pay|smarthome.mall24.bg/)
-lifebg.eu,lifebg.net##[id^="text-"][class]:has(> .textwidget > div[style]:has(script[src*="static.criteo.net"],script[src*="pagead2.googlesyndication.com"]))
-lifebg.eu,lifebg.net##div[style]:has(> #abloleft + #abloright)
+lifebg.net,lifebg.eu###main_content [class$="-widget"][id^="text-"]
+lifebg.net,lifebg.eu##div[style="  width:100%; height:280px; margin-bottom:20px;"]
 poezia.bg,gledaibgtv.at.ua##+js(set, uShowAdBanner, noopFunc)
 bg-gledai.com##div[style]:has(> div > script[src*="bidvertiser.com"])
 intrigi.bg##.td-a-rec

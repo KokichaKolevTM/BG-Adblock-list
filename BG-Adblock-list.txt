@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 365
+! Version: 366
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 01 Nov 2023
 ! Expires: 7 days (update frequency)
@@ -749,7 +749,7 @@ vchas.net###xrel
 news7.eu##+js(nowoif, bitly.com)
 zagora.bg##.baner
 zagora.bg##aside > .row:has(> .text-right > span:has-text(/^Реклама$/i))
-themainline.top##+js(nowoif, /share4pay|smarthome.mall24.bg/)
+themainline.top##div[style="  width:100%; height:280px; margin-top:20px;"]
 prekrasna.bg##aside > .widget.widget_text
 politikata.net##center:has(> [id^="SC_TBlock"] ~ script[src^="https://adrain.check-system.online/"])
 newsbg.eu##img[alt="Header AD Image"]

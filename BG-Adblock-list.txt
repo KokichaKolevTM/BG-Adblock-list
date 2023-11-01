@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 368
+! Version: 369
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 01 Nov 2023
 ! Expires: 7 days (update frequency)
@@ -275,7 +275,6 @@ seirsanduk.*,seir-sanduk.*,glebul.com###banner
 seirsanduk.*,seir-sanduk.*,glebul.com##p:has-text(/^Реклама:/)
 seirsanduk.*,seir-sanduk.*,glebul.com##a[href^="https://www.bybit.com/"]
 bgvest.eu###b3p
-bgvest.eu##+js(nowoif, bitly.com)
 kriminalno.com##.float-right
 kriminalno.com##.azn
 stz24.com##.addv
@@ -291,7 +290,6 @@ bivol.bg##.code-block
 novavarna.net##.widgettitle:has-text(/^Реклама$/i)
 pik.bg##div[class^="banners_"]
 pro4eti.eu###b3p
-pro4eti.eu##+js(nowoif, bitly.com)
 bg7.eu###b3p
 enovina.bg##.banner
 iskra.bg##a:not([href^="https://www.iskra.bg/"]) > picture > img[width="510"][height="90"]
@@ -742,10 +740,8 @@ temasport.com##a[href="https://7sport.net/palmsbet/"] > img[src]
 temasport.com##a[href="https://betenemy.com/"] > img[src]
 bedenbogat.com##.widget:has(> .fbt-sep-title > .title:has-text(/^Реклама$/i))
 abcnews.bg##.banner
-vchas.net##+js(nowoif, /share4pay|smarthome.mall24.bg/)
 vchas.net##.widget_text
 vchas.net###xrel
-news7.eu##+js(nowoif, bitly.com)
 zagora.bg##.baner
 zagora.bg##aside > .row:has(> .text-right > span:has-text(/^Реклама$/i))
 themainline.top##div[style="  width:100%; height:280px; margin-top:20px;"]
@@ -851,6 +847,7 @@ webstage.bg##.adv
 topactualno.com##div[style="float: none; margin:15px 0 15px 0; text-align:center;"]
 topactualno.com##.td-a-rec:not(:has(a[href^="https://www.facebook.com/TOPaktualno"]))
 varnaonline.eu##:is(.wpb_wrapper, .primary-sidebar) > .widget_text
+themainline.top,lifebg.net,lifebg.eu,bgvest.eu,pro4eti.eu,vchas.net,news7.eu##+js(rmnt, script, jQuery('body').click()
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

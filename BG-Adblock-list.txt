@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 372
+! Version: 373
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 10 Nov 2023
+! Last modified: 11 Nov 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -765,6 +765,7 @@ montana24.net##.td-a-rec
 autonews.bg###osnban
 autonews.bg###prods-cntv.hide :is([src^="Files/Baners/"], #etarget-hb-wrap, ins.adsbygoogle):upward(#prods-cntv.hide)
 troyanexpress.com##.container-wrapper.widget:has(> .widget-title:has-text(/^Реклама$/i))
+troyanexpress.com###menu-top
 troyanpress.com##.wpb_wrapper a[href] > img[width="1200"][height="200"]
 troyanpress.com##.widget:has(> .section-heading > .h-text:has-text(/^Реклама$/i))
 ranica.bg##.ranicarekl

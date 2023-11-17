@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 373
+! Version: 374
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 11 Nov 2023
+! Last modified: 17 Nov 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -851,6 +851,9 @@ topactualno.com##.td-a-rec:not(:has(a[href^="https://www.facebook.com/TOPaktualn
 varnaonline.eu##:is(.wpb_wrapper, .primary-sidebar) > .widget_text
 themainline.top,lifebg.net,lifebg.eu,bgvest.eu,pro4eti.eu,vchas.net,news7.eu##+js(rmnt, script, jQuery('body').click()
 vidin-online.com###gk_banner3
+targovishtenews.net##.marketing-area
+targovishtenews.net##.widget_text > .textwidget > a[href] > img
+targovishtenews.net##.widget_nav_menu:has(> .menu-priyateli-container)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

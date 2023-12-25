@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 377
+! Version: 378
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Dec 2023
 ! Expires: 7 days (update frequency)
@@ -857,6 +857,7 @@ targovishtenews.net##.marketing-area
 targovishtenews.net##.widget_text > .textwidget > a[href] > img
 targovishtenews.net##.widget_nav_menu:has(> .menu-priyateli-container)
 stroiinfo.com##.round-banner
+tvstz.com##.widget_media_image
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

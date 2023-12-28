@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 379
+! Version: 380
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 28 Dec 2023
 ! Expires: 7 days (update frequency)
@@ -17,7 +17,7 @@
 /usrtrk.php
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
 .gif|$1p,image,domain=7dnibulgaria.bg|plovdivmedia.bg
-$3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com
+$3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com|jquery.com
 $3p,script,xhr,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
 $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
 ||adwise.bg^$3p

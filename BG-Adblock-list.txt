@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 383
+! Version: 384
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 30 Dec 2023
 ! Expires: 7 days (update frequency)
@@ -861,6 +861,8 @@ avantage.bg##.sticky-sidebar > .avant-widget
 avantage.bg##.banner_wrapper
 provaton.bg###sidebar .widget_text:has(> .textwidget img)
 provaton.bg###sidebar .widget_media_video
+7dnibulgaria.bg##.gofollow
+7dnibulgaria.bg##.bt_banner
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

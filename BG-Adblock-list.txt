@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 382
+! Version: 383
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 29 Dec 2023
+! Last modified: 30 Dec 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -16,7 +16,6 @@
 /plugins/official-facebook-pixel/*
 /usrtrk.php
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
-.gif|$1p,image,domain=7dnibulgaria.bg|plovdivmedia.bg
 $3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com|jquery.com
 $3p,script,xhr,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
 $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
@@ -282,7 +281,6 @@ kriminalno.com##.float-right
 kriminalno.com##.azn
 stz24.com##.addv
 stz24.com##.widget > .inner:has(> .addv)
-plovdivmedia.bg##div:has(> a > img[src$=".gif"])
 smolyanpress.net##.logo > a[href]:not([href^="http://smolyanpress.net"]) > img[src]
 smolyanpress.net##.widget_buffercode_banner_upload_info
 zara-live.com##div.text-center:has(> h6:has-text(/^Реклама$/i))

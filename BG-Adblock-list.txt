@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 386
+! Version: 387
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 07 Jan 2023
 ! Expires: 7 days (update frequency)
@@ -506,7 +506,7 @@ vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])
 arenabg.com##div[id^="spot-"]
 arenabg.com##.row > .text-center > a[href^="http"]:not([href^="https://arenabg.com/"])
-arenabg.com##.row > .col-md-3 > a[href="https://fvpn.com"]:upward(.row)
+arenabg.com##.row:has(> .col-md-3 > a[href="https://fvpn.com"])
 arenabg.com##:matches-path(/help) .card > .card-header > h2:has-text(/^Приятели|Friends$/i):upward(.card)
 opoznai.bg##a[href^="https://grabo.bg/vinetki/?affid="]
 opoznai.bg###b340x100

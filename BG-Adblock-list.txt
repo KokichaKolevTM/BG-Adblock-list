@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 388
+! Version: 389
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 16 Jan 2023
 ! Expires: 7 days (update frequency)
@@ -189,8 +189,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 @@||id24.bg/bans/googlealogo.png$image
 @@||id24.bg/bans/futontv*.png$image
 @@||flashnews.bg/wp-content/uploads/*/300x150_corona.png$image
-@@||seirsanduk.*/popunder.js$script
-@@||seir-sanduk.*/popunder.js$script
 @@/adverts/*$image,domain=botevgrad.com
 @@/advertise-$image,domain=bgvakancia.com
 @@||brat-bg.com/images/Reklama/$image
@@ -274,7 +272,6 @@ flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"
 alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*,seir-sanduk.*,glebul.com###banner
 seirsanduk.*,seir-sanduk.*,glebul.com##p:has-text(/^Реклама:/)
-seirsanduk.*,seir-sanduk.*,glebul.com##a[href^="https://www.bybit.com/"]
 bgvest.eu###b3p
 kriminalno.com##.float-right
 kriminalno.com##.azn

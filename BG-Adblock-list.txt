@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 390
+! Version: 391
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 17 Jan 2023
+! Last modified: 18 Jan 2023
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -272,6 +272,7 @@ flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"
 alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*,seir-sanduk.*,glebul.com###banner
 seirsanduk.*,seir-sanduk.*,glebul.com###program p:has-text(/^Реклама:/)
+seirsanduk.com##+js(noeval-if, chp_ads_blocker_detector)
 bgvest.eu###b3p
 kriminalno.com##.float-right
 kriminalno.com##.azn

@@ -8,16 +8,27 @@
 ! Network rules
 !
 ! block
+
+! Regex
 /^https?:\/\/cdn\.[a-z]{4,8}\.com\/app\.js$/$3p,script,match-case
 /^https?:\/\/(www\.)?[a-z]{8,}\.com\/([a-f0-9]{2}\/){3}[a-f0-9]{32}\.js$/$3p,script
 /^https?:\/\/[a-z]{8,}\.(xyz|com|net)(\/([0-9]{1,5}|pages?|news|articles?|static|browse|view|web|index|0NaN|wiki|movie)){1,4}(\/|\.html)$/$3p,frame,match-case
 /^https:\/\/[a-f0-9]{10}\.[a-f0-9]{10}\.com\/[a-f0-9]{32}\.js$/$3p,script
 /^https:\/\/media\.mediadirectory\.net\/storage\/([a-f0-9]\/){3}[a-f0-9]{40}\/index\.html#aid=/$3p,frame
+
+! Misc
 /plugins/official-facebook-pixel/*
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
-$3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com|jquery.com
-$3p,script,xhr,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
-$3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
+/images/radio999bg/banners/*$image,domain=radio999bg.com|radio999.bg
+/images/radio999bg/cache/banner/*$image,domain=radio999bg.com|radio999.bg
+/rotate.php?$1p,script,domain=bg-gledai.live|bg-gledai.co
+
+! Denyallow filters
+*$3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com|jquery.com
+*$3p,script,xhr,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
+*$3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
+
+! '||' filters
 ||adwise.bg^$3p
 ||bimg.abv.bg^$~image
 ||img.abv.bg^*/as.adwise.bg/
@@ -141,8 +152,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||chernomorie-bg.com/template/default/ajax/banner_display.php
 ||yambolsport.net/reklami/$image
 ||burevestnik.bg/banner$image
-/images/radio999bg/banners/*$image,domain=radio999bg.com|radio999.bg
-/images/radio999bg/cache/banner/*$image,domain=radio999bg.com|radio999.bg
 ||bans.zajenata.bg^
 ||agronovinite.com/wp-content/uploads/minibanners/$image
 ||alle.bg/a.html?t=adsenseblock$frame
@@ -163,7 +172,6 @@ $3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.ne
 ||novinite.bg/media/banners/
 ||econ.bg/img/banners/$image
 ||faragency.bg/pic/banners/
-/rotate.php?$1p,script,domain=bg-gledai.live|bg-gledai.co
 ||pariteni.bg/niads.html?$frame
 ||pahtpw.tech^
 ||glasnews.bg/data/banners/$image

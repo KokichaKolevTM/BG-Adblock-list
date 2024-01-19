@@ -5,9 +5,9 @@
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
-! Network rules
+! Network filters
 !
-! block
+! Block
 
 ! Regex
 /^https?:\/\/cdn\.[a-z]{4,8}\.com\/app\.js$/$3p,script,match-case
@@ -216,7 +216,7 @@
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
 !
-! hide
+! Hide
 
 ! Generic
 ~efbet.com,~casinoefbet.com,~betenemy.com,~nostrabet.com,~silentbet.com,~efirbet.com##[href^="https://cdn1.efbet.com/"]

@@ -217,6 +217,8 @@
 ! Element hiding, Cosmetic filtering & Sciptlets
 !
 ! hide
+
+! Generic
 ~efbet.com,~casinoefbet.com,~betenemy.com,~nostrabet.com,~silentbet.com,~efirbet.com##[href^="https://cdn1.efbet.com/"]
 ~efbet.com,~casinoefbet.com##[src^="https://cdn1.efbet.com/"]
 ~winbet.bg,~winbetaffiliates.com,~betenemy.com,~nostrabet.com,~silentbet.com,~efirbet.com##[href^="https://record.winbetaffiliates."]
@@ -227,6 +229,8 @@
 ##.reklama-kvadrati
 ##.google_adds
 ##a[href^="https://track.mediadirectory.net/click?"]
+
+! Specific
 daskalo.com,souyovkov.com,pgt-pomorie.com,ou-zahari.com,ouvoynikov-pobeda.com,pgmet1.com,pgdevin.com,radichkovls-vidin.org,pgptlom.com,pget-harmanli.com,rio-vidin.org,ghp-pld.com,sou-vetovo.org,fsgdobrich.org,soukneja.org,ouvaptsarov.net,souroman.org,lomonosov-go.com,oustmihaylovski.org,ou72.org,sou-trastenik.com,soudevin.com,outsalapitsa.com,sou-prodanov.com,soumadan.org,vasillevskibelene.org,pgtdobrich.org,4ou-shishkov.eu,ouesv-vidin.org,svetii-kardjali.org,sourazlog.net,su-dm.info,sou73.bg,soumedkovec.com,pges-tg.com,dgkatunci.com,oubyalareka.org,oulovchanci.org,ousaparevabania.com,suyyovkov-tervel.bg,oustarareka.com,romanistika.org,dg-ablanica.com##div[style]:has(> a[href][style] + br + small[style] > a[href]:has-text(Как да премахнете тази реклама?))
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg##body:style(background: none !important)
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg###leftbrand

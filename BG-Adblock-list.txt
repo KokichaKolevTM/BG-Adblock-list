@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 395
+! Version: 396
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 22 Jan 2024
+! Last modified: 23 Jan 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -189,6 +189,7 @@
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=btvplus.bg
 ||kircaalihaber.com^*uploads/banners/$image
 ||plovdivmedia.bg/img/banner*$image
+||kvorum-silistra.info/images/banners/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -875,6 +876,8 @@ filmisub.cc##+js(acs, document.readyState, adsBlocked)
 тв-програма.bg###banner300250
 тв-програма.bg##.banner620
 plovdiv-online.com##.wpb_single_image
+kvorum-silistra.info##.add
+kvorum-silistra.info##video:has(> source[src^="https://www.kvorum-silistra.info/images/banners/"])
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

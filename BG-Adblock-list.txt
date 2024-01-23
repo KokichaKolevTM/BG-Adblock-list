@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 396
+! Version: 397
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 23 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -878,6 +878,8 @@ filmisub.cc##+js(acs, document.readyState, adsBlocked)
 plovdiv-online.com##.wpb_single_image
 kvorum-silistra.info##.add
 kvorum-silistra.info##video:has(> source[src^="https://www.kvorum-silistra.info/images/banners/"])
+gabarko.eu##.clean-gallery-side-widget.gabar-widget
+gabarko.eu##div.gabar-after-content
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

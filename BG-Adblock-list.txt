@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 400
+! Version: 401
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 27 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -224,9 +224,6 @@
 ~winbet.bg,~winbetaffiliates.com##[src^="https://record.winbetaffiliates."]
 ~palmsbet.com,~betenemy.com,~nostrabet.com,~silentbet.com,~efirbet.com##[href^="https://www.palmsbet.com/affiliate/"]
 ##.SC_TBlock
-##.google-adsense-bilboard
-##.reklama-kvadrati
-##.google_adds
 ##a[href^="https://track.mediadirectory.net/click?"]
 
 ! Specific
@@ -826,6 +823,7 @@ news.bg,money.bg,lifestyle.bg,topsport.bg,infostock.bg,webcafe.bg,chr.bg,mamamia
 filmi99.com##.mvi-images:empty
 filmi99.com##.mvi-images:has(> center > script[src*="//filmi99.com/rtr/"])
 chernomorie-bg.com##.horizontal-banner
+chernomorie-bg.com,e-burgas.com##.reklama-kvadrati
 novinarsko.eu##.widget_text
 dnesbulgaria.com##.banner-promotions-wrapper
 dnesbulgaria.com##.banner_wrapper
@@ -881,6 +879,8 @@ kvorum-silistra.info##video:has(> source[src^="https://www.kvorum-silistra.info/
 gabarko.eu##.clean-gallery-side-widget.gabar-widget
 gabarko.eu##div.gabar-after-content
 smolyandnes.com##.banneritem
+tribune.bg,lifeonline.bg,financialtribune.bg##.google_adds
+sravni.bg##.google-adsense-bilboard
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

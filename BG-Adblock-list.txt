@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 402
+! Version: 403
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 27 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -822,7 +822,7 @@ goceto.com##img[alt~="banner"]
 wmg.bg,news.bg,money.bg,lifestyle.bg,topsport.bg##html.async-hide:style(opacity: 1 !important;)
 news.bg,money.bg,lifestyle.bg,topsport.bg,infostock.bg,webcafe.bg,chr.bg,mamamia.bg,kaldata.com,fakti.bg##div[class][style^="width: 1px; height: 1px; position: absolute; left: -10000px; top:"]:style(display: block !important;)
 filmi99.com##.mvi-images:empty
-filmi99.com##.mvi-images:has(> center > script[src*="//filmi99.com/rtr/"])
+filmi99.com##.mvi-images:has(script[src*="//filmi99.com/rtr/"]:only-child)
 chernomorie-bg.com##.horizontal-banner
 chernomorie-bg.com,e-burgas.com##.reklama-kvadrati
 novinarsko.eu##.widget_text

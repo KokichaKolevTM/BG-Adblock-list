@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 399
+! Version: 400
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 27 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -270,6 +270,7 @@ gabrovonews.bg###mvp-leader-wrap:has(> a[href][target="_blank"] > img[class][src
 nessebar-news.com##a[href^="http://nessebar-news.com/news2/wp-content/plugins/ml-adverts/"]
 yavka.net##.rek
 yavka.net##.bar_topadd:not(:has(.alert))
+yavka.net##[onclick^="adlink("]:remove-attr(onclick)
 zagoranews.bg##.bg-ad
 zagoranews.bg##[id^="ubm-banners-"]
 technews.bg##.baner_top

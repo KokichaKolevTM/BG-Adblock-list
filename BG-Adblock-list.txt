@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 403
+! Version: 404
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 27 Jan 2024
+! Last modified: 28 Jan 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -277,8 +277,8 @@ technews.bg##.baner_under_post
 banker.bg##.superbanner
 flashnews.bg##.rekl-bottom
 flashnews.bg##.flashnewsadzone.widget
-flashnews.bg###custom_html-5
-flashnews.bg##div[id^="media_image-"] > :not(a[href^="https://www.flashnews.bg/"])
+flashnews.bg##.widget_media_image
+flashnews.bg##.widget:has(> .textwidget > .fn-adspot-title)
 alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*,seir-sanduk.*,glebul.com###banner
 seirsanduk.*,seir-sanduk.*,glebul.com###program p:has-text(/^Реклама:/)

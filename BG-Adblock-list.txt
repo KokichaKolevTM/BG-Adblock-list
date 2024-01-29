@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 406
+! Version: 407
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 29 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -190,6 +190,7 @@
 ||plovdivmedia.bg/img/banner*$image
 ||kvorum-silistra.info/images/banners/
 ||portal-silistra.eu/images/banners/$image
+||burgasinfo.com/ajax/getbanners/
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image

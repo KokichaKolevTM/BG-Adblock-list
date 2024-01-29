@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 408
+! Version: 409
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 29 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -602,7 +602,7 @@ bg-gledai.com##div[style]:has(> div > script[src*="bidvertiser.com"])
 intrigi.bg##.td-a-rec
 carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
-chervenkarton.com##iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo?"]:upward(.nx-youtubebox)
+chervenkarton.com##.nx-youtubebox:has(iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo?"])
 bulnews.bg##.ad-cont:not(:has(> .search-container))
 bulnews.bg##.banner
 vgames.bg###banner300x250d

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 410
+! Version: 411
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 29 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -886,6 +886,7 @@ tribune.bg,lifeonline.bg,financialtribune.bg##.google_adds
 sravni.bg##.google-adsense-bilboard
 bulnews.com##.widget_links.widget
 bulnews.net##.col-sm-12:has(> .row > script[src^="//pagead2.googlesyndication.com/"])
+vbox7downloader.com##.banner
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

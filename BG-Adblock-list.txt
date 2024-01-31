@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 412
+! Version: 413
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 30 Jan 2024
+! Last modified: 31 Jan 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -888,6 +888,8 @@ bulnews.com##.widget_links.widget
 bulnews.net##.col-sm-12:has(> .row > script[src^="//pagead2.googlesyndication.com/"])
 vbox7downloader.com##.banner
 bairak.bg##div[itemtype="https://schema.org/WPAdBlock"]
+skandalno.net##.widget_text:has(a[href] > img)
+skandalno.net##.td-post-content > div[style]:first-child > a[href] > img
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

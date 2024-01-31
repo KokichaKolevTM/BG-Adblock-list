@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 413
+! Version: 414
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 31 Jan 2024
 ! Expires: 7 days (update frequency)
@@ -345,6 +345,7 @@ starozagorskinovini.com##.ubm_rotation_widget
 starozagorskinovini.com##.ubm_rotating_banner
 starozagorskinovini.com##.ubm_banner
 starozagorskinovini.com##.ubm_widget
+starozagorskinovini.com##.widget_text
 pogled.info##img[width="300"][height="100"]
 pogled.info##.bannerTop
 pogled.info##.adbox

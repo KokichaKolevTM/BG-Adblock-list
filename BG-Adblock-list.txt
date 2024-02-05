@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 418
+! Version: 419
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 05 Feb 2024
 ! Expires: 7 days (update frequency)
@@ -893,6 +893,8 @@ vbox7downloader.com##.banner
 bairak.bg##div[itemtype="https://schema.org/WPAdBlock"]
 skandalno.net##.widget_text:has(a[href] > img)
 skandalno.net##.td-post-content > div[style]:first-child > a[href] > img
+napos2000.com##div.col:has(> div[id^="napos-"])
+napos2000.com##.napos-widget
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

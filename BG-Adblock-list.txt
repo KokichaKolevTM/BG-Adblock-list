@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 419
+! Version: 420
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 05 Feb 2024
+! Last modified: 07 Feb 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -191,6 +191,7 @@
 ||kvorum-silistra.info/images/banners/
 ||portal-silistra.eu/images/banners/$image
 ||burgasinfo.com/ajax/getbanners/
+||mirogled.com/storage/filemanager/files/*/*_banner_*/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -849,9 +850,6 @@ interesnifakti.eu##.widget_media_video
 interesnifakti.eu##.widget_block
 interesnifakti.eu##.widget_media_image
 zapadno.com##.widget_sp_image
-mirogled.com##.widgetSideAd
-mirogled.com##.widgetAd
-mirogled.com##.widget:has-text(Реклама)
 rodopi24.blogspot.com##.adbanner
 rodopi24.blogspot.com##.widget > .widget-content > a[href]:not([href*="rodopi24."]):not([href*="24rodopi."]) > img
 rodopi24.blogspot.com##.widget > .widget-content > img

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 421
+! Version: 422
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 09 Feb 2024
 ! Expires: 7 days (update frequency)
@@ -11,7 +11,6 @@
 
 ! Regex
 /^https?:\/\/cdn\.[a-z]{4,8}\.com\/app\.js$/$3p,script,match-case
-/^https?:\/\/[a-z]{8,}\.(xyz|com|net)(\/([0-9]{1,5}|pages?|news|articles?|static|browse|view|web|index|0NaN|wiki|movie)){1,4}(\/|\.html)$/$3p,frame,match-case
 /^https:\/\/[a-f0-9]{10}\.[a-f0-9]{10}\.com\/[a-f0-9]{32}\.js$/$3p,script
 /^https:\/\/media\.mediadirectory\.net\/storage\/([a-f0-9]\/){3}[a-f0-9]{40}\/index\.html#aid=/$3p,frame
 

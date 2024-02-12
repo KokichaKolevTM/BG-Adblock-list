@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 422
+! Version: 423
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 09 Feb 2024
+! Last modified: 12 Feb 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -508,7 +508,7 @@ nenovinite.com##.ad
 razkritia.com##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])
 razkritia.com##a[href="http://bit.ly/1EQF6HG"]
 potv.bg##.mb-4.col-lg-auto:has(> div > div > div > .adsbygoogle):first-of-type
-cinemabg.club##+js(acis, document.querySelectorAll, popMagic)
+cinemabg.club##+js(acs, document.querySelectorAll, popMagic)
 coreni.net##.widget-title:has-text(/^Реклама$/)
 vicove.top##div.text-center:has(> script[src*="pagead2.googlesyndication.com"])
 vicove.top##.card:has(> .card-body > script[src*="pagead2.googlesyndication.com"])

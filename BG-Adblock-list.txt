@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 424
+! Version: 425
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 16 Feb 2024
 ! Expires: 7 days (update frequency)
@@ -396,7 +396,8 @@ zamunda.net,zamunda.ch##[class^="unique-"]:has(> script[src*="advertere.zamunda.
 zamunda.net,zamunda.ch##a[href="https://dmsbg.com/?r=z"]
 moiatabroshura.bg##[class^="banner"]
 moiatabroshura.bg##.col-desktop-5-banner
-androidbg.com##img[src*="androidbg.com/images/a/"]:upward(.textwidget)
+www.androidbg.com##.widget_text > .cm-widget-title:has-text(Връзки):upward(.widget_text)
+www.androidbg.com##.widget_text:has(a[href] > img[src*="androidbg.com/images/a/"])
 bgizbori.org##div:has(> div > script[src*="googlesyndication.com"])
 invitrobg.com##.widget:has(> .widget-title:has-text(/^Реклама$/))
 action-newsbg.eu##.primary-footer .widget_text:has(> .textwidget > script[src])

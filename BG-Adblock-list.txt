@@ -893,6 +893,7 @@ napos2000.com##div.col:has(> div[id^="napos-"])
 napos2000.com##.napos-widget
 drumivdumi.com##.bookingaff
 drumivdumi.com##.ad-inside3
+tvshumen.bg##.mg-widget .mg-wid-title:has-text(Реклама):upward(.mg-widget)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

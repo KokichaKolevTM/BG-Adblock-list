@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 425
+! Version: 426
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 16 Feb 2024
 ! Expires: 7 days (update frequency)
@@ -10,23 +10,23 @@
 ! Block
 
 ! Regex
-/^https?:\/\/cdn\.[a-z]{4,8}\.com\/app\.js$/$3p,script,match-case
-/^https:\/\/[a-f0-9]{10}\.[a-f0-9]{10}\.com\/[a-f0-9]{32}\.js$/$3p,script
-/^https:\/\/media\.mediadirectory\.net\/storage\/([a-f0-9]\/){3}[a-f0-9]{40}\/index\.html#aid=/$3p,frame
+/^https?:\/\/cdn\.[a-z]{4,8}\.com\/app\.js$/$third-party,script,match-case
+/^https:\/\/[a-f0-9]{10}\.[a-f0-9]{10}\.com\/[a-f0-9]{32}\.js$/$third-party,script
+/^https:\/\/media\.mediadirectory\.net\/storage\/([a-f0-9]\/){3}[a-f0-9]{40}\/index\.html#aid=/$third-party,subdocument
 
 ! Misc
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
 /images/radio999bg/banners/*$image,domain=radio999bg.com|radio999.bg
 /images/radio999bg/cache/banner/*$image,domain=radio999bg.com|radio999.bg
-/rotate.php?$1p,script,domain=bg-gledai.live|bg-gledai.co
+/rotate.php?$~third-party,script,domain=bg-gledai.live|bg-gledai.co
 
 ! Denyallow filters
-*$3p,script,xhr,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com|jquery.com
-*$3p,script,xhr,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
-*$3p,script,xhr,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
+*$third-party,script,xmlhttprequest,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com|jquery.com
+*$third-party,script,xmlhttprequest,domain=filmiplay.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|cloudfront.net|google.com|gstatic.com
+*$third-party,script,xmlhttprequest,domain=filmi.club,denyallow=hcaptcha.com|facebook.com|facebook.net|fbcdn.net|cloudflare.com|jquery.com|hwcdn.net|cloudflareresearch.com|gstatic.com|google.com|googleapis.com
 
 ! '||' filters
-||adwise.bg^$3p
+||adwise.bg^$third-party
 ||bimg.abv.bg^$~image
 ||img.abv.bg^*/as.adwise.bg/
 ||id24.bg/bans/
@@ -50,26 +50,26 @@
 ||ping.contactpigeon.com/bi/bail/
 ||laptop.bg/identity?
 ||nixanbal.com/images/300_x_350.jpg$image
-||cdn1.efbet.com^$3p,domain=~casinoefbet.com
+||cdn1.efbet.com^$third-party,domain=~casinoefbet.com
 ||burgasreklama.com/images/banners/$image
 ||e-burgas.com/template/default/ajax/banner_display.php
 ||adsys.insert.bg^
 ||adserver.bg^
 ||add.cross.bg^
-||easyads.bg^$3p
+||easyads.bg^$third-party
 ||adrain.check-system.online^
 ||natsr.pro^
 ||stz24.com/template/stz24/banner/$image
-||ads-bg.net^$3p
+||ads-bg.net^$third-party
 ||zara-live.com/ad/$image
 ||vbox7.com/aj/item/adwise?
-||winbetaffiliates.com^$3p,domain=~winbet.bg
+||winbetaffiliates.com^$third-party,domain=~winbet.bg
 ||enovina.bg/upload/banners/$image
 ||pronewsdobrich.bg/banners/
 ||moreto.net/i/branding/$image
 ||karlovo.tv/staticImages/ads/$image
 ||otzvuk.bg/wp-content/uploads/reklami/$image
-||adhash.org^$3p
+||adhash.org^$third-party
 ||automoto.bg/images/banners/$image
 ||maritime.bg/ads/
 ||botevgrad.com/uploads/ad/$image
@@ -77,7 +77,7 @@
 ||adsy.mail.bg^
 ||stats.icdsoft.com^
 ||snickchangesolder.com^
-||affiliates.palmsbet.com^$3p
+||affiliates.palmsbet.com^$third-party
 ||divident.eu/uploads/banners/$image
 ||az-jenata.bg/js/copyinject.js$script
 ||poezia.ucoz.net/rtr/
@@ -102,7 +102,7 @@
 ||pahtbt.tech^
 ||bglov.com/js/banners.js$script
 ||1001recepti.com/show_banner.php?
-||copypoison.com^$3p
+||copypoison.com^$third-party
 ||expert.bg/pb.js$script
 ||pirinsko.com/upload/banners/$image
 ||pirinsko.com/banners/$image
@@ -117,18 +117,18 @@
 ||lekar.bg/wp-content/uploads/banners/$image
 ||spotsniper.ru^
 ||svejo.net/assets/banners/$image
-||inbetpartners.com^$3p,domain=~inbet.com|~inbetcasino.com
+||inbetpartners.com^$third-party,domain=~inbet.com|~inbetcasino.com
 ||counter.search.bg^
 ||skandal.bg/pic/banners/
-||adhash.bg^$3p
+||adhash.bg^$third-party
 ||lupa.bg/f/banners/$image
 ||kazanlak.com/common/buss/adv-$image
 ||dnevnik.bg/js/videojs/videojs.ads.min.js$script
 ||cdn.economedia.bg/minj/*youtube.analytics.js$script
 ||bgmaps.com/statistics/
-||profitshare.bg^$3p
+||profitshare.bg^$third-party
 ||analytics.bluedottech.io^
-||adrain.bg^$3p
+||adrain.bg^$third-party
 ||bird.bg^*?mailoptin-ajax=track_optin_impression
 ||picbg.net^*-banner.php
 ||chervenkarton.com/images/banners/$image
@@ -159,7 +159,7 @@
 ||travelnews.bg/pic/banners/
 ||hdvmyo.com^
 ||zamunda.*/banners/
-||sesameaffiliates.bg^$3p
+||sesameaffiliates.bg^$third-party
 ||bg7.eu/Banner/
 ||tomorrowwillbehotmaybe.com^
 ||sevlievo-online.com/images/canvas/ads/reklami/$image
@@ -182,7 +182,7 @@
 ||gramofona.com/ads/loadbanner/
 ||gramofona.com/assets/banners/$image
 ||poligraff.net/uploads/banners/$image
-||lupa.bg/public/$frame
+||lupa.bg/public/$subdocument
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=btvplus.bg
 ||kircaalihaber.com^*uploads/banners/$image
 ||plovdivmedia.bg/img/banner*$image
@@ -201,8 +201,8 @@
 @@/advertise-$image,domain=bgvakancia.com
 @@||brat-bg.com/images/Reklama/$image
 @@||player.bgestv.com/ad/api/popunder.js$script
-@@/wp-content/plugins/dh-anti-adblocker/*$1p,script
-@@||netinfocompany.bg/iframe_ads.php$frame
+@@/wp-content/plugins/dh-anti-adblocker/*$~third-party,script
+@@||netinfocompany.bg/iframe_ads.php$subdocument
 @@||a.abv.bg/www/delivery/ck.php?$doc
 @@||1001idei.com/banners/$image
 @@||klukite.com/banners/$image

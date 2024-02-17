@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 426
+! Version: 427
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 16 Feb 2024
+! Last modified: 17 Feb 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -334,9 +334,7 @@ pazarluk.com##.suggestions-adsense
 zona98.com##.code-block
 zona98.com##.ai_widget:has(.code-block)
 lifebites.bg##div[style="margin:20px 0 10px;"]
-maritime.bg##.better-ads-listitemad
-maritime.bg##.adcontainer
-maritime.bg##div[itemtype="https://schema.org/WPAdBlock"]:upward(1)
+maritime.bg##.umw:has(> div[itemtype="https://schema.org/WPAdBlock"])
 maritime.bg,maritimefirst.com##.primary-sidebar-widget:has(div[itemtype="https://schema.org/WPAdBlock"])
 botevgrad.com##div[style]:has(> script[src^="https://reklama.botevgrad.com/"])
 botevgrad.com##.advert

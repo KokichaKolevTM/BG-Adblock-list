@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 428
+! Version: 429
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 17 Feb 2024
 ! Expires: 7 days (update frequency)
@@ -501,7 +501,7 @@ bpost.bg##[id^="bay-"]
 bia-bg.com##.tags:has(> .banner_wrap)
 bia-bg.com##.bottom_banners_wrap
 informiraise.us##.widget:has(> .textwidget > script[src*="pagead2.googlesyndication.com"],script[src*="waust.at"])
-ifilmi.net##script[src*="pagead2.googlesyndication.com"]:upward(.content)
+ifilmi.net##.content:has(script[src*="//pagead2.googlesyndication.com/"])
 data.bg###bannertop_new
 nenovinite.com##.ad
 razkritia.com##.textwidget:has(script[src*="eadsrv.com"], script[src*="etargetnet.com"])

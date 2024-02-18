@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 429
+! Version: 430
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 17 Feb 2024
+! Last modified: 18 Feb 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -492,7 +492,7 @@ kliuki.bg,kliuki.net,kliuki.ws##a[href="http://bit.ly/1EQF6HG"]
 zvezden.com##h3.widget-title:has-text(/^Реклама$/)
 digital.bg##.banner-holder
 bmm.bike##.gofollow
-bmm.bike##.widget-title:has-text(/^Реклама$/):upward(.widget)
+bmm.bike##.widget .widget-title:has-text(/^Реклама$/):upward(.widget)
 fitnesblog.com##a[href="http://www.fitneshrani.com"][id="background-link"]
 fitnesblog.com##a[href="http://www.fitneshrani.com"] > img
 afera.bg##.textwidget > p:has(> a[href^="https://record.winbetaffiliates.com/"])

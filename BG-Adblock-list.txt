@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 430
+! Version: 431
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 18 Feb 2024
 ! Expires: 7 days (update frequency)
@@ -616,8 +616,6 @@ spodeli.com##.mb-2.col-lg-3:has(> div[class] > div[class="b300"] > script[src*="
 vicovete.bg##.dbox
 vicove.info##.rounded.mb-3:has(> script[src*="pagead2.googlesyndication.com"])
 bgtv-online.com##+js(aeld, load, FF_MainFunc)
-nehape.com##.widget:has(> .widget-container > .textwidget > script[src*="pagead2.googlesyndication.com"])
-nehape.com##img[width="300"][height="250"]:upward(.widget)
 infomreja.bg##.topBanners
 novini.bg##.--banner:has(> [id^="div-gpt-ad"])
 laf.bg##.artvert

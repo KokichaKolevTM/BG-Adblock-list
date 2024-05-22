@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 433
+! Version: 434
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 22 May 2024
 ! Expires: 7 days (update frequency)
@@ -893,6 +893,8 @@ drumivdumi.com##.bookingaff
 drumivdumi.com##.ad-inside3
 tvshumen.bg##.mg-widget .mg-wid-title:has-text(Реклама):upward(.mg-widget)
 konkurent.bg##.banner
+ekip7.bg##.widget_media_image:not(:has(> a[href*="ekip7.bg/"]))
+ekip7.bg##.widget_text:not(:has(div[data-href="https://www.facebook.com/vestnik.ekip7"]))
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

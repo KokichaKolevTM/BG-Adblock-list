@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 435
+! Version: 436
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 May 2024
 ! Expires: 7 days (update frequency)
@@ -898,6 +898,7 @@ konkurent.bg##.banner
 ekip7.bg##.widget_media_image:not(:has(> a[href*="ekip7.bg/"]))
 ekip7.bg##.widget_text:not(:has(div[data-href="https://www.facebook.com/vestnik.ekip7"]))
 plant-protection.com##div.widget:has(:is(.banner-container, a[href] > img[src*="/assets/img/ads/"]))
+play.nova.bg##+js(no-xhr-if, pagead2.googlesyndication.com)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 434
+! Version: 435
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 22 May 2024
+! Last modified: 25 May 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -191,6 +191,8 @@
 ||burgasinfo.com/ajax/getbanners/
 ||mirogled.com/storage/filemanager/files/*/*_banner_*/$image
 ||konkurent.bg/pic/banners/$image
+||plant-protection.com/resources/banners/
+||plant-protection.com/assets/img/ads/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -895,6 +897,7 @@ tvshumen.bg##.mg-widget .mg-wid-title:has-text(Реклама):upward(.mg-widget
 konkurent.bg##.banner
 ekip7.bg##.widget_media_image:not(:has(> a[href*="ekip7.bg/"]))
 ekip7.bg##.widget_text:not(:has(div[data-href="https://www.facebook.com/vestnik.ekip7"]))
+plant-protection.com##div.widget:has(:is(.banner-container, a[href] > img[src*="/assets/img/ads/"]))
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

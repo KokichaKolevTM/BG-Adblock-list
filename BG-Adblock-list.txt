@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 437
+! Version: 438
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 26 May 2024
+! Last modified: 15 Jun 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -901,6 +901,8 @@ plant-protection.com##div.widget:has(:is(.banner-container, a[href] > img[src*="
 play.nova.bg##+js(no-xhr-if, pagead2.googlesyndication.com)
 ekatte.com###ajax_ad:has(#ekatte > a[href])
 ekatte.com###ad
+bgdnes.bg##.rek
+bgdnes.bg##div[style="height: 1000px;"]:has(> .rek)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

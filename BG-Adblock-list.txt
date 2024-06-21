@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 439
+! Version: 440
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 21 Jun 2024
 ! Expires: 7 days (update frequency)
@@ -838,6 +838,7 @@ zdrave.net##.boxPartBanner
 zdrave.net##.bannSelect
 smolyaninfo.com##.banner-image
 smolyaninfo.com##.header_bottom_right
+smolyaninfo.com##.single_page_content + img[href="https://mihalkovo.com/bg/"]
 visitdobrich.bg##.widget_media_image
 agrodobrich.bg##:is(.wpb_wrapper, .widget_text) a[target="_blank"] > :is(img, iframe)
 show.bg##.gkpc

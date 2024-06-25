@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 443
+! Version: 444
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Jun 2024
 ! Expires: 7 days (update frequency)
@@ -908,6 +908,8 @@ bgdnes.bg##.rek
 bgdnes.bg##div[style="height: 1000px;"]:has(> .rek)
 news24-7.bg##.bn-content
 otgovora.com##.single-title ~ .textwidget a[href]
+varnanovini.bg##.banner-promotions-wrapper
+varnanovini.bg##.widget_media_image
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

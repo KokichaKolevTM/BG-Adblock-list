@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 440
+! Version: 441
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 21 Jun 2024
+! Last modified: 25 Jun 2024
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -151,7 +151,7 @@
 ||burevestnik.bg/banner$image
 ||bans.zajenata.bg^
 ||agronovinite.com/wp-content/uploads/minibanners/$image
-||alle.bg/a.html?t=adsenseblock$frame
+||alle.bg/a.html?t=adsenseblock$subdocument
 ||agroplovdiv.bg/adro/
 ||uppyads.com^
 ||dobrudjabg.com/upload/banners/
@@ -169,7 +169,7 @@
 ||novinite.bg/media/banners/
 ||econ.bg/img/banners/$image
 ||faragency.bg/pic/banners/
-||pariteni.bg/niads.html?$frame
+||pariteni.bg/niads.html?$subdocument
 ||pahtpw.tech^
 ||glasnews.bg/data/banners/$image
 ||werock.bg/images/publa/$image

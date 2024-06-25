@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 441
+! Version: 442
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Jun 2024
 ! Expires: 7 days (update frequency)
@@ -194,6 +194,7 @@
 ||plant-protection.com/resources/banners/
 ||plant-protection.com/assets/img/ads/$image
 ||cssuvtbfeap.com^
+||news24-7.bg/uploads/blocks/$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -905,6 +906,7 @@ ekatte.com###ajax_ad:has(#ekatte > a[href])
 ekatte.com###ad
 bgdnes.bg##.rek
 bgdnes.bg##div[style="height: 1000px;"]:has(> .rek)
+news24-7.bg##.bn-content
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

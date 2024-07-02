@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 448
+! Version: 449
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 02 Jul 2024
 ! Expires: 7 days (update frequency)
@@ -927,3 +927,4 @@ obqvi.marica.bg#@#.ads-title
 tractor.bg#@#.adverts
 betenemy.com,nostrabet.com,silentbet.com,efirbet.com#@#.ad-content
 betenemy.com,nostrabet.com,silentbet.com,efirbet.com#@##reklama
+dobrotoliubie.com#@#.e3lan

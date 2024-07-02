@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 446
+! Version: 447
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 02 Jul 2024
 ! Expires: 7 days (update frequency)
@@ -18,7 +18,6 @@
 /wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
 /images/radio999bg/banners/*$image,domain=radio999bg.com|radio999.bg
 /images/radio999bg/cache/banner/*$image,domain=radio999bg.com|radio999.bg
-/rotate.php?$~third-party,script,domain=bg-gledai.live|bg-gledai.co
 
 ! Denyallow filters
 *$third-party,script,xmlhttprequest,domain=myonvideo.com,denyallow=cloudflare.com|cbox.ws|facebook.com|facebook.net|fbcdn.net|hcaptcha.com|google.com|gstatic.com|googleapis.com|jquery.com
@@ -360,12 +359,12 @@ mail.bg##.adsy-channel
 mail.bg##.banner_text_top
 radar.bg##[id^="ad-"]
 vtorifront.bg##[class^="ad-"]
-bg-gledai.live,bg-gledai.co##img[width="728"][height="90"]
-bg-gledai.live,bg-gledai.co##img[width="970"][height="250"]
-bg-gledai.live,bg-gledai.co##.squarebanner
-bg-gledai.live,bg-gledai.co##.smallbanner
-cdn.bg-gledai.live,cdn.bg-gledai.co##+js(no-xhr-if, googletagservices.com)
-cdn.bg-gledai.live,cdn.bg-gledai.co###adDetectorElm:style(display: block !important)
+bg-gledai.live,bg-gledai.co,bg-gledai.video##img[width="728"][height="90"]
+bg-gledai.live,bg-gledai.co,bg-gledai.video##img[width="970"][height="250"]
+bg-gledai.live,bg-gledai.co,bg-gledai.video##.squarebanner
+bg-gledai.live,bg-gledai.co,bg-gledai.video##.smallbanner
+cdn.bg-gledai.live,cdn.bg-gledai.co,bg-gledai.video##+js(no-xhr-if, googletagservices.com)
+cdn.bg-gledai.live,cdn.bg-gledai.co,bg-gledai.video###adDetectorElm:style(display: block !important)
 bul-tv.com##.ban-head
 bul-tv.com##.banner-sticky
 gledaibgtv.com##.widebanner

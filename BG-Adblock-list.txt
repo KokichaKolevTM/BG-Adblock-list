@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 450
+! Version: 451
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 20 Jul 2024
 ! Expires: 7 days (update frequency)
@@ -910,6 +910,7 @@ news24-7.bg##.bn-content
 otgovora.com##.single-title ~ .textwidget a[href]
 varnanovini.bg##.banner-promotions-wrapper
 varnanovini.bg##.widget_media_image
+tvdobrich.com##.widget_media_image
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox
@@ -928,3 +929,5 @@ tractor.bg#@#.adverts
 betenemy.com,nostrabet.com,silentbet.com,efirbet.com#@#.ad-content
 betenemy.com,nostrabet.com,silentbet.com,efirbet.com#@##reklama
 dobrotoliubie.com#@#.e3lan
+tvdobrich.com#@#.widget-ad
+tvdobrich.com#@#.ad-widget

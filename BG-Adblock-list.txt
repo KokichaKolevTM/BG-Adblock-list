@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 454
+! Version: 455
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 18 Oct 2024
 ! Expires: 7 days (update frequency)
@@ -796,7 +796,7 @@ maritime.news##.td-a-rec
 manager.bg##.central-banner
 manager.bg##.advertorial-holder
 beroe.bg##.video-block-container:style(background-image: none !important)
-cdn.gledaitv.live##+js(no-xhr-if, googletagservices.com)
+cdn.gledaitv.live##+js(no-fetch-if, imasdk.googleapis.com/js/sdkloader/ima3.js)
 cdn.gledaitv.live###adDetectorElm:style(display: block !important)
 agri.bg##.megaboard
 tractor.bg##.banner

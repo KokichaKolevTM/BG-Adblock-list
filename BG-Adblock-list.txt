@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 457
+! Version: 458
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 23 Nov 2024
 ! Expires: 7 days (update frequency)
@@ -179,6 +179,7 @@
 ||plant-protection.com/assets/img/ads/$image
 ||cssuvtbfeap.com^
 ||news24-7.bg/uploads/blocks/$image
+||b1.alo.bg^
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -880,6 +881,7 @@ pronewsdobrich.bg###outTopBanner
 pronewsdobrich.bg##.bnnr_img_684x115
 pronewsdobrich.bg##+js(rmnt, script, "#popupBanner")
 19min.media##div[style]:has(> script[src*="//ads.19min.media/"])
+alo.bg##div[data-src^="https://b1.alo.bg/"]
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

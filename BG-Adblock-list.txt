@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 455
+! Version: 456
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 24 Oct 2024
 ! Expires: 7 days (update frequency)

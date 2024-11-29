@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 460
+! Version: 461
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 29 Nov 2024
 ! Expires: 7 days (update frequency)
@@ -388,7 +388,7 @@ nbp.bg##.tr_e3lan-widget
 nbp.bg##img[width="728"][height="90"]
 nbp.bg##div[style*="width:728px; height:90px;"]
 kalofer.bg##[id^="custom_html-"]:has(> h1:has-text(/^Реклама$/))
-actualno.com##[id^="banner_"]
+actualno.com##.a__ad
 supichka.com##.banner_wrapper
 ezine.bg##.giwrp
 ezine.bg##.gidm

@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 461
+! Version: 462
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 29 Nov 2024
+! Last modified: 09 Feb 2025
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -554,7 +554,8 @@ regal.bg##.banner468x60
 digitalk.bg##.advertising
 digitalk.bg##.banner-box
 novinite24.eu##div[style="width:100%; height:600px;"]:has(> script[src*="pagead2.googlesyndication.com"])
-duma.com###frsNews_banners
+duma.bg##.sb_banner_item
+duma.bg##.frs_news_banner_bottom
 zakazanlak.bg##img[alt="Ad"]
 24novini.bg,bgsport.bg,spravka.bg,jiloto.com,timeart.bg,farmar.bg,mediafax.bg,24info.bg,d7-news.com##.td-a-rec
 bremenna.bg##.main-box:has(> h3[class]:has-text(/^Реклама$/))

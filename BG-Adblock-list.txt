@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 462
+! Version: 463
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 09 Feb 2025
+! Last modified: 12 Apr 2025
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -884,6 +884,7 @@ pronewsdobrich.bg##.bnnr_img_684x115
 pronewsdobrich.bg##+js(rmnt, script, "#popupBanner")
 19min.media##div[style]:has(> script[src*="//ads.19min.media/"])
 alo.bg##div[data-src^="https://b1.alo.bg/"]
+proverka.eu##.top_banner_horizontal
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

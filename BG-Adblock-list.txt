@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 463
+! Version: 464
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 12 Apr 2025
 ! Expires: 7 days (update frequency)
@@ -763,8 +763,8 @@ maritime.news##.td-a-rec
 manager.bg##.central-banner
 manager.bg##.advertorial-holder
 beroe.bg##.video-block-container:style(background-image: none !important)
-cdn.gledaitv.live,cdn.gledaitv.fan##+js(no-fetch-if, imasdk.googleapis.com/js/sdkloader/ima3.js)
-cdn.gledaitv.live,cdn.gledaitv.fan###adDetectorElm:style(display: block !important)
+cdn.gledaitv.live##+js(no-fetch-if, imasdk.googleapis.com/js/sdkloader/ima3.js)
+cdn.gledaitv.live###adDetectorElm:style(display: block !important)
 agri.bg##.megaboard
 tractor.bg##.banner
 tsarevo.info##.footer-friends
@@ -885,6 +885,7 @@ pronewsdobrich.bg##+js(rmnt, script, "#popupBanner")
 19min.media##div[style]:has(> script[src*="//ads.19min.media/"])
 alo.bg##div[data-src^="https://b1.alo.bg/"]
 proverka.eu##.top_banner_horizontal
+cdn.gledaitv.fan##+js(set, fuckSuckers, noopFunc)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

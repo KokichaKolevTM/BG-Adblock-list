@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 464
+! Version: 465
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 12 Apr 2025
 ! Expires: 7 days (update frequency)
@@ -886,6 +886,8 @@ pronewsdobrich.bg##+js(rmnt, script, "#popupBanner")
 alo.bg##div[data-src^="https://b1.alo.bg/"]
 proverka.eu##.top_banner_horizontal
 cdn.gledaitv.fan##+js(set, fuckSuckers, noopFunc)
+dnesbg.com##.rek
+dnesbg.com###article-text + img[src*="//dnesbg.com/ads/"]
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

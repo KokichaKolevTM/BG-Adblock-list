@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 468
+! Version: 469
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 18 Apr 2025
+! Last modified: 06 Jun 2025
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -895,6 +895,8 @@ pia-news.com##body[class]:remove-class(td-ad-background-link)
 pia-news.com##+js(set, td_ad_background_click_link, "")
 pia-news.com##.wpb_text_column > .wpb_wrapper a[href] > img
 pia-news.com##.td-a-rec > .td-all-devices
+dizzyriders.bg##.sidebar > .line > span:has-text(/^Реклама$/i):upward(.sidebar)
+dizzyriders.bg###footer .column-one-fourth:has(> div[id^="div-gpt-ad-"])
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

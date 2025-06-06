@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 470
+! Version: 471
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 06 Jun 2025
 ! Expires: 7 days (update frequency)
@@ -180,6 +180,7 @@
 ||cssuvtbfeap.com^
 ||news24-7.bg/uploads/blocks/$image
 ||b1.alo.bg^
+||centersport.org/images/VC-bn4G-700x100-w.gif$image
 
 ! allow
 @@||id24.bg/bans/covid19icon.png$image
@@ -897,6 +898,8 @@ pia-news.com##.wpb_text_column > .wpb_wrapper a[href] > img
 pia-news.com##.td-a-rec > .td-all-devices
 dizzyriders.bg##.sidebar > .line > span:has-text(/^Реклама$/i):upward(.sidebar)
 dizzyriders.bg###footer .column-one-fourth:has(> div[id^="div-gpt-ad-"])
+centersport.org##body[style^="background:url("]:remove-attr(style)
+centersport.org##div[class^="block-box-"]:has(> h2[class^="block-title-"]):has(a[href]:not(:is([href^="https://translate.google.com/"], [href^="http://www.tyxo.bg/"])) > img)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

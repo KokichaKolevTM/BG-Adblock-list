@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 471
+! Version: 472
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 06 Jun 2025
+! Last modified: 12 Jul 2025
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -869,7 +869,8 @@ konkurent.bg##.banner
 ekip7.bg##.widget_media_image:not(:has(> a[href*="ekip7.bg/"]))
 ekip7.bg##.widget_text:not(:has(div[data-href="https://www.facebook.com/vestnik.ekip7"]))
 plant-protection.com##div.widget:has(:is(.banner-container, a[href] > img[src*="/assets/img/ads/"]))
-play.nova.bg##+js(no-xhr-if, googima.js)
+play.nova.bg##+js(prevent-fetch, googima.js)
+play.nova.bg##+js(prevent-fetch, adsbygoogle.js)
 ekatte.com###ajax_ad:has(#ekatte > a[href])
 ekatte.com###ad
 bgdnes.bg##.rek

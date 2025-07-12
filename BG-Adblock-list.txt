@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 474
+! Version: 475
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 12 Jul 2025
 ! Expires: 7 days (update frequency)
@@ -902,6 +902,7 @@ centersport.org##body[style^="background:url("]:remove-attr(style)
 centersport.org##div[class^="block-box-"]:has(> h2[class^="block-title-"]):has(a[href]:not(:is([href^="https://translate.google.com/"], [href^="http://www.tyxo.bg/"])) > img)
 nova.bg##.adv-box-page-top
 nova.bg##.adv-box-top-aside
+skif.bg##.bannergroup
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

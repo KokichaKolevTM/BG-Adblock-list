@@ -764,7 +764,6 @@ faragency.bg##.banner
 maritime.news##.td-a-rec
 manager.bg##.central-banner
 manager.bg##.advertorial-holder
-beroe.bg##.video-block-container:style(background-image: none !important)
 cdn.gledaitv.live##+js(set, fuckSuckers, noopFunc)
 agri.bg##.megaboard
 tractor.bg##.banner

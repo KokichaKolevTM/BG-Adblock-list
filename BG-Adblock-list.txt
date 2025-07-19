@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 481
+! Version: 482
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 19 Jul 2025
 ! Expires: 7 days (update frequency)
@@ -806,8 +806,6 @@ newslife.bg##.elementor-widget-image
 3e-news.net##.block
 webstage.bg##.banner
 webstage.bg##.adv
-topactualno.com##div[style="float: none; margin:15px 0 15px 0; text-align:center;"]
-topactualno.com##.td-a-rec:not(:has(a[href^="https://www.facebook.com/TOPaktualno"]))
 varnaonline.eu##:is(.wpb_wrapper, .primary-sidebar) > .widget_text
 themainline.top,lifebg.net,lifebg.eu,bgvest.eu,pro4eti.eu,vchas.net,news7.eu##+js(rmnt, script, jQuery('body').click()
 vidin-online.com###gk_banner3

@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 482
+! Version: 483
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 19 Jul 2025
 ! Expires: 7 days (update frequency)
@@ -904,3 +904,4 @@ betenemy.com,nostrabet.com,silentbet.com,efirbet.com#@##reklama
 dobrotoliubie.com#@#.e3lan
 tvdobrich.com#@#.widget-ad
 tvdobrich.com#@#.ad-widget
+pia-news.com#@#.td-a-rec

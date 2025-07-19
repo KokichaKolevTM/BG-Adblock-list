@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 477
+! Version: 478
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 17 Jul 2025
+! Last modified: 19 Jul 2025
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -364,7 +364,6 @@ hotarena.net##.bigHorizontalBanner
 hotarena.net##.rightBanner
 poezia.bg##img[width="468"][height="60"]
 poezia.bg##.vmainadsdvcl
-blagoevgrad.eu##.td-a-rec
 delo.bg##a[href^="https://samoletnibileti.check.bg/bg?utm_"]
 delo.bg##+js(set, wpsite_clickable_data, null)
 delo.bg##body:style(background-image: none !important)
@@ -430,7 +429,6 @@ bglekari.bg##.banneritem
 temanews.com##a[href*="banners.php?banners_id="]
 novinibg.eu##.primary-footer .widget_text:has(> .textwidget > script[src])
 bulgarianhistory.org##h4:has-text(/^Реклама$/)
-bulgarianhistory.org##.td-a-rec
 hunter.bg##.ban300x250
 bglov.com##[class^="banner-"]
 bglov.com##[id^="banner_"]
@@ -560,7 +558,6 @@ novinite24.eu##div[style="width:100%; height:600px;"]:has(> script[src*="pagead2
 duma.bg##.sb_banner_item
 duma.bg##.frs_news_banner_bottom
 zakazanlak.bg##img[alt="Ad"]
-24novini.bg,bgsport.bg,spravka.bg,jiloto.com,timeart.bg,farmar.bg,mediafax.bg,24info.bg,d7-news.com##.td-a-rec
 bremenna.bg##.main-box:has(> h3[class]:has-text(/^Реклама$/))
 mediapool.bg##.banner
 mediapool.bg##.c-header-banner-wrapper
@@ -578,7 +575,6 @@ lifebg.net,lifebg.eu###main_content [class$="-widget"][id^="text-"]
 lifebg.net,lifebg.eu##div[style="  width:100%; height:280px; margin-bottom:20px;"]
 poezia.bg##+js(set, uShowAdBanner, noopFunc)
 bg-gledai.com##div[style]:has(> div > script[src*="bidvertiser.com"])
-intrigi.bg##.td-a-rec
 carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
 chervenkarton.com##.nx-youtubebox:has(iframe[src^="https://www.youtube-nocookie.com/embed/IBg233JNrlo?"])
@@ -589,7 +585,6 @@ vgames.bg###bannerBox
 vgames.bg###bannerBG
 vmusic.bg###banner
 vcards.bg###banner
-kultura.bg##.td-a-rec
 7sport.net###randomBanner
 spodeli.com##.mb-2.col-lg-3:has(> div[class] > div[class="b300"] > script[src*="pagead2.googlesyndication.com"])
 vicovete.bg##.dbox
@@ -601,7 +596,6 @@ laf.bg##.artvert
 laf.bg##.artbot
 laf.bg##.g-comments
 laf.bg##.embed
-nbox.bg##.td-a-rec
 narod.bg##.yiqr
 bg-dnes.tv###imCel9_01
 plevenpress.com##.code-block:has(> script[src^="https://pagead2.googlesyndication.com/"])
@@ -615,7 +609,6 @@ zamunda.info##.widget_text:has(> .textwidget > :is(script[src*="pagead2.googlesy
 zamunda.info##.opinion-ad
 eurochicago.com##.widget_text:has(> h2[class]:has-text(/^Реклама$/i))
 nauka.bg##div[class][style]:has(> b:has-text(/^РЕКЛАМА:$/))
-namoreto.bg##.td-a-rec
 namoreto.bg##[id^="namor-"]
 namoreto.bg##a[href]:not([href^="https://namoreto.bg/"]) > img[src][width]:upward(.wpb_text_column, .td_block_wrap, .widget_text)
 kaksepishe.com##.shad
@@ -647,7 +640,6 @@ forgottenbulgaria.com##.sidebar-widget:has(> .widget-head > h4.title:has-text(/^
 radio999bg.com,radio999.bg##h4.titles:has-text(/^Реклама$/i)
 svobodnabulgaria.eu##.twp-ad-section
 svobodnabulgaria.eu##.widget_media_image
-vratovrazka.bg##.td-a-rec
 apteka-optima.com##[class^="commercial-wrap-home-"]
 apteka-optima.com##.commercial-wrap
 apteka-optima.com##.listing-commercial-wrap
@@ -674,7 +666,6 @@ novapress.today##a[href] > img[src][width="728"][height="90"]
 mignews.info##.onecolumn a[href][target="_blank"]:not([href^="https://mignews.info"]):not([href^="https://www.mignews.info"]):not([href^="https://twitter.com/"]) > img[src]
 auto-data.net##.ad970nm
 ekspresso.bg##.td-a-rec:not(:has(a[href^="https://ekspresso.bg"]))
-vecherno.com##.td-a-rec
 retro.bg##.BannersUnderArticle
 retro.bg##.banner-adv-1
 tiendeo.bg##div[data-testid^="div-gpt-ad"]
@@ -744,7 +735,6 @@ zovnews.com##.post-content > .zovne-content > img
 delnik.net##.widget_media_image > img
 dupnicanews.eu##.bannergroup
 elhovo.news##.widget_text:has(> .widget-title:has-text(/^Реклама$/i))
-montana24.net##.td-a-rec
 autonews.bg###osnban
 autonews.bg###prods-cntv.hide :is([src^="Files/Baners/"], #etarget-hb-wrap, ins.adsbygoogle):upward(#prods-cntv.hide)
 troyanexpress.com##.container-wrapper.widget:has(> .widget-title:has-text(/^Реклама$/i))
@@ -758,21 +748,16 @@ econ.bg##.betBanner
 econ.bg##.banner
 jenite.bg##.newOffers
 programata.tv###banner2Column
-olaybg.com##.td-a-rec
-24shumen.com##.td-a-rec
 inra.bg##+js(noeval-if, chp_ads_blocker_detector)
 faragency.bg##.banner
-maritime.news##.td-a-rec
 manager.bg##.central-banner
 manager.bg##.advertorial-holder
 cdn.gledaitv.live##+js(set, fuckSuckers, noopFunc)
 agri.bg##.megaboard
 tractor.bg##.banner
 tsarevo.info##.footer-friends
-tsarevo.info##.td-a-rec
 tsarevo.info##.td-header-sp-rec
 tsarevo.info##+js(rmnt, script, aba_detector)
-burgasnews.com##.td-a-rec
 burgasnews.com##.wpb_single_image:not(:has(a[href^="https://bgtop.net"]))
 burgasnews.com##body.td-animation-stack-type0:remove-class(td-animation-stack-type0)
 chestno.bg##.elementor-widget-image-box
@@ -783,7 +768,6 @@ flashscore.bg##.boxOverContent__banner
 flashscore.bg##.detailLeaderboard
 sportlive.bg##.links-ads
 sportlive.bg##.mega-board:style(min-height: 0px !important)
-bball.bg##.td-a-rec
 werock.bg###baner2
 werock.bg###partners
 werock.bg###main:style(padding-top: 0px !important; margin-top: 0px !important;)
@@ -891,7 +875,6 @@ cdn.gledaitv.fan##+js(set, fuckSuckers, noopFunc)
 dnesbg.com##.rek
 dnesbg.com###article-text + img[src*="//dnesbg.com/ads/"]
 dev.bg##.component-reklama
-promenirakovski.com##.td-a-rec
 pia-news.com##body:style(background-image: none !important;)
 pia-news.com##body[class]:remove-class(td-ad-background-link)
 pia-news.com##+js(set, td_ad_background_click_link, "")

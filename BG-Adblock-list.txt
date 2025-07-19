@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 479
+! Version: 480
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 19 Jul 2025
 ! Expires: 7 days (update frequency)
@@ -292,8 +292,6 @@ pik.bg##.connected-news > .title:has-text(препоръчано):upward(.connec
 pro4eti.eu###b3p
 bg7.eu###b3p
 enovina.bg##.banner
-iskra.bg##.td-a-rec a[href]:not([href^="https://news.google.com/publications/CAAqBwgKMMqckgsws9WnAw"]) > img
-iskra.bg##.td-fix-index > a[href] > img
 dunavmost.com##div[class^="banner_"]
 obekti.bg##.banner
 obekti.bg##.banner + .info

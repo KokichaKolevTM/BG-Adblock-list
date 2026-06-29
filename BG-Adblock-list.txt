@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 484
+! Version: 485
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 19 Jul 2025
+! Last modified: 29 Jun 2026
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -885,6 +885,7 @@ skif.bg##.bannergroup
 jivkokonstantinov.com###ad-area-1
 jivkokonstantinov.com##div[id^="jivko-"]:has(> a[href^="https://travelradar.bg/"] > img)
 jivkokonstantinov.com##aside.widget_text > .widget-title > span:has-text(Намери евтини полети):upward(aside.widget_text)
+dumite-bg.com##.sidebar > div[style]:has(> a[href="https://hiron90.com/shop/"])
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

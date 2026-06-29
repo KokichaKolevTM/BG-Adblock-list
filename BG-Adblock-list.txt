@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 485
+! Version: 486
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 29 Jun 2026
 ! Expires: 7 days (update frequency)
@@ -886,6 +886,7 @@ jivkokonstantinov.com###ad-area-1
 jivkokonstantinov.com##div[id^="jivko-"]:has(> a[href^="https://travelradar.bg/"] > img)
 jivkokonstantinov.com##aside.widget_text > .widget-title > span:has-text(Намери евтини полети):upward(aside.widget_text)
 dumite-bg.com##.sidebar > div[style]:has(> a[href="https://hiron90.com/shop/"])
+onovini.eu##.widget_block:has(ins.adsbygoogle)
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

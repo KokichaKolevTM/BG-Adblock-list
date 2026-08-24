@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 486
+! Version: 487
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 29 Jun 2026
+! Last modified: 24 Aug 2026
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -143,7 +143,6 @@
 ||dobrichonline.com/media/banners/
 ||travelnews.bg/pic/banners/
 ||hdvmyo.com^
-||zamunda.*/banners/
 ||sesameaffiliates.bg^$third-party
 ||bg7.eu/Banner/
 ||sevlievo-online.com/images/canvas/ads/reklami/$image
@@ -373,9 +372,6 @@ kazanlak-bg.info##div:has(> iframe[width="628"][height="130"])
 kazanlak-bg.info##div:has(> iframe[width="265"][height="265"])
 kazanlak-bg.info##div:has(> iframe[width="265"][height="250"])
 kazanlak-bg.info##div:has(> iframe[width="100%"][height="260"])
-zamunda.net,zamunda.ch##.clickads
-zamunda.net,zamunda.ch##[class^="unique-"]:has(> script[src*="advertere.zamunda."])
-zamunda.net,zamunda.ch##a[href="https://dmsbg.com/?r=z"]
 moiatabroshura.bg##[class^="banner"]
 moiatabroshura.bg##.col-desktop-5-banner
 www.androidbg.com##.widget_text > .cm-widget-title:has-text(Връзки):upward(.widget_text)

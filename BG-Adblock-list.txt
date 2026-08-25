@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 490
+! Version: 491
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 25 Aug 2026
 ! Expires: 7 days (update frequency)
@@ -258,7 +258,6 @@ alfabass-tvfree.do.am##.ads-top-banner
 seirsanduk.*,seir-sanduk.*,glebul.com###banner
 seirsanduk.*,seir-sanduk.*,glebul.com###program p:has-text(/^Реклама:/)
 seirsanduk.com##+js(noeval-if, chp_ads_blocker_detector)
-bgvest.eu###b3p
 kriminalno.com##.float-right
 kriminalno.com##.azn
 stz24.com##.addv
@@ -535,8 +534,8 @@ informiran.net##.widget:has(> .widget-title:has-text(/^реклама$/i))
 informiran.net##center,div[class][style]:has(> script[src*="ads.httpool.com"],script[src*="pagead2.googlesyndication.com"])
 informiran.net##p:has-text(/^There is no ads to display, Please add some$/i)
 bgspomen.com##center:has-text(/^РЕКЛАМА$/)
-lifebg.net,lifebg.eu###main_content [class$="-widget"][id^="text-"]
-lifebg.net,lifebg.eu##div[style="  width:100%; height:280px; margin-bottom:20px;"]
+lifebg.net###main_content [class$="-widget"][id^="text-"]
+lifebg.net##div[style="  width:100%; height:280px; margin-bottom:20px;"]
 bg-gledai.com##div[style]:has(> div > script[src*="bidvertiser.com"])
 carmarket.bg##.banner
 chervenkarton.com##.custom:has(> p[style] > a[href] > img[src^="/images/banners/"])
@@ -764,7 +763,7 @@ newslife.bg##.elementor-widget-image
 webstage.bg##.banner
 webstage.bg##.adv
 varnaonline.eu##:is(.wpb_wrapper, .primary-sidebar) > .widget_text
-lifebg.net,lifebg.eu,bgvest.eu,vchas.net##+js(rmnt, script, jQuery('body').click()
+lifebg.net,vchas.net##+js(rmnt, script, jQuery('body').click()
 vidin-online.com###gk_banner3
 targovishtenews.net##.marketing-area
 targovishtenews.net##.widget_text > .textwidget > a[href] > img

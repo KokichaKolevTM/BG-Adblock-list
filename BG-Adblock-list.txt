@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Version: 492
+! Version: 493
 ! Title: Bulgarian Ads & Privacy
 ! Last modified: 27 Aug 2026
 ! Expires: 7 days (update frequency)
@@ -15,7 +15,6 @@
 /^https:\/\/media\.mediadirectory\.net\/storage\/([a-f0-9]\/){3}[a-f0-9]{40}\/index\.html#aid=/$third-party,subdocument
 
 ! Misc
-/wp-content/plugins/popup-press/js/pps_script.js$script,domain=bul-tv.com|tvmaniabg.com|gledaibgtv.com|iptv-bg.com
 /images/radio999bg/banners/*$image,domain=radio999bg.com|radio999.bg
 /images/radio999bg/cache/banner/*$image,domain=radio999bg.com|radio999.bg
 

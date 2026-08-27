@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 491
+! Version: 492
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 25 Aug 2026
+! Last modified: 27 Aug 2026
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -478,10 +478,6 @@ dsport.bg##.logo8888[href*="?aff_id="]
 strelanews.com##.elementor-widget-image
 nixanbal.com##img[width="300"][height="250"]
 nixanbal.com##img[width="300"][height="350"]
-filmi.club##+js(nowoif)
-filmi.club##.mobile_ads
-filmi.club##.top_a
-filmi.club###module1:has(> div[style="padding: 10px;"] > script[src])
 myonvideo.com###ads_side_eta
 myonvideo.com##.content_box_left:has([src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="celebritybulk.com"], [src*="etargetnet.com"], [src*="clksite.com"], #ad_inline_900_head)
 myonvideo.com##.l_panel:has(> [src^="https://myonvideo.com/"][src*="&ads="], [src*="ads.exdynsrv.com"], [src*="etargetnet.com"])

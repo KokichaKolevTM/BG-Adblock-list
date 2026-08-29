@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 494
+! Version: 495
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 28 Aug 2026
+! Last modified: 29 Aug 2026
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -836,6 +836,7 @@ dumite-bg.com##.sidebar > div[style]:has(> a[href="https://hiron90.com/shop/"])
 onovini.eu##.widget_block:has(ins.adsbygoogle)
 bg-zamunda.net###gobanners
 bg-zamunda.net##body > div[style$=";width:100%;height:1500px;"]
+big5.bg##.tdm-inline-image-wrap
 
 ! allow
 plovdiv24.bg,burgas24.bg,varna24.bg,ruse24.bg,blagoevgrad24.bg,sofia24.bg#@##adbox

@@ -1,7 +1,7 @@
 [uBlock Origin]
-! Version: 495
+! Version: 496
 ! Title: Bulgarian Ads & Privacy
-! Last modified: 29 Aug 2026
+! Last modified: 29 Sep 2026
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/KokichaKolevTM/BG-Adblock-list
 !
@@ -190,6 +190,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dir.bg|pik.bg|offnews.bg|framar.bg
 @@||mamaninja.bg/images/logo-the-viking-seo-adwords.png$image
 @@||seir-sanduk.com/2022-ad-300x600-left.js#adstype=banner$script
+@@||kaksepishe.com/wp-content/mu-plugins/howtowrite/assets/images/468x60_kak3_20250512.png$image
 
 !
 ! Element hiding, Cosmetic filtering & Sciptlets
